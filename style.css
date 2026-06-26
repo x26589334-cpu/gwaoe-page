@@ -289,14 +289,35 @@ footer ul a:hover{color:#fff}
 @media(max-width:760px){.blog{grid-template-columns:1fr}}
 .bpost{background:#fff;border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;transition:.2s;display:flex;flex-direction:column}
 .bpost:hover{transform:translateY(-6px);box-shadow:var(--shadow);border-color:transparent}
-.bpost .thumb{height:170px;display:grid;place-items:center;font-size:46px;color:#fff}
+.bpost .thumb{height:200px;display:block;overflow:hidden;background:linear-gradient(135deg,#4356ff,#7b8cff);position:relative}
+.bpost .thumb img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .35s ease}
+.bpost:hover .thumb img{transform:scale(1.05)}
 .bpost .body{padding:24px;display:flex;flex-direction:column;flex:1}
-.bpost .meta{display:flex;align-items:center;gap:10px;margin-bottom:12px}
-.bpost .cat{font-size:12px;font-weight:700;color:var(--brand);background:#eef1ff;padding:4px 10px;border-radius:999px}
-.bpost .date{font-size:12.5px;color:var(--ink-soft);font-weight:600}
+.bpost .meta{font-size:13px;font-weight:700;color:var(--brand);margin-bottom:11px}
+.bpost .meta .date{color:var(--brand)}
+.bpost .meta .cat{color:var(--brand)}
 .bpost h3{font-size:19px;font-weight:800;line-height:1.4;margin-bottom:10px}
+.bpost h3 a{color:var(--ink)}
+.bpost:hover h3 a{color:var(--brand)}
 .bpost p{font-size:14.5px;color:var(--ink-soft);flex:1}
 .bpost .stars{color:#ffb22e;font-size:14px;letter-spacing:2px;margin-bottom:10px}
 .bpost .more{margin-top:16px;font-weight:700;color:var(--brand);font-size:14px;display:inline-flex;align-items:center;gap:6px}
 .bpost .more::after{content:"→";transition:.18s}
 .bpost:hover .more::after{transform:translateX(4px)}
+
+/* Article (블로그 글 본문) */
+.article{max-width:760px;margin:0 auto}
+.article > p:first-of-type{font-size:17px;color:var(--ink);font-weight:600}
+.article h2{font-size:clamp(21px,3vw,26px);font-weight:800;margin:40px 0 14px;letter-spacing:-.02em;line-height:1.35}
+.article h3{font-size:18px;font-weight:800;margin:26px 0 8px}
+.article p{color:var(--ink-soft);font-size:16px;margin-bottom:15px;line-height:1.85}
+.article ul{margin:0 0 20px;padding-left:20px;color:var(--ink-soft)}
+.article li{margin-bottom:9px;line-height:1.75}
+.article strong{color:var(--ink);font-weight:700}
+.article .hl-box{background:var(--bg-soft);border:1px solid var(--line);border-left:4px solid var(--brand);border-radius:12px;padding:18px 20px;margin:20px 0;color:var(--ink-soft);font-size:15.5px}
+.ctable{width:100%;border-collapse:collapse;margin:16px 0 24px;font-size:15px}
+.ctable th,.ctable td{border:1px solid var(--line);padding:12px 14px;text-align:left;vertical-align:top}
+.ctable th{background:#eef1ff;font-weight:800;color:var(--ink)}
+.ctable td{color:var(--ink-soft)}
+.ctable tr td:first-child{font-weight:700;color:var(--ink);background:var(--bg-soft);white-space:nowrap}
+@media(max-width:560px){.ctable{font-size:13.5px}.ctable th,.ctable td{padding:9px 10px}}
