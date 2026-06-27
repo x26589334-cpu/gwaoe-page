@@ -1,0 +1,11 @@
+{
+  "_comment": "이미 글을 올린 학교 목록 (중복 방지용). 새 글 생성 시 여기에 추가.",
+  "used": [
+    { "date": "2026-06-26", "school": "진관중학교", "region": "서울 은평구", "page": "jinkwan-english-math.html" },
+    { "date": "2026-06-27", "school": "동래고등학교", "region": "부산", "page": "busan-dongnae-math.html" },
+    { "date": "2026-06-27", "school": "경신고등학교", "region": "대구", "page": "daegu-gyeongshin-english.html" },
+    { "date": "2026-06-27", "school": "연수고등학교", "region": "인천", "page": "incheon-yeonsu-naesin.html" },
+    { "date": "2026-06-27", "school": "둔산중학교", "region": "대전", "page": "daejeon-dunsan-junior.html" },
+    { "date": "2026-06-27", "school": "수완중학교", "region": "광주", "page": "gwangju-suwan-engmath.html" }
+  ]
+}
