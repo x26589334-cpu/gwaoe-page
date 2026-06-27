@@ -6,6 +6,11 @@
     { "date": "2026-06-27", "school": "경신고등학교", "region": "대구", "page": "daegu-gyeongshin-english.html" },
     { "date": "2026-06-27", "school": "연수고등학교", "region": "인천", "page": "incheon-yeonsu-naesin.html" },
     { "date": "2026-06-27", "school": "둔산중학교", "region": "대전", "page": "daejeon-dunsan-junior.html" },
-    { "date": "2026-06-27", "school": "수완중학교", "region": "광주", "page": "gwangju-suwan-engmath.html" }
+    { "date": "2026-06-27", "school": "수완중학교", "region": "광주", "page": "gwangju-suwan-engmath.html" },
+    { "date": "2026-06-28", "school": "서현고등학교", "region": "경기 성남 분당", "page": "seongnam-seohyeon-math.html", "status": "draft" },
+    { "date": "2026-06-28", "school": "학성고등학교", "region": "울산", "page": "ulsan-hakseong-english.html", "status": "draft" },
+    { "date": "2026-06-28", "school": "영통 중학교", "region": "경기 수원", "page": "suwon-yeongtong-math.html", "status": "draft" },
+    { "date": "2026-06-28", "school": "봉의중학교", "region": "강원 춘천", "page": "chuncheon-bongui-junior.html", "status": "draft" },
+    { "date": "2026-06-28", "school": "세광고등학교", "region": "충북 청주", "page": "cheongju-segwang-naesin.html", "status": "draft" }
   ]
 }
