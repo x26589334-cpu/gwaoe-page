@@ -16,6 +16,11 @@
     { "date": "2026-06-29", "school": "전주제일고등학교", "region": "전북 전주", "page": "jeonju-jeil-english.html" },
     { "date": "2026-06-29", "school": "봉림중학교", "region": "경남 창원", "page": "changwon-bongrim-math.html" },
     { "date": "2026-06-29", "school": "오현고등학교", "region": "제주", "page": "jeju-ohyeon-naesin.html" },
-    { "date": "2026-06-29", "school": "단국대사대부고", "region": "서울 강남 대치", "page": "seoul-daechi-dankook-math.html" }
+    { "date": "2026-06-29", "school": "단국대사대부고", "region": "서울 강남 대치", "page": "seoul-daechi-dankook-math.html" },
+    { "date": "2026-06-29", "school": "양정고등학교", "region": "서울 양천 목동", "page": "seoul-mokdong-yangjeong-math.html" },
+    { "date": "2026-06-29", "school": "부흥고등학교", "region": "경기 안양 평촌", "page": "anyang-buheung-english.html" },
+    { "date": "2026-06-29", "school": "해운대고등학교", "region": "부산 해운대", "page": "busan-haeundae-naesin.html" },
+    { "date": "2026-06-29", "school": "불당중학교", "region": "충남 천안", "page": "cheonan-buldang-junior.html" },
+    { "date": "2026-06-29", "school": "서라벌고등학교", "region": "서울 노원 중계", "page": "seoul-junggye-seorabeol-ipsi.html" }
   ]
 }
