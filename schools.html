@@ -215,12 +215,18 @@ function badge(t){ return t==="초등학교"?"초":t==="중학교"?"중":"고"; 
 
 function render(){
   const q = searchEl.value.trim().toLowerCase();
+  // 검색어가 없으면 목록을 숨기고 안내만 표시
+  if(!q){
+    countEl.textContent = '';
+    grid.innerHTML = '<div class="sch-empty">🔍 학교 이름이나 지역을 입력하면 결과가 나와요.<br>(예: 서울, 분당, 진관중학교)</div>';
+    return;
+  }
   const list = SCHOOLS.filter(s=>{
     const typeOk = curType==="전체" || s.t===curType;
-    const qOk = !q || s.n.toLowerCase().includes(q) || s.r.toLowerCase().includes(q);
+    const qOk = s.n.toLowerCase().includes(q) || s.r.toLowerCase().includes(q);
     return typeOk && qOk;
   });
-  countEl.textContent = `총 ${list.length}개 학교`;
+  countEl.textContent = `검색 결과 ${list.length}개`;
   if(!list.length){
     grid.innerHTML = '<div class="sch-empty">검색 결과가 없어요. 다른 키워드로 찾거나 📞 010-6832-1994로 문의해 주세요. (전국 모든 학교 가능)</div>';
     return;
