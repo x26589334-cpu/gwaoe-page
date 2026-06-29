@@ -171,12 +171,17 @@ function render(){
     const qOk = s.n.toLowerCase().includes(q) || s.r.toLowerCase().includes(q);
     return typeOk && qOk;
   });
-  countEl.textContent = `검색 결과 ${list.length}개`;
   if(!list.length){
+    countEl.textContent = '검색 결과 0개';
     grid.innerHTML = '<div class="sch-empty">검색 결과가 없어요. 다른 키워드로 찾거나 📞 010-6832-1994로 문의해 주세요. (전국 모든 학교 가능)</div>';
     return;
   }
-  grid.innerHTML = list.map(s=>{
+  const LIMIT = 300;
+  const shown = list.slice(0, LIMIT);
+  countEl.textContent = list.length > LIMIT
+    ? `검색 결과 ${list.length}개 — 너무 많아 ${LIMIT}개만 표시했어요. 지역·동을 더 좁혀 검색해 보세요.`
+    : `검색 결과 ${list.length}개`;
+  grid.innerHTML = shown.map(s=>{
     const tn = typeName(s.t);
     const href = s.p ? s.p : `school.html?name=${encodeURIComponent(s.n)}&region=${encodeURIComponent(s.r)}&type=${encodeURIComponent(tn)}`;
     return `<a class="sch" href="${href}">
