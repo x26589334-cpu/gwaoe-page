@@ -55,20 +55,19 @@
 <section style="padding-top:24px">
   <div class="wrap">
 
-    <!-- 검색 카드 -->
     <div class="finder">
       <span class="eyebrow">학교별 1:1 맞춤 과외</span>
       <h2>지역·학교로 검색하기</h2>
       <p class="sub">전국 초·중·고 어디든. 학년을 고르고 학교 이름이나 지역을 입력해 보세요.</p>
       <div class="tabs" id="tabs">
         <button data-type="전체" class="active">전체</button>
-        <button data-type="초등학교">초등학교</button>
-        <button data-type="중학교">중학교</button>
-        <button data-type="고등학교">고등학교</button>
+        <button data-type="초">초등학교</button>
+        <button data-type="중">중학교</button>
+        <button data-type="고">고등학교</button>
       </div>
       <div class="search">
         <span class="ico">🔍</span>
-        <input type="text" id="schSearch" placeholder="지역·학교 검색 (예: 서울, 분당, 진관중학교)" autocomplete="off" />
+        <input type="text" id="schSearch" placeholder="지역·학교 검색 (예: 서울, 강남구, 진관중학교)" autocomplete="off" />
       </div>
     </div>
 
@@ -78,7 +77,6 @@
   </div>
 </section>
 
-<!-- 3 유형 카드 -->
 <section class="why">
   <div class="wrap center">
     <span class="eyebrow">수업 방식</span>
@@ -150,75 +148,21 @@
   <a href="tel:01068321994" class="btn btn-primary">📞 상담신청</a>
 </div>
 
+<script src="schools-data.js"></script>
 <script>
-// 학교 데이터 (page가 있으면 전용 글로, 없으면 동적 상세 페이지로 연결)
-const SCHOOLS = [
-  // 전용 글이 있는 학교
-  {n:"진관중학교", r:"서울 은평구", t:"중학교", p:"jinkwan-english-math.html"},
-  {n:"동래고등학교", r:"부산 동래구", t:"고등학교", p:"busan-dongnae-math.html"},
-  {n:"경신고등학교", r:"대구 수성구", t:"고등학교", p:"daegu-gyeongshin-english.html"},
-  {n:"연수고등학교", r:"인천 연수구", t:"고등학교", p:"incheon-yeonsu-naesin.html"},
-  {n:"둔산중학교", r:"대전 서구", t:"중학교", p:"daejeon-dunsan-junior.html"},
-  {n:"수완중학교", r:"광주 광산구", t:"중학교", p:"gwangju-suwan-engmath.html"},
-  {n:"서현고등학교", r:"경기 성남 분당", t:"고등학교", p:"seongnam-seohyeon-math.html"},
-  {n:"학성고등학교", r:"울산 중구", t:"고등학교", p:"ulsan-hakseong-english.html"},
-  {n:"영통중학교", r:"경기 수원", t:"중학교", p:"suwon-yeongtong-math.html"},
-  {n:"봉의중학교", r:"강원 춘천", t:"중학교", p:"chuncheon-bongui-junior.html"},
-  {n:"세광고등학교", r:"충북 청주", t:"고등학교", p:"cheongju-segwang-naesin.html"},
-  {n:"백석고등학교", r:"경기 고양 일산", t:"고등학교", p:"goyang-baekseok-math.html"},
-  {n:"전주제일고등학교", r:"전북 전주", t:"고등학교", p:"jeonju-jeil-english.html"},
-  {n:"봉림중학교", r:"경남 창원", t:"중학교", p:"changwon-bongrim-math.html"},
-  {n:"오현고등학교", r:"제주", t:"고등학교", p:"jeju-ohyeon-naesin.html"},
-  {n:"단국대사대부고", r:"서울 강남 대치", t:"고등학교", p:"seoul-daechi-dankook-math.html"},
-  {n:"양정고등학교", r:"서울 양천 목동", t:"고등학교", p:"seoul-mokdong-yangjeong-math.html"},
-  {n:"부흥고등학교", r:"경기 안양 평촌", t:"고등학교", p:"anyang-buheung-english.html"},
-  {n:"해운대고등학교", r:"부산 해운대구", t:"고등학교", p:"busan-haeundae-naesin.html"},
-  {n:"불당중학교", r:"충남 천안", t:"중학교", p:"cheonan-buldang-junior.html"},
-  {n:"서라벌고등학교", r:"서울 노원 중계", t:"고등학교", p:"seoul-junggye-seorabeol-ipsi.html"},
-  // 동적 상세로 연결되는 학교 (계속 추가 가능)
-  {n:"대치초등학교", r:"서울 강남 대치", t:"초등학교"},
-  {n:"대도초등학교", r:"서울 강남", t:"초등학교"},
-  {n:"월촌초등학교", r:"서울 양천 목동", t:"초등학교"},
-  {n:"서현초등학교", r:"경기 성남 분당", t:"초등학교"},
-  {n:"백석초등학교", r:"경기 고양 일산", t:"초등학교"},
-  {n:"해운대초등학교", r:"부산 해운대구", t:"초등학교"},
-  {n:"동인초등학교", r:"대구 중구", t:"초등학교"},
-  {n:"불당초등학교", r:"충남 천안", t:"초등학교"},
-  {n:"대치중학교", r:"서울 강남 대치", t:"중학교"},
-  {n:"단대부중", r:"서울 강남 대치", t:"중학교"},
-  {n:"목동중학교", r:"서울 양천 목동", t:"중학교"},
-  {n:"신반포중학교", r:"서울 서초", t:"중학교"},
-  {n:"내정중학교", r:"경기 안양 평촌", t:"중학교"},
-  {n:"수내중학교", r:"경기 성남 분당", t:"중학교"},
-  {n:"정발중학교", r:"경기 고양 일산", t:"중학교"},
-  {n:"센텀중학교", r:"부산 해운대구", t:"중학교"},
-  {n:"휘문고등학교", r:"서울 강남", t:"고등학교"},
-  {n:"숙명여자고등학교", r:"서울 강남", t:"고등학교"},
-  {n:"중동고등학교", r:"서울 강남", t:"고등학교"},
-  {n:"세화고등학교", r:"서울 서초", t:"고등학교"},
-  {n:"진선여자고등학교", r:"서울 강남", t:"고등학교"},
-  {n:"한영외국어고등학교", r:"서울 강동", t:"고등학교"},
-  {n:"낙생고등학교", r:"경기 성남 분당", t:"고등학교"},
-  {n:"평촌고등학교", r:"경기 안양 평촌", t:"고등학교"},
-  {n:"수성고등학교", r:"대구 수성구", t:"고등학교"},
-  {n:"부산국제고등학교", r:"부산", t:"고등학교"},
-  {n:"충남고등학교", r:"대전 서구", t:"고등학교"},
-  {n:"상산고등학교", r:"전북 전주", t:"고등학교"}
-];
-
+const SCHOOLS = window.SCHOOLS || [];
 const grid = document.getElementById('schGrid');
 const countEl = document.getElementById('schCount');
 const searchEl = document.getElementById('schSearch');
 let curType = "전체";
 
-function badge(t){ return t==="초등학교"?"초":t==="중학교"?"중":"고"; }
+const typeName = t => t==="초"?"초등학교":t==="중"?"중학교":"고등학교";
 
 function render(){
   const q = searchEl.value.trim().toLowerCase();
-  // 검색어가 없으면 목록을 숨기고 안내만 표시
   if(!q){
     countEl.textContent = '';
-    grid.innerHTML = '<div class="sch-empty">🔍 학교 이름이나 지역을 입력하면 결과가 나와요.<br>(예: 서울, 분당, 진관중학교)</div>';
+    grid.innerHTML = '<div class="sch-empty">🔍 학교 이름이나 지역을 입력하면 결과가 나와요.<br>(예: 서울, 강남구, 진관중학교)</div>';
     return;
   }
   const list = SCHOOLS.filter(s=>{
@@ -232,10 +176,11 @@ function render(){
     return;
   }
   grid.innerHTML = list.map(s=>{
-    const href = s.p ? s.p : `school.html?name=${encodeURIComponent(s.n)}&region=${encodeURIComponent(s.r)}&type=${encodeURIComponent(s.t)}`;
+    const tn = typeName(s.t);
+    const href = s.p ? s.p : `school.html?name=${encodeURIComponent(s.n)}&region=${encodeURIComponent(s.r)}&type=${encodeURIComponent(tn)}`;
     return `<a class="sch" href="${href}">
-      <span class="badge">${badge(s.t)}</span>
-      <span class="info"><span class="nm">${s.n}</span><span class="rg">${s.r} · ${s.t}</span></span>
+      <span class="badge">${s.t}</span>
+      <span class="info"><span class="nm">${s.n}</span><span class="rg">${s.r} · ${tn}</span></span>
     </a>`;
   }).join('');
 }
