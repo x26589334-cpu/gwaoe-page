@@ -63,16 +63,16 @@
     <!-- 방문수업 -->
     <div id="panelVisit">
       <div class="reg-panel">
-        <div class="reg-row">
+        <div class="reg-row" id="sidoRow">
           <div class="reg-label">1. 지역(시·도) 선택</div>
           <div class="reg-btns" id="sidoBtns"></div>
         </div>
         <div class="reg-row" id="guRow" style="display:none">
-          <div class="reg-label">2. 시·군·구 선택</div>
+          <div class="reg-label"><button type="button" id="backToSido" style="background:#f1eafe;border:none;color:#7c3aed;font-weight:700;border-radius:8px;padding:4px 11px;cursor:pointer;font-size:13px;margin-right:8px">← 뒤로</button>2. 시·군·구 선택 <span id="pickSido" style="color:#7c3aed;font-weight:700"></span></div>
           <div class="reg-btns" id="guBtns"></div>
         </div>
         <div class="reg-row" id="dongRow" style="display:none">
-          <div class="reg-label">3. 동 선택 (선택 사항)</div>
+          <div class="reg-label"><button type="button" id="backToGu" style="background:#f1eafe;border:none;color:#7c3aed;font-weight:700;border-radius:8px;padding:4px 11px;cursor:pointer;font-size:13px;margin-right:8px">← 뒤로</button>3. 동 선택 (선택 사항) <span id="pickGu" style="color:#7c3aed;font-weight:700"></span></div>
           <div class="reg-btns" id="dongBtns"></div>
         </div>
       </div>
@@ -96,28 +96,18 @@
               <label for="o_subject">필요한 과목</label>
               <input id="o_subject" name="subject" type="text" placeholder="예: 수학, 영어 (내신/기말 대비)" required />
             </div>
-            <div class="two">
-              <div class="field">
-                <label for="o_gender">원하시는 선생님 성별</label>
-                <select id="o_gender" name="gender" required>
-                  <option value="">선택</option>
-                  <option>무관</option>
-                  <option>남자 선생님</option>
-                  <option>여자 선생님</option>
-                </select>
-              </div>
-              <div class="field">
-                <label for="o_style">원하는 수업 스타일</label>
-                <select id="o_style" name="style" required>
-                  <option value="">선택</option>
-                  <option>꼼꼼한 관리형</option>
-                  <option>개념 위주</option>
-                  <option>문제풀이 위주</option>
-                  <option>친근한 분위기</option>
-                  <option>엄격한 스파르타</option>
-                  <option>무관</option>
-                </select>
-              </div>
+            <div class="field">
+              <label for="o_gender">원하시는 선생님 성별</label>
+              <select id="o_gender" name="gender" required>
+                <option value="">선택</option>
+                <option>무관</option>
+                <option>남자 선생님</option>
+                <option>여자 선생님</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="o_style">원하는 수업 스타일 (자유롭게 적어주세요)</label>
+              <textarea id="o_style" name="style" rows="3" placeholder="예) 아이가 수학을 어려워해서 개념부터 차근차근 봐주고, 칭찬 많이 해주는 꼼꼼한 선생님이면 좋겠어요." required></textarea>
             </div>
             <div class="field">
               <label for="o_phone">전화상담 번호</label>
@@ -257,55 +247,83 @@ const REGIONS = {
   "제주": {"제주시":["노형동","연동","이도동"],"서귀포시":["서귀동","대정읍"]}
 };
 
+const sidoRow = document.getElementById('sidoRow');
 const sidoBtns = document.getElementById('sidoBtns');
 const guRow = document.getElementById('guRow'), guBtns = document.getElementById('guBtns');
 const dongRow = document.getElementById('dongRow'), dongBtns = document.getElementById('dongBtns');
 const regContent = document.getElementById('regContent');
+const pickSido = document.getElementById('pickSido'), pickGu = document.getElementById('pickGu');
 let cur = {sido:'', gu:'', dong:''};
 
-// 시도 버튼
+// 한 단계씩만 보여주기
+function showStep(n){
+  sidoRow.style.display = n===1 ? 'block' : 'none';
+  guRow.style.display   = n===2 ? 'block' : 'none';
+  dongRow.style.display = n===3 ? 'block' : 'none';
+}
+function regHint(t){ regContent.innerHTML = '<p style="text-align:center;color:var(--ink-soft)">'+t+'</p>'; }
+
+// 1단계: 시·도 버튼
 Object.keys(REGIONS).forEach(sido=>{
   const b = document.createElement('button');
   b.textContent = sido;
   b.onclick = ()=>{
     cur = {sido, gu:'', dong:''};
-    [...sidoBtns.children].forEach(x=>x.classList.remove('active'));
-    b.classList.add('active');
-    // 구 표시
+    pickSido.textContent = sido;
     guBtns.innerHTML='';
     Object.keys(REGIONS[sido]).forEach(gu=>{
       const gb = document.createElement('button');
       gb.textContent = gu;
-      gb.onclick = ()=>{
-        cur.gu = gu; cur.dong='';
-        [...guBtns.children].forEach(x=>x.classList.remove('active'));
-        gb.classList.add('active');
-        const dongs = REGIONS[sido][gu]||[];
-        dongBtns.innerHTML='';
-        if(dongs.length){
-          dongs.forEach(d=>{
-            const db = document.createElement('button');
-            db.textContent = d;
-            db.onclick = ()=>{
-              cur.dong = d;
-              [...dongBtns.children].forEach(x=>x.classList.remove('active'));
-              db.classList.add('active');
-              showContent();
-            };
-            dongBtns.appendChild(db);
-          });
-          dongRow.style.display='block';
-        } else { dongRow.style.display='none'; }
-        showContent();
-      };
+      gb.onclick = ()=> selectGu(sido, gu, gb);
       guBtns.appendChild(gb);
     });
-    guRow.style.display='block';
-    dongRow.style.display='none';
-    regContent.innerHTML = '<p style="text-align:center;color:var(--ink-soft)">시·군·구를 선택해 주세요.</p>';
+    showStep(2);
+    regHint('시·군·구를 선택해 주세요.');
   };
   sidoBtns.appendChild(b);
 });
+
+// 2단계 -> 3단계
+function selectGu(sido, gu, gb){
+  cur.gu = gu; cur.dong='';
+  [...guBtns.children].forEach(x=>x.classList.remove('active'));
+  gb.classList.add('active');
+  pickGu.textContent = sido + ' ' + gu;
+  const dongs = REGIONS[sido][gu]||[];
+  dongBtns.innerHTML='';
+  if(dongs.length){
+    dongs.forEach(d=>{
+      const db = document.createElement('button');
+      db.textContent = d;
+      db.onclick = ()=>{
+        cur.dong = d;
+        [...dongBtns.children].forEach(x=>x.classList.remove('active'));
+        db.classList.add('active');
+        showContent();
+      };
+      dongBtns.appendChild(db);
+    });
+  } else {
+    dongBtns.innerHTML = '<span style="color:var(--ink-soft);font-size:14px">이 지역은 동 선택 없이 바로 안내해 드려요.</span>';
+  }
+  showStep(3);
+  showContent();
+}
+
+// 뒤로가기 (잘못 눌렀을 때)
+document.getElementById('backToSido').onclick = ()=>{
+  cur = {sido:'', gu:'', dong:''};
+  [...sidoBtns.children].forEach(x=>x.classList.remove('active'));
+  showStep(1);
+  regHint('지역을 선택하면 해당 동네의 방문 과외 준비법이 나와요.');
+};
+document.getElementById('backToGu').onclick = ()=>{
+  cur.gu=''; cur.dong='';
+  showStep(2);
+  regHint('시·군·구를 선택해 주세요.');
+};
+
+showStep(1);
 
 function showContent(){
   const label = [cur.sido, cur.gu, cur.dong].filter(Boolean).join(' ');
