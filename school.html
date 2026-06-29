@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>학교별 1:1 맞춤 과외 · 티칭코칭</title>
+<meta name="description" id="metaDesc" content="학교별 1:1 맞춤 과외. 국어·영어·수학·사회·과학·코딩 내신과 기말고사, 방문·비대면 수업, 입시컨설팅까지." />
+<meta name="robots" content="index,follow" />
+<meta name="theme-color" content="#7c3aed" />
+<meta property="og:type" content="article" />
+<meta property="og:site_name" content="티칭코칭" />
+<meta property="og:image" content="https://perfectedu.co.kr/og-image.png" />
+<meta property="og:locale" content="ko_KR" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://perfectedu.co.kr/og-image.png" />
+<link rel="icon" href="favicon.ico?v=2" sizes="any" />
+<link rel="icon" href="favicon.svg?v=2" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png?v=2" />
+<link rel="preconnect" href="https://fastly.jsdelivr.net" crossorigin />
+<link rel="stylesheet" href="https://fastly.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+<link rel="stylesheet" href="style.css?v=2" />
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <a href="index.html" class="brand"><span class="logo">O</span>티칭코칭</a>
+    <nav class="nav-links">
+      <a href="index.html">홈</a>
+      <a href="schools.html" class="active">📌 관리중인 학교</a>
+      <a href="teachers.html">선생님</a>
+      <a href="process.html">진행 과정</a>
+      <a href="reviews.html">후기</a>
+      <a href="news.html">뉴스</a>
+    </nav>
+    <div class="nav-cta">
+      <a href="tel:01068321994" class="btn btn-primary">📞 상담신청 <span class="full">010-6832-1994</span></a>
+    </div>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="wrap">
+    <div class="crumb"><a href="index.html">홈</a> › <a href="schools.html">관리중인 학교</a> › <span id="crumbName">학교</span></div>
+    <h1 id="title">학교별 1:1 맞춤 과외</h1>
+    <p id="subtitle">국영수 내신부터 입시까지, 학교에 꼭 맞춰 준비해요.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="article" id="article"></div>
+  </div>
+</section>
+
+<section style="background:var(--bg-soft)">
+  <div class="wrap center">
+    <h2 class="title" id="ctaTitle">지금 상담받으세요</h2>
+    <p class="lead center">학생 학년·과목에 맞는 선생님을 24시간 안에 추천해 드려요. 상담은 무료입니다.</p>
+    <div class="hero-cta" style="justify-content:center;margin-top:24px">
+      <a href="tel:01068321994" class="btn btn-primary">📞 010-6832-1994 상담신청</a>
+      <a href="index.html#apply" class="btn btn-ghost">온라인으로 신청하기</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap foot-grid">
+    <div>
+      <div class="brand"><span class="logo">O</span>티칭코칭</div>
+      <p>검증된 선생님과의 1:1 맞춤 과외. 초·중·고 국영수, 비대면, 대학 입시컨설팅까지 믿고 맡기세요.</p>
+    </div>
+    <div>
+      <h5>바로가기</h5>
+      <ul>
+        <li><a href="schools.html">관리중인 학교</a></li>
+        <li><a href="teachers.html">선생님</a></li>
+        <li><a href="process.html">진행 과정</a></li>
+        <li><a href="reviews.html">후기</a></li>
+        <li><a href="news.html">뉴스</a></li>
+      </ul>
+    </div>
+    <div>
+      <h5>문의</h5>
+      <ul>
+        <li><a href="tel:01068321994">전화: 010-6832-1994</a></li>
+        <li><a href="mailto:hello@example.com">이메일: hello@example.com</a></li>
+        <li><a href="index.html#apply">카카오톡 상담</a></li>
+        <li><a href="index.html">운영시간: 09:00 – 21:00</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="wrap copy-bar">
+    <span>© 2026 티칭코칭. All rights reserved.</span>
+    <span>이용약관 · 개인정보처리방침</span>
+  </div>
+</footer>
+
+<div class="float-cta">
+  <a href="tel:01068321994" class="btn btn-primary">📞 상담신청</a>
+</div>
+
+<script>
+const P = new URLSearchParams(location.search);
+const name = (P.get('name')||'우리 학교').slice(0,40);
+const region = (P.get('region')||'전국').slice(0,40);
+const type = P.get('type')||'학교';
+const esc = s => String(s).replace(/[<>&"]/g, c=>({'<':'&lt;','>':'&gt;','&':'&amp;','"':'&quot;'}[c]));
+const nm = esc(name), rg = esc(region);
+const lvl = type.includes('초')?'초등':type.includes('중')?'중등':'고등';
+
+// SEO 메타/타이틀
+document.title = `${nm} 과외 · ${rg} ${type} 내신·입시 1:1 | 티칭코칭`;
+const desc = `${nm}(${rg}) ${type} 학생을 위한 1:1 맞춤 과외. 국어·영어·수학·사회·과학·코딩 내신과 기말고사, 방문수업·비대면 화상수업, 대학교 입시컨설팅, 여름방학 준비까지.`;
+document.getElementById('metaDesc').setAttribute('content', desc);
+
+document.getElementById('crumbName').textContent = nm;
+document.getElementById('title').innerHTML = `${nm} 1:1 맞춤 과외<br><span style="font-size:.62em;color:var(--ink-soft);font-weight:700">${rg} · ${type} 내신·입시 준비</span>`;
+document.getElementById('subtitle').textContent = `${nm} 학교 진도와 내신 출제 경향에 맞춰, 국영수부터 입시까지 1:1로 관리합니다.`;
+document.getElementById('ctaTitle').textContent = `${nm} 과외, 지금 상담받으세요`;
+
+// 학년대별 본문 포인트
+let levelBlock = '';
+if(lvl==='초등'){
+  levelBlock = `
+  <h2>${nm} 초등 과외, 무엇부터?</h2>
+  <p>초등 시기에는 점수보다 <strong>학습 습관과 국어·영어·수학 기초</strong>가 핵심입니다. 독해력(국어), 영어 단어·파닉스, 수학 연산을 탄탄히 다져 두면 중학교 내신의 토대가 됩니다. ${nm} 학생에게 맞는 진도로 1:1 관리해요.</p>
+  <ul>
+    <li><strong>국어</strong> — 독해·어휘로 모든 과목의 바탕을 만듭니다.</li>
+    <li><strong>영어</strong> — 파닉스·단어·문장으로 기초를 잡습니다.</li>
+    <li><strong>수학</strong> — 연산·개념을 빈틈없이 다집니다.</li>
+    <li><strong>사회·과학·코딩</strong> — 호기심을 키우고 사고력을 넓힙니다.</li>
+  </ul>`;
+} else if(lvl==='중등'){
+  levelBlock = `
+  <h2>${nm} 중등 내신·기말고사 대비</h2>
+  <p>${nm}에서 본격적인 내신이 시작되면, 국어·영어·수학·사회·과학과 코딩(정보)까지 균형 있게 챙겨야 합니다. 특히 영어·수학은 한 번 밀리면 따라잡기 어려워, <strong>기말고사 전 학교 기출 중심 1:1 대비</strong>가 효과적입니다.</p>
+  <ul>
+    <li><strong>영어·수학</strong> — 약점 단원을 진단·보강해 내신 등급을 올립니다.</li>
+    <li><strong>국어·사회·과학</strong> — 서술형·수행평가까지 꼼꼼히 대비합니다.</li>
+    <li><strong>코딩(정보)</strong> — 강화되는 SW 교육을 미리 준비합니다.</li>
+    <li><strong>학습 습관</strong> — 계획·오답 관리로 자기주도학습을 만듭니다.</li>
+  </ul>`;
+} else {
+  levelBlock = `
+  <h2>${nm} 고등 내신·수능·입시 동시 관리</h2>
+  <p>${nm} 학생에게 내신은 곧 입시 자료입니다. 국어·영어·수학을 고르게 관리해 등급을 올리면서, 세특·생기부와 <strong>대학교 입시컨설팅(학종·정시)</strong>까지 하나의 전략으로 묶어야 합니다.</p>
+  <ul>
+    <li><strong>국영수 1:1</strong> — 변별 문항·서술형까지 잡아 등급을 올립니다.</li>
+    <li><strong>내신+수능</strong> — 기말고사와 모의고사를 같은 흐름으로 대비합니다.</li>
+    <li><strong>입시컨설팅</strong> — 학종·정시 로드맵, 생기부·자소서·면접을 설계합니다.</li>
+    <li><strong>탐구 과목</strong> — 사회·과학 선택과목 전략까지 챙깁니다.</li>
+  </ul>`;
+}
+
+document.getElementById('article').innerHTML = `
+  <p>${rg}의 <strong>${nm}</strong> 학생과 학부모님을 위한 1:1 맞춤 과외 안내입니다. ${nm}의 학교 진도와 내신 출제 경향을 파악한 검증된 선생님이, <strong>방문수업</strong> 또는 <strong>비대면 화상수업</strong>으로 국어·영어·수학·사회·과학·코딩과 대학교 입시컨설팅까지 함께합니다.</p>
+
+  ${levelBlock}
+
+  <h2>학원과 과외, 무엇이 다를까요?</h2>
+  <p>${nm}처럼 학교마다 시험 범위·출제 스타일이 다른 내신은, 다수를 같은 진도로 가르치는 학원보다 <strong>우리 아이·우리 학교에 맞춘 1:1 과외</strong>가 효율적입니다.</p>
+  <table class="ctable">
+    <tr><th>구분</th><th>학원</th><th>1:1 과외</th></tr>
+    <tr><td>수업 방식</td><td>다수 공통 진도</td><td>학생 약점 맞춤 진도</td></tr>
+    <tr><td>내신 대비</td><td>일반 공통 자료</td><td>${nm} 기출·시험범위 집중</td></tr>
+    <tr><td>피드백</td><td>제한적</td><td>즉시 1:1 피드백</td></tr>
+    <tr><td>관리</td><td>전체 관리</td><td>개인별 진도·숙제·오답</td></tr>
+  </table>
+
+  <h2>여름방학이 기회입니다</h2>
+  <p>방학 동안 부족한 단원을 복습하고 2학기를 선행하면, ${nm} 2학기 내신 출발선이 달라집니다. 영어·수학은 특히 미리 잡아둘수록 유리합니다.</p>
+
+  <div class="hl-box">💡 <strong>티칭코칭</strong>은 ${rg} ${nm}을 포함한 전국 초·중·고 학생에게 방문·비대면 1:1 과외와 입시컨설팅을 제공합니다. 지금 <strong>📞 010-6832-1994</strong>로 무료 상담받아보세요.</div>
+`;
+</script>
+<script src="script.js"></script>
+</body>
+</html>
