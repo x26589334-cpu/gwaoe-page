@@ -68,7 +68,7 @@
       </div>
       <div class="search">
         <span class="ico">🔍</span>
-        <input type="text" id="schSearch" placeholder="지역·학교 검색 (예: 서울, 강남구, 진관중학교)" autocomplete="off" />
+        <input type="text" id="schSearch" placeholder="지역+학교 검색 (예: 강남 휘문고, 분당 서현중)" autocomplete="off" />
       </div>
     </div>
 
@@ -163,12 +163,14 @@ function render(){
   const q = searchEl.value.trim().toLowerCase();
   if(!q){
     countEl.textContent = '';
-    grid.innerHTML = '<div class="sch-empty">🔍 학교 이름이나 지역을 입력하면 결과가 나와요.<br>(예: 서울, 강남구, 진관중학교)</div>';
+    grid.innerHTML = '<div class="sch-empty">🔍 지역과 학교를 함께 입력해 보세요.<br>(예: 강남 휘문고 · 분당 서현중 · 수원 영통중)</div>';
     return;
   }
+  const tokens = q.split(/\s+/).filter(Boolean);
   const list = SCHOOLS.filter(s=>{
     const typeOk = curType==="전체" || s.t===curType;
-    const qOk = s.n.toLowerCase().includes(q) || s.r.toLowerCase().includes(q);
+    const hay = (s.n + ' ' + s.r).toLowerCase();
+    const qOk = tokens.every(tok => hay.includes(tok));
     return typeOk && qOk;
   });
   if(!list.length){
