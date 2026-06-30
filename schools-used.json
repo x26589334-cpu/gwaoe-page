@@ -21,6 +21,11 @@
     { "date": "2026-06-29", "school": "부흥고등학교", "region": "경기 안양 평촌", "page": "anyang-buheung-english.html" },
     { "date": "2026-06-29", "school": "해운대고등학교", "region": "부산 해운대", "page": "busan-haeundae-naesin.html" },
     { "date": "2026-06-29", "school": "불당중학교", "region": "충남 천안", "page": "cheonan-buldang-junior.html" },
-    { "date": "2026-06-29", "school": "서라벌고등학교", "region": "서울 노원 중계", "page": "seoul-junggye-seorabeol-ipsi.html" }
+    { "date": "2026-06-29", "school": "서라벌고등학교", "region": "서울 노원 중계", "page": "seoul-junggye-seorabeol-ipsi.html" },
+    { "date": "2026-06-30", "school": "잠실중학교", "region": "서울 송파", "page": "seoul-jamsil-junior-math.html" },
+    { "date": "2026-06-30", "school": "정화여자고등학교", "region": "대구", "page": "daegu-jeonghwa-english.html" },
+    { "date": "2026-06-30", "school": "풍덕고등학교", "region": "경기 용인 수지", "page": "yongin-pungdeok-naesin.html" },
+    { "date": "2026-06-30", "school": "부원중학교", "region": "인천 부평", "page": "incheon-buwon-junior.html" },
+    { "date": "2026-06-30", "school": "충남고등학교", "region": "대전", "page": "daejeon-chungnam-ipsi.html" }
   ]
 }
