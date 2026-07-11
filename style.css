@@ -359,3 +359,7 @@ footer ul a:hover{color:#fff}
 .reg-btns button.active{background:var(--brand);color:#fff;border-color:var(--brand)}
 .reg-panel{background:#fff;border:1px solid var(--line);border-radius:18px;padding:26px;margin-top:8px}
 .reg-content{margin-top:24px}
+.school-list{background:#f8f7ff;border:1px solid #ece9ff;border-radius:12px;padding:14px 18px;margin:10px 0}
+.school-list p{margin:8px 0;line-height:2}
+.school-list a{color:#6d28d9;font-weight:600;text-decoration:none}
+.school-list a:hover{text-decoration:underline}

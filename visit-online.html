@@ -188,6 +188,7 @@
   <a href="tel:01068321994" class="btn btn-primary">📞 상담신청</a>
 </div>
 
+<script src="schools-data.js"></script>
 <script>
 /* 지역 데이터: 시도 -> { 구/군: [동...] }  (동이 비어 있으면 구 단위로 안내) */
 const REGIONS = {
@@ -401,6 +402,24 @@ document.addEventListener('click', e=>{
   if(!visitSearch.contains(e.target) && !visitResults.contains(e.target)){ visitResults.style.display='none'; }
 });
 
+function typeName(t){ return t==='초'?'초등학교':(t==='중'?'중학교':(t==='고'?'고등학교':t)); }
+function schoolsFor(sido,gu){
+  if(!window.SCHOOLS||!gu) return [];
+  var base=gu.replace(/(시|군)$/,'');
+  var k1=sido+' '+gu, k2=sido+' '+base;
+  return window.SCHOOLS.filter(function(s){ var r=s.r||''; return r===k1||r===k2||r.indexOf(k1+' ')===0||r.indexOf(k2+' ')===0; });
+}
+function schoolsBlock(label,sido,gu){
+  var list=schoolsFor(sido,gu);
+  if(!list.length) return '';
+  var link=function(s){ var tn=typeName(s.t); var href=s.p?s.p:('school.html?name='+encodeURIComponent(s.n)+'&region='+encodeURIComponent(s.r)+'&type='+encodeURIComponent(tn)); return '<a href="'+href+'">'+s.n+'</a>'; };
+  var g=function(t){ return list.filter(function(s){return s.t===t;}).sort(function(a,b){return a.n.localeCompare(b.n,'ko');}).map(link); };
+  var cho=g('초'), jung=g('중'), go=g('고');
+  var row=function(t,arr){ return arr.length?('<p><strong>'+t+' ('+arr.length+'곳)</strong><br>'+arr.join(' · ')+'</p>'):''; };
+  return '<h3>'+label+' 인근 학교</h3>'
+    +'<p>이 지역 학생들이 다니는 학교입니다. 각 학교의 <strong>내신 출제 경향·시험 범위</strong>를 분석해 학교별로 맞춤 대비해요. 학교명을 누르면 학교별 과외 안내를 볼 수 있습니다.</p>'
+    +'<div class="school-list">'+row('초등학교',cho)+row('중학교',jung)+row('고등학교',go)+'</div>';
+}
 function showContent(){
   const label = [cur.sido, cur.gu, cur.dong].filter(Boolean).join(' ');
   const area = cur.dong || cur.gu || cur.sido; // 가장 구체적인 지역명
@@ -409,6 +428,8 @@ function showContent(){
     <p><strong>${label}</strong> 지역에 학력·경력이 검증된 선생님이 직접 가정으로 찾아가는 <strong>1:1 방문 과외</strong>를 제공합니다. ${area} 인근 학교의 내신 출제 경향과 시험 범위를 분석해, 국어·영어·수학·사회·과학을 학생 한 명의 수준과 약점에 딱 맞게 관리해요. 학원처럼 다 같은 진도가 아니라, 우리 아이만을 위한 맞춤 진도라 효율이 다릅니다.</p>
     <p>${area}의 <strong>초등학생·중학생·고등학생</strong>은 물론 <strong>재수생</strong>까지 — 초등(초1~초6), 중학생(중1·중2·중3), 고등학생(고1·고2·고3) 모든 학년을 학년별로 맞춤 지도합니다. 기초가 부족한 학생은 개념부터, 상위권은 고난도·심화까지 단계별로 책임집니다.</p>
     <p>방문 과외는 <strong>이동 시간이 없어</strong> 그만큼 공부에 더 쓸 수 있고, 익숙한 집에서 집중도가 높습니다. 매 수업 진도·숙제·오답을 직접 점검하고, 학부모님께 학습 상태를 공유해 드려요.</p>
+
+    ${schoolsBlock(label, cur.sido, cur.gu)}
 
     <h3>${area} 과목별 방문 과외</h3>
     <ul>
