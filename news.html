@@ -41,8 +41,8 @@
       <a href="schools.html">📌 관리중인 학교</a>
       <a href="visit-online.html">방문/화상</a>
       <a href="process.html">수업방식</a>
-      <a href="reviews.html">후기</a>
       <a href="news.html" class="active">지역별 후기</a>
+      <a href="blog.html">블로그</a>
     </nav>
     <div class="nav-cta">
       <a href="tel:01068321994" class="btn btn-primary">📞 상담신청 <span class="full">010-6832-1994</span></a>
@@ -69,7 +69,7 @@
     </div>
     ============================================================================ -->
 
-    <div class="quotes">
+    <div class="quotes" id="reviewList">
 
       <div class="quote reveal">
         <div class="stars">★★★★★</div>
@@ -662,6 +662,7 @@
       </div>
 
     </div>
+    <div class="pager" id="reviewPager"></div>
   </div>
 </section>
 
@@ -688,8 +689,8 @@
         <li><a href="schools.html">관리중인 학교</a></li>
         <li><a href="visit-online.html">방문/화상</a></li>
         <li><a href="process.html">수업방식</a></li>
-        <li><a href="reviews.html">후기</a></li>
         <li><a href="news.html">지역별 후기</a></li>
+        <li><a href="blog.html">블로그</a></li>
       </ul>
     </div>
     <div>
@@ -713,5 +714,8 @@
 </div>
 
 <script src="script.js"></script>
+<script>
+  paginate("#reviewList", ".quote", "#reviewPager", 10);
+</script>
 </body>
 </html>

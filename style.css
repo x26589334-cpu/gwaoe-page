@@ -363,3 +363,11 @@ footer ul a:hover{color:#fff}
 .school-list p{margin:8px 0;line-height:2}
 .school-list a{color:#6d28d9;font-weight:600;text-decoration:none}
 .school-list a:hover{text-decoration:underline}
+
+/* Pagination */
+.pager{display:flex;justify-content:center;align-items:center;gap:8px;margin-top:44px;flex-wrap:wrap}
+.pager button{border:1px solid var(--line);background:#fff;color:var(--ink);font-weight:700;font-size:14px;min-width:42px;height:42px;padding:0 12px;border-radius:11px;cursor:pointer;transition:.15s}
+.pager button:hover:not(:disabled){border-color:var(--brand-2);color:var(--brand)}
+.pager button.active{background:var(--brand);color:#fff;border-color:var(--brand)}
+.pager button:disabled{opacity:.35;cursor:default}
+.pager .dots{color:var(--ink-soft);font-weight:700;padding:0 2px}
