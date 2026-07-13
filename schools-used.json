@@ -27,5 +27,10 @@
     { "date": "2026-06-30", "school": "풍덕고등학교", "region": "경기 용인 수지", "page": "yongin-pungdeok-naesin.html" },
     { "date": "2026-06-30", "school": "부원중학교", "region": "인천 부평", "page": "incheon-buwon-junior.html" },
     { "date": "2026-06-30", "school": "충남고등학교", "region": "대전", "page": "daejeon-chungnam-ipsi.html" }
+    ,{ "date": "2026-07-03", "school": "대치중학교", "region": "서울 강남", "page": "seoul-daechi-junior-english.html" },
+    { "date": "2026-07-03", "school": "센텀중학교", "region": "부산 해운대", "page": "busan-centum-junior-math.html" },
+    { "date": "2026-07-03", "school": "오성고등학교", "region": "대구 북구", "page": "daegu-oseong-english.html" },
+    { "date": "2026-07-03", "school": "낙생고등학교", "region": "경기 성남 분당", "page": "seongnam-nakseng-math.html" },
+    { "date": "2026-07-03", "school": "인천포스코고등학교", "region": "인천 송도", "page": "incheon-posco-naesin.html" }
   ]
 }
