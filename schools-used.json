@@ -37,5 +37,10 @@
     { "date": "2026-07-14", "school": "성서고등학교", "region": "대구 달서", "page": "daegu-seongseo-english.html" },
     { "date": "2026-07-14", "school": "영덕중학교", "region": "경기 수원 영통", "page": "suwon-yeongdeok-math.html" },
     { "date": "2026-07-14", "school": "첨단고등학교", "region": "광주 광산", "page": "gwangju-cheomdan-naesin.html" }
+    ,{ "date": "2026-07-14b", "school": "잠신중학교", "region": "서울 송파", "page": "seoul-jamsil-jamsin-english.html" },
+    { "date": "2026-07-14b", "school": "연수여자고등학교", "region": "인천 연수", "page": "incheon-yeonsu-math.html" },
+    { "date": "2026-07-14b", "school": "도안고등학교", "region": "대전 서구", "page": "daejeon-doan-english.html" },
+    { "date": "2026-07-14b", "school": "정발중학교", "region": "경기 고양 일산", "page": "goyang-jeongbal-junior-math.html" },
+    { "date": "2026-07-14b", "school": "학성여자고등학교", "region": "울산 중구", "page": "ulsan-hakseong-naesin.html" }
   ]
 }
