@@ -42,5 +42,10 @@
     { "date": "2026-07-14b", "school": "도안고등학교", "region": "대전 서구", "page": "daejeon-doan-english.html" },
     { "date": "2026-07-14b", "school": "정발중학교", "region": "경기 고양 일산", "page": "goyang-jeongbal-junior-math.html" },
     { "date": "2026-07-14b", "school": "학성여자고등학교", "region": "울산 중구", "page": "ulsan-hakseong-naesin.html" }
+    ,{ "date": "2026-07-16", "school": "대청중학교", "region": "서울 강남", "page": "seoul-daechung-junior-english.html" },
+    { "date": "2026-07-16", "school": "동래중학교", "region": "부산 동래", "page": "busan-dongrae-junior-math.html" },
+    { "date": "2026-07-16", "school": "연송고등학교", "region": "인천 연수", "page": "incheon-yeonsu-yeonsong-english.html" },
+    { "date": "2026-07-16", "school": "평촌중학교", "region": "경기 안양 평촌", "page": "gyeonggi-pyeongchon-math.html" },
+    { "date": "2026-07-16", "school": "도룡중학교", "region": "대전 유성", "page": "daejeon-doryong-naesin.html" }
   ]
 }
