@@ -47,5 +47,10 @@
     { "date": "2026-07-16", "school": "연송고등학교", "region": "인천 연수", "page": "incheon-yeonsu-yeonsong-english.html" },
     { "date": "2026-07-16", "school": "평촌중학교", "region": "경기 안양 평촌", "page": "gyeonggi-pyeongchon-math.html" },
     { "date": "2026-07-16", "school": "도룡중학교", "region": "대전 유성", "page": "daejeon-doryong-naesin.html" }
+    ,{ "date": "2026-07-19", "school": "아름중학교", "region": "세종 아름동", "page": "sejong-areum-junior-math.html" },
+    { "date": "2026-07-19", "school": "순천고등학교", "region": "전남 순천", "page": "jeonnam-suncheon-korean.html" },
+    { "date": "2026-07-19", "school": "포항제철고등학교", "region": "경북 포항", "page": "pohang-jecheol-math.html" },
+    { "date": "2026-07-19", "school": "삼문중학교", "region": "경남 김해", "page": "gimhae-sammun-english.html" },
+    { "date": "2026-07-19", "school": "원주고등학교", "region": "강원 원주", "page": "wonju-math.html" }
   ]
 }
