@@ -52,5 +52,10 @@
     { "date": "2026-07-19", "school": "포항제철고등학교", "region": "경북 포항", "page": "pohang-jecheol-math.html" },
     { "date": "2026-07-19", "school": "삼문중학교", "region": "경남 김해", "page": "gimhae-sammun-english.html" },
     { "date": "2026-07-19", "school": "원주고등학교", "region": "강원 원주", "page": "wonju-math.html" }
+    ,{ "date": "2026-07-20", "school": "반포중학교", "region": "서울 서초", "page": "seoul-banpo-junior-english.html" },
+    { "date": "2026-07-20", "school": "다대고등학교", "region": "부산 사하", "page": "busan-dadae-math.html" },
+    { "date": "2026-07-20", "school": "수성고등학교", "region": "대구 수성", "page": "daegu-suseong-naesin.html" },
+    { "date": "2026-07-20", "school": "광교중학교", "region": "경기 수원 광교", "page": "suwon-gwanggyo-junior-math.html" },
+    { "date": "2026-07-20", "school": "남악고등학교", "region": "전남 무안", "page": "muan-namak-english.html" }
   ]
 }
