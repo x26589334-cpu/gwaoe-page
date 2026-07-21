@@ -13,7 +13,7 @@
      형태로 한 줄만 맞춰주면 됩니다.
    =========================================================== */
 
-const SHEET_ENDPOINT = "https://script.google.com/macros/s/AKfycby9Hk4hyIMwLzHIEOlzj0nD3H4k-Iioc99zLofqSjnVke7tTCc6TEc0q4kEosMS9e4n/exec";
+const SHEET_ENDPOINT = "https://script.google.com/macros/s/AKfycbznAb0ZOODlNp-ckR5fvkqtVQijwuJ9Gl0G4KxDrfp-K7zM4fcfMMp5qDhAbwNkvYQG/exec";
 
 function _val(id){ const el = document.getElementById(id); return el ? String(el.value).trim() : ""; }
 
