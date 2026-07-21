@@ -474,19 +474,9 @@ const panelVisit = document.getElementById('panelVisit'), panelOnline = document
 tabVisit.onclick = ()=>{ tabVisit.classList.add('active'); tabOnline.classList.remove('active'); panelVisit.style.display=''; panelOnline.style.display='none'; };
 tabOnline.onclick = ()=>{ tabOnline.classList.add('active'); tabVisit.classList.remove('active'); panelOnline.style.display=''; panelVisit.style.display='none'; };
 
-// 화상 폼
-const oForm = document.getElementById('onlineForm');
-oForm.addEventListener('submit', e=>{
-  e.preventDefault();
-  const v = id => document.getElementById(id).value.trim();
-  if(!v('o_school')||!v('o_subject')||!v('o_gender')||!v('o_style')||!v('o_phone')){
-    alert('모든 항목을 입력해 주세요.'); return;
-  }
-  document.getElementById('oOk').style.display='block';
-  oForm.querySelector('button').textContent='신청 완료 ✓';
-  oForm.querySelector('button').disabled=true;
-});
+// 화상 폼 처리는 form.js 로 이동 (구글 시트 "과외" 탭 연결)
 </script>
 <script src="script.js"></script>
+<script src="form.js"></script>
 </body>
 </html>

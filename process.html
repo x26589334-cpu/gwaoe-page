@@ -359,6 +359,7 @@
 </div>
 
 <script src="script.js"></script>
+<script src="form.js"></script>
 <script>
   // 탭 전환 (과외 / 원어민)
   const tabTutor = document.getElementById('tabTutor');
@@ -368,18 +369,7 @@
   tabTutor.onclick = () => { tabTutor.classList.add('active'); tabNative.classList.remove('active'); panelTutor.style.display=''; panelNative.style.display='none'; };
   tabNative.onclick = () => { tabNative.classList.add('active'); tabTutor.classList.remove('active'); panelNative.style.display=''; panelTutor.style.display='none'; };
 
-  // 신청 폼
-  const tf = document.getElementById('trialForm');
-  tf.addEventListener('submit', function(e){
-    e.preventDefault();
-    const v = id => document.getElementById(id).value.trim();
-    if(!v('t_name')||!v('t_phone')||!v('t_target')||!v('t_type')||!v('t_subject')||!v('t_gender')||!v('t_mode')){
-      alert('이름, 전화번호, 대상, 수업 종류, 과목, 선생님 성별, 수업 방식을 입력해 주세요.'); return;
-    }
-    document.getElementById('tOk').style.display='block';
-    tf.querySelector('button').textContent='신청 완료 ✓';
-    tf.querySelector('button').disabled=true;
-  });
+  // 신청 폼 처리는 form.js 로 이동 (구글 시트 "과외" 탭 연결)
 </script>
 </body>
 </html>
