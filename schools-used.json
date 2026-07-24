@@ -62,5 +62,10 @@
     { "date": "2026-07-23", "school": "월평중학교", "region": "대전 서구", "page": "daejeon-wolpyeong-junior-math.html" },
     { "date": "2026-07-23", "school": "화정고등학교", "region": "경기 고양 화정", "page": "goyang-hwajeong-naesin.html" },
     { "date": "2026-07-23", "school": "용암중학교", "region": "충북 청주", "page": "cheongju-yongam-junior-english.html" }
+    ,{ "date": "2026-07-24", "school": "신정중학교", "region": "서울 양천 목동", "page": "seoul-sinjeong-junior-math.html" },
+    { "date": "2026-07-24", "school": "부산국제고등학교", "region": "부산", "page": "busan-gukje-english.html" },
+    { "date": "2026-07-24", "school": "포산고등학교", "region": "대구 달성", "page": "dalseong-posan-math.html" },
+    { "date": "2026-07-24", "school": "광양제철고등학교", "region": "전남 광양", "page": "gwangyang-jecheol-korean.html" },
+    { "date": "2026-07-24", "school": "천안오성고등학교", "region": "충남 천안", "page": "cheonan-oseong-english.html" }
   ]
 }
