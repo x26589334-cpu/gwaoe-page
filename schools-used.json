@@ -72,5 +72,10 @@
     { "date": "2026-07-27", "school": "칠곡중학교", "region": "대구 북구", "page": "daegu-chilgok-junior-math.html" },
     { "date": "2026-07-27", "school": "봉선중학교", "region": "광주 남구 봉선", "page": "gwangju-bongseon-naesin.html" },
     { "date": "2026-07-27", "school": "상산고등학교", "region": "전북 전주", "page": "jeonju-sanghwa-english.html" }
+    ,{ "date": "2026-07-30", "school": "방배중학교", "region": "서울 서초 방배", "page": "seoul-bangbae-junior-math.html" },
+    { "date": "2026-07-30", "school": "명장고등학교", "region": "부산 동래", "page": "busan-myeongjang-english.html" },
+    { "date": "2026-07-30", "school": "권선중학교", "region": "경기 수원 권선", "page": "suwon-gwonseon-junior-math.html" },
+    { "date": "2026-07-30", "school": "갈마중학교", "region": "대전 서구 갈마", "page": "daejeon-galma-naesin.html" },
+    { "date": "2026-07-30", "school": "의창고등학교", "region": "경남 창원 의창", "page": "changwon-uichang-english.html" }
   ]
 }
