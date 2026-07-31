@@ -77,5 +77,10 @@
     { "date": "2026-07-30", "school": "권선중학교", "region": "경기 수원 권선", "page": "suwon-gwonseon-junior-math.html" },
     { "date": "2026-07-30", "school": "갈마중학교", "region": "대전 서구 갈마", "page": "daejeon-galma-naesin.html" },
     { "date": "2026-07-30", "school": "의창고등학교", "region": "경남 창원 의창", "page": "changwon-uichang-english.html" }
+    ,{ "date": "2026-07-31", "school": "압구정중학교", "region": "서울 강남 압구정", "page": "seoul-apgujeong-junior-math.html" },
+    { "date": "2026-07-31", "school": "송도고등학교", "region": "인천 연수 송도", "page": "incheon-songdo-english.html" },
+    { "date": "2026-07-31", "school": "범어중학교", "region": "대구 수성 범어", "page": "daegu-beomeo-junior-math.html" },
+    { "date": "2026-07-31", "school": "옥동중학교", "region": "울산 남구 옥동", "page": "ulsan-okdong-naesin.html" },
+    { "date": "2026-07-31", "school": "도담고등학교", "region": "세종", "page": "sejong-doda-english.html" }
   ]
 }
