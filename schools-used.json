@@ -82,5 +82,10 @@
     { "date": "2026-07-31", "school": "범어중학교", "region": "대구 수성 범어", "page": "daegu-beomeo-junior-math.html" },
     { "date": "2026-07-31", "school": "옥동중학교", "region": "울산 남구 옥동", "page": "ulsan-okdong-naesin.html" },
     { "date": "2026-07-31", "school": "도담고등학교", "region": "세종", "page": "sejong-doda-english.html" }
+    ,{ "date": "2026-08-01", "school": "미양중학교", "region": "서울 강북 미아", "page": "seoul-mia-junior-english.html" },
+    { "date": "2026-08-01", "school": "좌동고등학교", "region": "부산 해운대 좌동", "page": "busan-jwadong-math.html" },
+    { "date": "2026-08-01", "school": "노은중학교", "region": "대전 유성 노은", "page": "daejeon-noeun-junior-math.html" },
+    { "date": "2026-08-01", "school": "이매고등학교", "region": "경기 성남 분당 이매", "page": "seongnam-imae-naesin.html" },
+    { "date": "2026-08-01", "school": "제주제일고등학교", "region": "제주", "page": "jeju-jeanm-english.html" }
   ]
 }
