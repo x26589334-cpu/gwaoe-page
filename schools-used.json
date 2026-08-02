@@ -87,5 +87,10 @@
     { "date": "2026-08-01", "school": "노은중학교", "region": "대전 유성 노은", "page": "daejeon-noeun-junior-math.html" },
     { "date": "2026-08-01", "school": "이매고등학교", "region": "경기 성남 분당 이매", "page": "seongnam-imae-naesin.html" },
     { "date": "2026-08-01", "school": "제주제일고등학교", "region": "제주", "page": "jeju-jeanm-english.html" }
+    ,{ "date": "2026-08-02", "school": "서울사대부중학교", "region": "서울 성북", "page": "seoul-sadaebu-junior-english.html" },
+    { "date": "2026-08-02", "school": "인천예일고등학교", "region": "인천", "page": "incheon-yeil-math.html" },
+    { "date": "2026-08-02", "school": "대전대신고등학교", "region": "대전", "page": "daejeon-daesin-korean.html" },
+    { "date": "2026-08-02", "school": "부산배정고등학교", "region": "부산 동래", "page": "busan-baejeong-english.html" },
+    { "date": "2026-08-02", "school": "전주기전여자고등학교", "region": "전북 전주", "page": "jeonju-gijeon-math.html" }
   ]
 }
