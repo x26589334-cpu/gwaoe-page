@@ -92,5 +92,10 @@
     { "date": "2026-08-02", "school": "대전대신고등학교", "region": "대전", "page": "daejeon-daesin-korean.html" },
     { "date": "2026-08-02", "school": "부산배정고등학교", "region": "부산 동래", "page": "busan-baejeong-english.html" },
     { "date": "2026-08-02", "school": "전주기전여자고등학교", "region": "전북 전주", "page": "jeonju-gijeon-math.html" }
+    ,{ "date": "2026-08-04", "school": "수서중학교", "region": "서울 강남 수서", "page": "seoul-suseo-junior-math.html" },
+    { "date": "2026-08-04", "school": "광안고등학교", "region": "부산 수영 광안", "page": "busan-gwangan-english.html" },
+    { "date": "2026-08-04", "school": "만촌중학교", "region": "대구 수성 만촌", "page": "daegu-manchon-junior-math.html" },
+    { "date": "2026-08-04", "school": "수지고등학교", "region": "경기 용인 수지", "page": "yongin-suji-naesin.html" },
+    { "date": "2026-08-04", "school": "풍향중학교", "region": "광주 북구 풍향", "page": "gwangju-punghyang-english.html" }
   ]
 }
