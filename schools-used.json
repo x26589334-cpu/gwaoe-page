@@ -107,5 +107,10 @@
     { "date": "2026-08-06", "school": "지산중학교", "region": "대구 수성 지산", "page": "daegu-suseong-jisan-korean.html" },
     { "date": "2026-08-06", "school": "중앙고등학교", "region": "충남 천안 불당", "page": "cheonan-buldang-jungang-science.html" },
     { "date": "2026-08-06", "school": "화산중학교", "region": "전북 전주", "page": "jeonju-hwasan-naesin.html" }
+    ,{ "date": "2026-08-08", "school": "은행중학교", "region": "서울 노원 중계", "page": "seoul-junggye-eunhaeng-math.html" },
+    { "date": "2026-08-08", "school": "안락중학교", "region": "부산 동래 안락", "page": "busan-dongrae-anrak-english.html" },
+    { "date": "2026-08-08", "school": "한밭중학교", "region": "대전 유성", "page": "daejeon-doryong-hanbat-korean.html" },
+    { "date": "2026-08-08", "school": "고실중학교", "region": "광주 광산 첨단", "page": "gwangju-cheomdan-cheomdan-science.html" },
+    { "date": "2026-08-08", "school": "성복중학교", "region": "경기 용인 수지", "page": "yongin-suji-sunghwa-naesin.html" }
   ]
 }
