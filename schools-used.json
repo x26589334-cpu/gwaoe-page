@@ -132,5 +132,10 @@
     { "date": "2026-08-13", "school": "칠성중학교", "region": "대구 북구 칠성", "page": "daegu-buk-chilseong-korean.html" },
     { "date": "2026-08-13", "school": "구월중학교", "region": "인천 남동 구월", "page": "incheon-namdong-guwol-science.html" },
     { "date": "2026-08-13", "school": "오마중학교", "region": "경기 고양 일산", "page": "goyang-ilsan-oma-naesin.html" }
+    ,{ "date": "2026-08-14", "school": "인헌중학교", "region": "서울 관악", "page": "seoul-gwanak-inheon-math.html" },
+    { "date": "2026-08-14", "school": "거제중학교", "region": "부산 연제 거제", "page": "busan-yeonje-geoje-english.html" },
+    { "date": "2026-08-14", "school": "신매중학교", "region": "대구 수성 신매", "page": "daegu-suseong-sinmae-korean.html" },
+    { "date": "2026-08-14", "school": "청량중학교", "region": "인천 연수", "page": "incheon-yeonsu-cheongnamg-science.html" },
+    { "date": "2026-08-14", "school": "신흥중학교", "region": "경기 성남 수정", "page": "seongnam-sujeong-sindaewon-naesin.html" }
   ]
 }
