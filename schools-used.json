@@ -137,5 +137,10 @@
     { "date": "2026-08-14", "school": "신매중학교", "region": "대구 수성 신매", "page": "daegu-suseong-sinmae-korean.html" },
     { "date": "2026-08-14", "school": "청량중학교", "region": "인천 연수", "page": "incheon-yeonsu-cheongnamg-science.html" },
     { "date": "2026-08-14", "school": "신흥중학교", "region": "경기 성남 수정", "page": "seongnam-sujeong-sindaewon-naesin.html" }
+    ,{ "date": "2026-08-15", "school": "신월중학교", "region": "서울 양천 신월", "page": "seoul-yangcheon-sinwol.html" },
+    { "date": "2026-08-15", "school": "개금중학교", "region": "부산 부산진 개금", "page": "busan-jin-gaegeum.html" },
+    { "date": "2026-08-15", "school": "시지중학교", "region": "대구 수성 시지", "page": "daegu-suseong-siji.html" },
+    { "date": "2026-08-15", "school": "만수북중학교", "region": "인천 남동 만수", "page": "incheon-namdong-mansubuk.html" },
+    { "date": "2026-08-15", "school": "천천중학교", "region": "경기 수원 장안", "page": "suwon-jangan-cheoncheon.html" }
   ]
 }
