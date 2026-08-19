@@ -148,5 +148,10 @@
     { "date": "2026-08-19", "school": "고려중학교", "region": "광주 북구", "page": "gwangju-buk-goryeo-korean.html" },
     { "date": "2026-08-19", "school": "마산서중학교", "region": "경남 창원 마산합포구", "page": "changwon-masan-seo-science.html" },
     { "date": "2026-08-19", "school": "구미문성중학교", "region": "경북 구미", "page": "gumi-munseong-naesin.html" }
+    ,{ "date": "2026-08-19b", "school": "방이중학교", "region": "서울 송파 방이", "page": "seoul-songpa-bangi.html" },
+    { "date": "2026-08-19b", "school": "주례중학교", "region": "부산 사상 주례", "page": "busan-sasang-jurye.html" },
+    { "date": "2026-08-19b", "school": "성곡중학교", "region": "대구 달서 성곡", "page": "daegu-dalseo-seonggok.html" },
+    { "date": "2026-08-19b", "school": "가정중학교", "region": "인천 서구 가정", "page": "incheon-seogu-gajeong.html" },
+    { "date": "2026-08-19b", "school": "상동중학교", "region": "경기 부천 상동", "page": "bucheon-sangdong.html" }
   ]
 }
