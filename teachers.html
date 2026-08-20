@@ -3,15 +3,16 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>선생님 · 티칭코칭</title>
-<meta name="description" content="학력·신원·경력 검증을 통과한 선생님만 매칭합니다. 실력과 인성을 모두 갖춘 선생님을 소개합니다." />
+<title>선생님 찾기 · 707명 검증 선생님 · 티칭코칭</title>
+<meta name="description" content="티칭코칭 선생님 707명을 과목·수업형태·지역으로 검색하세요. 방문 수업과 화상 수업 모두 가능하며, 학력·경력 검증을 통과한 선생님만 매칭합니다." />
+<meta name="keywords" content="과외 선생님, 과외 선생님 찾기, 방문과외 선생님, 화상과외 선생님, 국어 선생님, 영어 선생님, 수학 선생님, 티칭코칭" />
 <link rel="canonical" href="https://perfectedu.co.kr/teachers.html" />
 <meta name="robots" content="index,follow" />
 <meta name="theme-color" content="#7c3aed" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="티칭코칭" />
-<meta property="og:title" content="선생님 · 티칭코칭" />
-<meta property="og:description" content="학력·신원·경력 검증을 통과한 선생님만 매칭합니다. 실력과 인성을 모두 갖춘 선생님을 소개합니다." />
+<meta property="og:title" content="선생님 찾기 · 707명 검증 선생님" />
+<meta property="og:description" content="과목·수업형태·지역으로 선생님을 찾아보세요. 방문과 화상 모두 가능합니다." />
 <meta property="og:url" content="https://perfectedu.co.kr/teachers.html" />
 <meta property="og:image" content="https://perfectedu.co.kr/og-image.png" />
 <meta property="og:locale" content="ko_KR" />
@@ -22,7 +23,7 @@
 <link rel="apple-touch-icon" href="apple-touch-icon.png?v=2" />
 <link rel="preconnect" href="https://fastly.jsdelivr.net" crossorigin />
 <link rel="stylesheet" href="https://fastly.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
-<link rel="stylesheet" href="style.css?v=2" />
+<link rel="stylesheet" href="style.css?v=3" />
 </head>
 <body>
 
@@ -32,6 +33,7 @@
     <nav class="nav-links">
       <a href="index.html">홈</a>
       <a href="schools.html">📌 관리중인 학교</a>
+      <a href="teachers.html" class="active">선생님</a>
       <a href="visit-online.html">방문/화상</a>
       <a href="process.html">수업방식</a>
       <a href="news.html">지역별 후기</a>
@@ -46,61 +48,67 @@
 <section class="page-hero">
   <div class="wrap">
     <div class="crumb"><a href="index.html">홈</a> › 선생님</div>
-    <h1>검증된 선생님이 함께합니다</h1>
-    <p>학력·신원·경력 검증을 통과한 선생님만 매칭합니다. 실력과 인성을 모두 갖춘 분들이에요.</p>
+    <h1>우리 아이에게 맞는 선생님을 찾아보세요</h1>
+    <p>학력·경력 검증을 통과한 <b>707명</b>의 선생님이 함께합니다. 과목·수업형태·지역으로 좁혀서 찾아보세요.</p>
   </div>
 </section>
 
 <section>
-  <div class="wrap teachers">
-    <div class="teacher reveal">
-      <div class="pic" style="background:linear-gradient(135deg,#7c3aed,#a855f7)">김</div>
-      <b>김O준 선생님</b>
-      <div class="role">고등 수학</div>
-      <p>SKY 재학 · 경력 4년<br>개념부터 킬러 문항까지</p>
+  <div class="wrap">
+
+    <input id="tSearch" class="tsearch" type="search" placeholder="🔍 과목·지역·선생님으로 검색  (예: 수학 분당 · 영어 화상 · 부산)" autocomplete="off" />
+
+    <div class="tfilter">
+      <div class="row" id="fType">
+        <span class="lab">수업형태</span>
+        <button class="fchip on" data-v="전체">전체</button>
+        <button class="fchip" data-v="방문">방문</button>
+        <button class="fchip" data-v="화상">화상</button>
+        <button class="fchip" data-v="방문+화상">방문+화상</button>
+      </div>
+      <div class="row" id="fSubj">
+        <span class="lab">과목</span>
+        <button class="fchip on" data-v="전체">전체</button>
+        <button class="fchip" data-v="국어">국어</button>
+        <button class="fchip" data-v="영어">영어</button>
+        <button class="fchip" data-v="수학">수학</button>
+        <button class="fchip" data-v="과학">과학</button>
+        <button class="fchip" data-v="사회">사회</button>
+        <button class="fchip" data-v="코딩">코딩</button>
+      </div>
+      <div class="row" id="fSido">
+        <span class="lab">방문지역</span>
+        <button class="fchip on" data-v="전체">전체</button>
+        <button class="fchip" data-v="서울">서울</button>
+        <button class="fchip" data-v="경기">경기</button>
+        <button class="fchip" data-v="인천">인천</button>
+        <button class="fchip" data-v="부산">부산</button>
+        <button class="fchip" data-v="대구">대구</button>
+        <button class="fchip" data-v="대전">대전</button>
+        <button class="fchip" data-v="광주">광주</button>
+        <button class="fchip" data-v="울산">울산</button>
+        <button class="fchip" data-v="세종">세종</button>
+        <button class="fchip" data-v="강원">강원</button>
+        <button class="fchip" data-v="충북">충북</button>
+        <button class="fchip" data-v="충남">충남</button>
+        <button class="fchip" data-v="전북">전북</button>
+        <button class="fchip" data-v="전남">전남</button>
+        <button class="fchip" data-v="경북">경북</button>
+        <button class="fchip" data-v="경남">경남</button>
+        <button class="fchip" data-v="제주">제주</button>
+      </div>
+      <div class="row" id="fGender">
+        <span class="lab">성별</span>
+        <button class="fchip on" data-v="전체">전체</button>
+        <button class="fchip" data-v="여">여선생님</button>
+        <button class="fchip" data-v="남">남선생님</button>
+      </div>
     </div>
-    <div class="teacher reveal">
-      <div class="pic" style="background:linear-gradient(135deg,#ff7a59,#ffb22e)">이</div>
-      <b>이O서 선생님</b>
-      <div class="role">중등 영어</div>
-      <p>원어민 수준 · 경력 6년<br>회화부터 내신까지</p>
-    </div>
-    <div class="teacher reveal">
-      <div class="pic" style="background:linear-gradient(135deg,#16a37a,#5fd0a8)">박</div>
-      <b>박O윤 컨설턴트</b>
-      <div class="role">입시컨설팅</div>
-      <p>학종/정시 · 경력 9년<br>생기부·자소서·면접</p>
-    </div>
-    <div class="teacher reveal">
-      <div class="pic" style="background:linear-gradient(135deg,#7b5cff,#b08cff)">최</div>
-      <b>최O아 선생님</b>
-      <div class="role">초·중 국어</div>
-      <p>교대 출신 · 경력 5년<br>독해·서술형 강점</p>
-    </div>
-    <div class="teacher reveal">
-      <div class="pic" style="background:linear-gradient(135deg,#7c3aed,#a855f7)">정</div>
-      <b>정O호 선생님</b>
-      <div class="role">고등 영어</div>
-      <p>해외파 · 경력 7년<br>수능·내신 동시 대비</p>
-    </div>
-    <div class="teacher reveal">
-      <div class="pic" style="background:linear-gradient(135deg,#ff7a59,#ffb22e)">한</div>
-      <b>한O민 선생님</b>
-      <div class="role">중등 수학</div>
-      <p>공대 출신 · 경력 5년<br>기초부터 심화까지</p>
-    </div>
-    <div class="teacher reveal">
-      <div class="pic" style="background:linear-gradient(135deg,#16a37a,#5fd0a8)">서</div>
-      <b>서O연 선생님</b>
-      <div class="role">초등 전과목</div>
-      <p>교대 출신 · 경력 4년<br>학습 습관 잡기 전문</p>
-    </div>
-    <div class="teacher reveal">
-      <div class="pic" style="background:linear-gradient(135deg,#7b5cff,#b08cff)">윤</div>
-      <b>윤O지 컨설턴트</b>
-      <div class="role">입시컨설팅</div>
-      <p>입시 전문 · 경력 11년<br>수시·정시 종합 설계</p>
-    </div>
+
+    <div class="tcount" id="tCount"></div>
+    <div class="tgrid" id="tGrid"></div>
+    <div class="pager" id="tPager"></div>
+
   </div>
 </section>
 
@@ -119,11 +127,11 @@
 
 <section style="background:var(--bg-soft)">
   <div class="wrap center">
-    <h2 class="title">우리 아이에게 맞는 선생님을 찾아드려요</h2>
-    <p class="lead center">조건만 알려주시면 24시간 안에 딱 맞는 선생님을 추천해 드립니다.</p>
+    <h2 class="title">어떤 선생님이 맞을지 모르겠다면</h2>
+    <p class="lead center">조건만 알려주시면 24시간 안에 딱 맞는 선생님을 추천해 드립니다. 상담은 무료입니다.</p>
     <div class="hero-cta" style="justify-content:center;margin-top:24px">
       <a href="tel:01068321994" class="btn btn-primary">📞 010-6832-1994 상담신청</a>
-      <a href="index.html#apply" class="btn btn-ghost">온라인으로 신청하기</a>
+      <a href="process.html#trial" class="btn btn-ghost">무료 체험 신청하기</a>
     </div>
   </div>
 </section>
@@ -138,8 +146,9 @@
       <h5>바로가기</h5>
       <ul>
         <li><a href="schools.html">관리중인 학교</a></li>
+        <li><a href="teachers.html">선생님</a></li>
+        <li><a href="visit-online.html">방문/화상</a></li>
         <li><a href="process.html">수업방식</a></li>
-        <li><a href="news.html">지역별 후기</a></li>
         <li><a href="blog.html">블로그</a></li>
       </ul>
     </div>
@@ -147,7 +156,7 @@
       <h5>문의</h5>
       <ul>
         <li><a href="tel:01068321994">전화: 010-6832-1994</a></li>
-        <li><a href="index.html#apply">카카오톡 상담</a></li>
+        <li><a href="process.html#trial">무료 상담 &amp; 체험</a></li>
         <li><a href="index.html">운영시간: 09:00 – 21:00</a></li>
       </ul>
     </div>
@@ -162,6 +171,92 @@
   <a href="tel:01068321994" class="btn btn-primary">📞 상담신청</a>
 </div>
 
+<script src="teachers-data.js"></script>
+<script>
+(function(){
+  const ALL = window.TEACHERS || [];
+  const grid = document.getElementById('tGrid');
+  const countEl = document.getElementById('tCount');
+  const pagerEl = document.getElementById('tPager');
+  const searchEl = document.getElementById('tSearch');
+  const GRADS = ['linear-gradient(135deg,#7c3aed,#a855f7)','linear-gradient(135deg,#ff7a59,#ffb22e)','linear-gradient(135deg,#16a37a,#5fd0a8)','linear-gradient(135deg,#7b5cff,#b08cff)'];
+  const PER = 24;
+  let fType='전체', fSubj='전체', fSido='전체', fGender='전체', page=1, cur=[];
+
+  function match(t){
+    if(fType!=='전체' && t.c!==fType) return false;
+    if(fSubj!=='전체' && t.s.split(',').indexOf(fSubj)<0) return false;
+    if(fSido!=='전체' && t.sd.split(',').indexOf(fSido)<0) return false;
+    if(fGender!=='전체' && t.g!==fGender) return false;
+    const q = searchEl.value.trim().toLowerCase();
+    if(q){
+      const hay = (t.n+' '+t.s+' '+t.c+' '+t.r+' '+t.gr).toLowerCase();
+      if(!q.split(/\s+/).filter(Boolean).every(tok=>hay.includes(tok))) return false;
+    }
+    return true;
+  }
+
+  function card(t,i){
+    const sub = t.s.split(',');
+    const grs = t.gr.split(',');
+    const chips = sub.map((s,k)=>'<span class="chip">'+s+(grs[k]?' '+grs[k]:'')+'</span>').join('');
+    const where = t.r ? t.r.split('|').slice(0,2).join(', ') : '전국 화상 수업';
+    return '<a class="tc" href="teacher-'+t.i+'.html">'
+      + '<div class="top"><div class="ini" style="background:'+GRADS[i%4]+'">'+t.n.charAt(0)+'</div>'
+      + '<div><div class="nm">'+t.n+' 선생님</div><div class="sub">'+(t.g==='여'?'여선생님':'남선생님')+' · '+t.c+'</div></div></div>'
+      + '<div class="chips">'+chips+'</div>'
+      + '<div class="where">📍 '+where+'</div></a>';
+  }
+
+  function buildPager(total){
+    const pages = Math.ceil(total/PER);
+    if(pages<=1){ pagerEl.innerHTML=''; return; }
+    let h = '<button '+(page===1?'disabled':'')+' data-p="'+(page-1)+'">‹</button>';
+    const win=[];
+    for(let p=1;p<=pages;p++){
+      if(p===1||p===pages||(p>=page-1&&p<=page+1)) win.push(p);
+      else if(win[win.length-1]!=='...') win.push('...');
+    }
+    win.forEach(p=>{ h += (p==='...') ? '<span class="dots">…</span>' : '<button class="'+(p===page?'active':'')+'" data-p="'+p+'">'+p+'</button>'; });
+    h += '<button '+(page===pages?'disabled':'')+' data-p="'+(page+1)+'">›</button>';
+    pagerEl.innerHTML = h;
+  }
+
+  function render(reset){
+    if(reset) page=1;
+    cur = ALL.filter(match);
+    countEl.textContent = cur.length ? '선생님 '+cur.length+'명' : '';
+    if(!cur.length){
+      grid.innerHTML = '<div class="tempty">조건에 맞는 선생님이 없어요.<br>필터를 넓히거나 📞 010-6832-1994로 문의해 주세요.</div>';
+      pagerEl.innerHTML=''; return;
+    }
+    const start=(page-1)*PER;
+    grid.innerHTML = cur.slice(start,start+PER).map((t,i)=>card(t,start+i)).join('');
+    buildPager(cur.length);
+  }
+
+  function wire(id, setter){
+    document.getElementById(id).addEventListener('click', e=>{
+      const b = e.target.closest('button'); if(!b) return;
+      document.querySelectorAll('#'+id+' button').forEach(x=>x.classList.remove('on'));
+      b.classList.add('on'); setter(b.dataset.v); render(true);
+    });
+  }
+  wire('fType', v=>fType=v);
+  wire('fSubj', v=>fSubj=v);
+  wire('fSido', v=>fSido=v);
+  wire('fGender', v=>fGender=v);
+
+  pagerEl.addEventListener('click', e=>{
+    const b = e.target.closest('button'); if(!b||b.disabled) return;
+    const p = parseInt(b.dataset.p,10);
+    const pages = Math.ceil(cur.length/PER);
+    if(p>=1&&p<=pages){ page=p; render(false); window.scrollTo({top: grid.getBoundingClientRect().top+window.scrollY-120, behavior:'smooth'}); }
+  });
+  searchEl.addEventListener('input', ()=>render(true));
+  render(true);
+})();
+</script>
 <script src="script.js"></script>
 </body>
 </html>
