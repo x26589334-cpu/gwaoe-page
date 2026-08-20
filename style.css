@@ -409,10 +409,15 @@ footer ul a:hover{color:#fff}
 .tsec h3{font-size:19px;font-weight:800;letter-spacing:-.02em;padding-bottom:12px;border-bottom:2px solid var(--line);margin-bottom:18px}
 .tsec h4{font-size:15.5px;font-weight:800;margin:26px 0 8px;display:flex;align-items:center;gap:8px}
 .tsec h4 .cnt{font-size:12.5px;font-weight:700;color:var(--brand);background:#f1eafe;padding:3px 10px;border-radius:999px}
-.tlist{list-style:none;display:flex;flex-direction:column;gap:10px}
-.tlist li{position:relative;padding:12px 16px 12px 38px;background:var(--bg-soft);border:1px solid var(--line);border-radius:12px;color:var(--ink-soft);font-size:15px;line-height:1.75}
-.tlist li::before{content:"✓";position:absolute;left:15px;top:12px;color:var(--brand);font-weight:800}
-.tlist.career li::before{content:"•";font-size:20px;line-height:1.1}
+/* 소개: 박스 없이 2단 체크 리스트 (항목이 평균 15개라 박스는 너무 무거움) */
+.tlist{list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:4px 32px;margin-top:-2px}
+@media(max-width:680px){.tlist{grid-template-columns:1fr}}
+.tlist li{position:relative;padding:6px 0 6px 24px;color:var(--ink-soft);font-size:14.8px;line-height:1.7}
+.tlist li::before{content:"✓";position:absolute;left:1px;top:6px;color:var(--brand-2);font-weight:800;font-size:12.5px;line-height:1.75}
+/* 경력: 세로선 타임라인 */
+.tlist.career{grid-template-columns:1fr;gap:0;margin-left:5px;padding-left:18px;border-left:2px solid var(--line)}
+.tlist.career li{padding:10px 0 10px 4px;font-size:15px;border-bottom:none}
+.tlist.career li::before{content:"";left:-25px;top:19px;width:9px;height:9px;border-radius:50%;background:var(--brand);border:2px solid #fff;box-shadow:0 0 0 2px var(--line)}
 .tdesc{color:var(--ink-soft);font-size:15.5px;line-height:1.9}
 .tdesc.small{font-size:13.5px;margin-top:4px}
 .schoolbox{display:flex;flex-wrap:wrap;gap:7px;margin-top:12px;max-height:340px;overflow-y:auto;padding:14px;background:var(--bg-soft);border:1px solid var(--line);border-radius:14px}
