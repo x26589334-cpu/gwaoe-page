@@ -153,5 +153,11 @@
     { "date": "2026-08-19b", "school": "성곡중학교", "region": "대구 달서 성곡", "page": "daegu-dalseo-seonggok.html" },
     { "date": "2026-08-19b", "school": "가정중학교", "region": "인천 서구 가정", "page": "incheon-seogu-gajeong.html" },
     { "date": "2026-08-19b", "school": "상동중학교", "region": "경기 부천 상동", "page": "bucheon-sangdong.html" }
+,
+    { "date": "2026-08-20", "school": "문수고등학교", "region": "울산 남구", "page": "ulsan-namgu-munsu-math.html" },
+    { "date": "2026-08-20", "school": "상당고등학교", "region": "충북 청주 상당구", "page": "cheongju-sangdang-english.html" },
+    { "date": "2026-08-20", "school": "단구중학교", "region": "강원 원주", "page": "wonju-dangu-korean.html" },
+    { "date": "2026-08-20", "school": "성포고등학교", "region": "경기 안산", "page": "ansan-seongpo-science.html" },
+    { "date": "2026-08-20", "school": "남주중학교", "region": "제주 서귀포", "page": "jeju-seogwipo-namju-naesin.html" }
   ]
 }
