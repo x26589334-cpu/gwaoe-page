@@ -427,3 +427,11 @@ footer ul a:hover{color:#fff}
 .tback a{font-size:14.5px;font-weight:700;color:var(--brand)}
 .match-more{display:block;text-align:center;margin-top:14px;font-size:13.5px;font-weight:700;color:var(--brand)}
 .match-more:hover{color:var(--brand-ink)}
+.tindex{margin-top:14px}
+.tix-h{font-size:16px;font-weight:800;margin:30px 0 12px;display:flex;align-items:center;gap:9px;padding-bottom:9px;border-bottom:1px solid var(--line)}
+.tix-h .cnt{font-size:12.5px;font-weight:700;color:var(--brand);background:#f1eafe;padding:3px 10px;border-radius:999px}
+.tix{display:grid;grid-template-columns:repeat(3,1fr);gap:6px 22px}
+@media(max-width:900px){.tix{grid-template-columns:1fr 1fr}}
+@media(max-width:560px){.tix{grid-template-columns:1fr}}
+.tix a{font-size:13.5px;color:var(--ink-soft);padding:5px 0;line-height:1.6}
+.tix a:hover{color:var(--brand)}

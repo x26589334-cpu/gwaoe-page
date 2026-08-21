@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://perfectedu.co.kr/sitemap.xml
+Sitemap: https://perfectedu.co.kr/sitemap-schools.xml
