@@ -165,5 +165,10 @@
     { "date": "2026-08-21", "school": "송도중학교", "region": "인천 연수구", "page": "incheon-yeonsu-songdo-science.html" },
     { "date": "2026-08-21", "school": "구성고등학교", "region": "경기 용인 기흥구", "page": "yongin-guseong-korean.html" },
     { "date": "2026-08-21", "school": "완산고등학교", "region": "전북 전주 완산구", "page": "jeonju-wansan-naesin.html" }
+    ,{ "date": "2026-08-21b", "school": "명일중학교", "region": "서울 강동 명일", "page": "seoul-gangdong-myeongil.html" },
+    { "date": "2026-08-21b", "school": "대연중학교", "region": "부산 남구 대연", "page": "busan-namgu-daeyeon.html" },
+    { "date": "2026-08-21b", "school": "정화중학교", "region": "대구 수성 정화", "page": "daegu-suseong-jeonghwa.html" },
+    { "date": "2026-08-21b", "school": "박문중학교", "region": "인천 연수", "page": "incheon-yeonsu-bakmun.html" },
+    { "date": "2026-08-21b", "school": "귀인중학교", "region": "경기 안양 평촌", "page": "anyang-pyeongchon-gwiin.html" }
   ]
 }
