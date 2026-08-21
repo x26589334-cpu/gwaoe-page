@@ -159,5 +159,11 @@
     { "date": "2026-08-20", "school": "단구중학교", "region": "강원 원주", "page": "wonju-dangu-korean.html" },
     { "date": "2026-08-20", "school": "성포고등학교", "region": "경기 안산", "page": "ansan-seongpo-science.html" },
     { "date": "2026-08-20", "school": "남주중학교", "region": "제주 서귀포", "page": "jeju-seogwipo-namju-naesin.html" }
+,
+    { "date": "2026-08-21", "school": "도곡중학교", "region": "서울 강남구", "page": "seoul-gangnam-dogok-math.html" },
+    { "date": "2026-08-21", "school": "능인고등학교", "region": "대구 수성구", "page": "daegu-suseong-neungin-english.html" },
+    { "date": "2026-08-21", "school": "송도중학교", "region": "인천 연수구", "page": "incheon-yeonsu-songdo-science.html" },
+    { "date": "2026-08-21", "school": "구성고등학교", "region": "경기 용인 기흥구", "page": "yongin-guseong-korean.html" },
+    { "date": "2026-08-21", "school": "완산고등학교", "region": "전북 전주 완산구", "page": "jeonju-wansan-naesin.html" }
   ]
 }
