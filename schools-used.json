@@ -170,5 +170,11 @@
     { "date": "2026-08-21b", "school": "정화중학교", "region": "대구 수성 정화", "page": "daegu-suseong-jeonghwa.html" },
     { "date": "2026-08-21b", "school": "박문중학교", "region": "인천 연수", "page": "incheon-yeonsu-bakmun.html" },
     { "date": "2026-08-21b", "school": "귀인중학교", "region": "경기 안양 평촌", "page": "anyang-pyeongchon-gwiin.html" }
+,
+    { "date": "2026-08-22", "school": "백마중학교", "region": "경기 고양 일산동구", "page": "goyang-ilsan-baekma-math.html" },
+    { "date": "2026-08-22", "school": "대전갑천중학교", "region": "대전 서구", "page": "daejeon-seogu-gapcheon-english.html" },
+    { "date": "2026-08-22", "school": "광일고등학교", "region": "광주 광산구", "page": "gwangju-gwangsan-gwangil-science.html" },
+    { "date": "2026-08-22", "school": "강원고등학교", "region": "강원 춘천", "page": "chuncheon-gangwon-korean.html" },
+    { "date": "2026-08-22", "school": "산남중학교", "region": "충북 청주 서원구", "page": "cheongju-seowon-sannam-naesin.html" }
   ]
 }
