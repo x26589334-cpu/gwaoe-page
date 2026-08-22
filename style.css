@@ -435,3 +435,7 @@ footer ul a:hover{color:#fff}
 @media(max-width:560px){.tix{grid-template-columns:1fr}}
 .tix a{font-size:13.5px;color:var(--ink-soft);padding:5px 0;line-height:1.6}
 .tix a:hover{color:var(--brand)}
+.tsearch-row{display:flex;gap:9px;align-items:stretch}
+.tsearch-row .tsearch{flex:1 1 auto;min-width:0}
+.tsearch-row .btn{flex:0 0 auto;padding:0 30px;border-radius:14px;font-size:15.5px}
+@media(max-width:560px){.tsearch-row{flex-direction:column}.tsearch-row .btn{padding:14px 24px}}
