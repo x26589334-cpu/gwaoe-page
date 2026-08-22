@@ -941,6 +941,7 @@
 </div>
 
 <script src="teachers-data.js"></script>
+<script src="teachers-search.js" defer></script>
 <script>
 (function(){
   const ALL = window.TEACHERS || [];
@@ -959,7 +960,9 @@
     if(fGender!=='전체' && t.g!==fGender) return false;
     const q = searchEl.value.trim().toLowerCase();
     if(q){
-      const hay = (t.n+' '+t.s+' '+t.c+' '+t.r+' '+t.gr).toLowerCase();
+      // 검색 대상: 이름·과목·수업형태·방문지역·학년 + (지연 로드된) 읍면동·수업 가능 학교·소개·경력 본문
+      const extra = (window.TSEARCH && window.TSEARCH[t.i]) ? window.TSEARCH[t.i] : '';
+      const hay = (t.n+' '+t.s+' '+t.c+' '+t.r+' '+t.gr+' '+extra).toLowerCase();
       if(!q.split(/\s+/).filter(Boolean).every(tok=>hay.includes(tok))) return false;
     }
     return true;
@@ -1040,6 +1043,8 @@
   document.getElementById('tSearchBtn').addEventListener('click', doSearch);
   searchEl.addEventListener('keydown', e=>{ if(e.key==='Enter'){ e.preventDefault(); doSearch(); } });
   searchEl.addEventListener('input', ()=>render(true));
+  // 검색 색인(teachers-search.js)이 늦게 도착하면, 검색어가 있을 때만 한 번 다시 그린다
+  window.__tRefresh = function(){ if(searchEl.value.trim()) render(true); };
   render(true);
 })();
 </script>
