@@ -182,5 +182,10 @@
     { "date": "2026-08-24", "school": "은평중학교", "region": "서울 은평구", "page": "seoul-eunpyeong-jung-korean.html" },
     { "date": "2026-08-24", "school": "부평고등학교", "region": "인천 부평구", "page": "incheon-bupyeong-go-science.html" },
     { "date": "2026-08-24", "school": "배곧중학교", "region": "경기 시흥", "page": "siheung-baegot-naesin.html" }
+    ,{ "date": "2026-08-24b", "school": "마곡중학교", "region": "서울 강서 마곡", "page": "seoul-gangseo-magok.html" },
+    { "date": "2026-08-24b", "school": "화명중학교", "region": "부산 북구 화명", "page": "busan-buk-hwamyeong.html" },
+    { "date": "2026-08-24b", "school": "강동중학교", "region": "대구 동구", "page": "daegu-dong-gangdong.html" },
+    { "date": "2026-08-24b", "school": "검단중학교", "region": "인천 서구 검단", "page": "incheon-seogu-geomdan.html" },
+    { "date": "2026-08-24b", "school": "동탄중학교", "region": "경기 화성 동탄", "page": "hwaseong-dongtan.html" }
   ]
 }
