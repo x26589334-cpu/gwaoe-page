@@ -176,5 +176,11 @@
     { "date": "2026-08-22", "school": "광일고등학교", "region": "광주 광산구", "page": "gwangju-gwangsan-gwangil-science.html" },
     { "date": "2026-08-22", "school": "강원고등학교", "region": "강원 춘천", "page": "chuncheon-gangwon-korean.html" },
     { "date": "2026-08-22", "school": "산남중학교", "region": "충북 청주 서원구", "page": "cheongju-seowon-sannam-naesin.html" }
+,
+    { "date": "2026-08-24", "school": "다산중학교", "region": "경기 남양주", "page": "namyangju-dasan-math.html" },
+    { "date": "2026-08-24", "school": "배방고등학교", "region": "충남 아산", "page": "asan-baebang-english.html" },
+    { "date": "2026-08-24", "school": "은평중학교", "region": "서울 은평구", "page": "seoul-eunpyeong-jung-korean.html" },
+    { "date": "2026-08-24", "school": "부평고등학교", "region": "인천 부평구", "page": "incheon-bupyeong-go-science.html" },
+    { "date": "2026-08-24", "school": "배곧중학교", "region": "경기 시흥", "page": "siheung-baegot-naesin.html" }
   ]
 }
