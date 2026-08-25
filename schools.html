@@ -179,11 +179,15 @@ function render(){
     return;
   }
   const tokens = q.split(/\s+/).filter(Boolean);
+  const qNo = q.replace(/\s+/g,'');          // 띄어쓰기 제거한 검색어
   const list = SCHOOLS.filter(s=>{
     const typeOk = curType==="전체" || s.t===curType;
     const hay = (s.n + ' ' + s.r).toLowerCase();
-    const qOk = tokens.every(tok => hay.includes(tok));
-    return typeOk && qOk;
+    const tokenOk = tokens.every(tok => hay.includes(tok));
+    // 띄어쓰기 없이 붙여 쳐도 매칭: 이름+지역 / 지역+이름 두 순서로 검사
+    const noSpaceOk = (s.n + s.r).toLowerCase().replace(/\s+/g,'').includes(qNo)
+                   || (s.r + s.n).toLowerCase().replace(/\s+/g,'').includes(qNo);
+    return typeOk && (tokenOk || noSpaceOk);
   });
   if(!list.length){
     countEl.textContent = '검색 결과 0개';
