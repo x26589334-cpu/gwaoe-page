@@ -187,5 +187,11 @@
     { "date": "2026-08-24b", "school": "강동중학교", "region": "대구 동구", "page": "daegu-dong-gangdong.html" },
     { "date": "2026-08-24b", "school": "검단중학교", "region": "인천 서구 검단", "page": "incheon-seogu-geomdan.html" },
     { "date": "2026-08-24b", "school": "동탄중학교", "region": "경기 화성 동탄", "page": "hwaseong-dongtan.html" }
+,
+    { "date": "2026-08-25", "school": "비전중학교", "region": "경기 평택", "page": "pyeongtaek-vision-math.html" },
+    { "date": "2026-08-25", "school": "대진고등학교", "region": "서울 노원구", "page": "seoul-nowon-daejin-english.html" },
+    { "date": "2026-08-25", "school": "경암중학교", "region": "대구 달서구", "page": "daegu-dalseo-gyeongam-korean.html" },
+    { "date": "2026-08-25", "school": "고려고등학교", "region": "광주 북구", "page": "gwangju-buk-goryeo-go-science.html" },
+    { "date": "2026-08-25", "school": "인천논현중학교", "region": "인천 남동구", "page": "incheon-namdong-nonhyeon-naesin.html" }
   ]
 }
