@@ -199,5 +199,11 @@
     { "date": "2026-08-26", "school": "개림중학교", "region": "부산 부산진구", "page": "busan-jin-gaerim-korean.html" },
     { "date": "2026-08-26", "school": "대덕고등학교", "region": "대전 유성구", "page": "daejeon-yuseong-daedeok-science.html" },
     { "date": "2026-08-26", "school": "가람중학교", "region": "경기 고양 덕양구", "page": "goyang-deogyang-garam-naesin.html" }
+,
+    { "date": "2026-08-27", "school": "늘푸른중학교", "region": "경기 성남 분당구", "page": "seongnam-bundang-neulpureun-math.html" },
+    { "date": "2026-08-27", "school": "강북고등학교", "region": "대구 북구", "page": "daegu-buk-gangbuk-english.html" },
+    { "date": "2026-08-27", "school": "청라중학교", "region": "인천 서해구", "page": "incheon-seohae-cheongna-korean.html" },
+    { "date": "2026-08-27", "school": "인헌고등학교", "region": "서울 관악구", "page": "seoul-gwanak-inheon-go-science.html" },
+    { "date": "2026-08-27", "school": "개운중학교", "region": "서울 성북구", "page": "seoul-seongbuk-gaeun-naesin.html" }
   ]
 }
