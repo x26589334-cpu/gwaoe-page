@@ -1,6 +1,15 @@
 User-agent: *
 Allow: /
 
+# school.html 은 쿼리스트링을 받아 자바스크립트로 그리는 껍데기 페이지입니다.
+# 6,790개의 서로 다른 URL이 모두 동일한 HTML을 반환해 크롤 예산만 소모하므로 제외합니다.
+# 실제 학교 콘텐츠는 school-{학교명}-{지역}.html 정적 페이지에 있습니다.
+Disallow: /school.html
+
+# 검색용 데이터 파일 — 색인 대상이 아니고 용량이 커서 크롤 예산만 소모합니다.
+Disallow: /teachers-search.js
+Disallow: /schools-data.js
+
 Sitemap: https://perfectedu.co.kr/sitemap.xml
 Sitemap: https://perfectedu.co.kr/sitemap-schools.xml
 Sitemap: https://perfectedu.co.kr/sitemap-regions.xml
