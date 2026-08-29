@@ -204,6 +204,11 @@
     { "date": "2026-08-27", "school": "강북고등학교", "region": "대구 북구", "page": "daegu-buk-gangbuk-english.html" },
     { "date": "2026-08-27", "school": "청라중학교", "region": "인천 서해구", "page": "incheon-seohae-cheongna-korean.html" },
     { "date": "2026-08-27", "school": "인헌고등학교", "region": "서울 관악구", "page": "seoul-gwanak-inheon-go-science.html" },
-    { "date": "2026-08-27", "school": "개운중학교", "region": "서울 성북구", "page": "seoul-seongbuk-gaeun-naesin.html" }
+    { "date": "2026-08-27", "school": "개운중학교", "region": "서울 성북구", "page": "seoul-seongbuk-gaeun-naesin.html" },
+    { "date": "2026-08-29", "school": "고척고등학교", "region": "서울 구로구", "page": "seoul-guro-gocheok-english.html" },
+    { "date": "2026-08-29", "school": "상현중학교", "region": "경기 용인 수지구", "page": "yongin-suji-sanghyeon-math.html" },
+    { "date": "2026-08-29", "school": "박문여자고등학교", "region": "인천 연수구", "page": "incheon-yeonsu-bakmun-korean.html" },
+    { "date": "2026-08-29", "school": "광교호수중학교", "region": "경기 수원 영통구", "page": "suwon-gwanggyo-hosu-science.html" },
+    { "date": "2026-08-29", "school": "능인중학교", "region": "대구 수성구", "page": "daegu-suseong-neungin-naesin.html" }
   ]
 }
