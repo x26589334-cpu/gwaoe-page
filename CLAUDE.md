@@ -59,6 +59,7 @@ git push
   - 이미지는 위키미디어 공용(`commons.wikimedia.org` API, 키 불필요)에서 **그 동네 학교 건물 사진** 우선, 없으면 동네 풍경. CC0/CC BY/BY-SA 만 사용, BY/BY-SA 는 `<figcaption>` 에 작가·라이선스 표기. 밤거리·유흥·얼굴 나오는 사진 제외. 960px JPG 로 리사이즈. 예시: `seoul-mapo-teacher-pick.html`.
 - **선생님 페이지 제목 형식:** `{지역} {과목} 과외 — {방문·화상} 1:1 · {이름} 선생님` (화상 전용은 `{과목} 화상과외 — 전국 1:1 · {이름} 선생님`). `gen_teachers.ps1` / `gen_kids.ps1` 둘 다 이 형식.
 - **`merge_kids.ps1` 사이트맵 중복 버그는 8/31 에 고침** (이미 있는 URL 건너뜀).
+- **RSS (`rss.xml`, 2026-09-02 신설):** 블로그 글 + 선생님 추천 글 최신 100건. **데일리 글을 올린 뒤 반드시 `build_rss.ps1`(scratchpad, BOM 버전) 을 실행해 갱신하고 함께 커밋한다.** 글의 날짜는 히어로 `<p>YYYY.MM.DD · …</p>` 에서 읽으므로 새 글은 이 형식을 지킬 것. 홈·블로그·선생님 추천 페이지 `<head>` 에 `rel="alternate"` 로 연결돼 있다. 네이버 서치어드바이저 → 요청 → RSS 제출에 `https://perfectedu.co.kr/rss.xml` 을 등록해 두면 새 글 수집이 빨라진다.
 
 ## 다음에 할 후보
 - 구글 서치콘솔 / 네이버 서치어드바이저에 `sitemap-schools.xml` 제출 (색인 가속)
