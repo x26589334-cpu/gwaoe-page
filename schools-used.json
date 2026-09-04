@@ -219,6 +219,11 @@
     { "date": "2026-09-03", "school": "경원고등학교", "region": "대구 달서구", "page": "daegu-dalseo-gyeongwon-math.html" },
     { "date": "2026-09-03", "school": "경원중학교", "region": "서울 서초구", "page": "seoul-seocho-gyeongwon-korean.html" },
     { "date": "2026-09-03", "school": "동삭중학교", "region": "경기 평택", "page": "gyeonggi-pyeongtaek-dongsak-science.html" },
-    { "date": "2026-09-03", "school": "가좌고등학교", "region": "경기 고양 일산서구", "page": "goyang-ilsanseo-gajwa-naesin.html" }
+    { "date": "2026-09-03", "school": "가좌고등학교", "region": "경기 고양 일산서구", "page": "goyang-ilsanseo-gajwa-naesin.html" },
+    { "date": "2026-09-04", "school": "노원고등학교", "region": "서울 노원구", "page": "seoul-nowon-nowon-english.html" },
+    { "date": "2026-09-04", "school": "가수원중학교", "region": "대전 서구", "page": "daejeon-seogu-gasuwon-math.html" },
+    { "date": "2026-09-04", "school": "각화중학교", "region": "광주 북구", "page": "gwangju-buk-gakhwa-korean.html" },
+    { "date": "2026-09-04", "school": "논곡중학교", "region": "인천 남동구", "page": "incheon-namdong-nongok-science.html" },
+    { "date": "2026-09-04", "school": "동백고등학교", "region": "경기 용인 기흥구", "page": "yongin-giheung-donbaek-naesin.html" }
   ]
 }
