@@ -224,6 +224,11 @@
     { "date": "2026-09-04", "school": "가수원중학교", "region": "대전 서구", "page": "daejeon-seogu-gasuwon-math.html" },
     { "date": "2026-09-04", "school": "각화중학교", "region": "광주 북구", "page": "gwangju-buk-gakhwa-korean.html" },
     { "date": "2026-09-04", "school": "논곡중학교", "region": "인천 남동구", "page": "incheon-namdong-nongok-science.html" },
-    { "date": "2026-09-04", "school": "동백고등학교", "region": "경기 용인 기흥구", "page": "yongin-giheung-donbaek-naesin.html" }
+    { "date": "2026-09-04", "school": "동백고등학교", "region": "경기 용인 기흥구", "page": "yongin-giheung-donbaek-naesin.html" },
+    { "date": "2026-09-05", "school": "군서고등학교", "region": "경기 시흥", "page": "gyeonggi-siheung-gunseo-english.html" },
+    { "date": "2026-09-05", "school": "강동고등학교", "region": "대구 동구", "page": "daegu-donggu-gangdong-math.html" },
+    { "date": "2026-09-05", "school": "기산중학교", "region": "경기 화성", "page": "hwaseong-gisan-korean.html" },
+    { "date": "2026-09-05", "school": "구산중학교", "region": "서울 은평구", "page": "seoul-eunpyeong-gusan-science.html" },
+    { "date": "2026-09-05", "school": "완산중학교", "region": "전북 전주 완산구", "page": "jeonju-wansan-wansan-naesin.html" }
   ]
 }

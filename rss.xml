@@ -5,17 +5,62 @@
   <link>https://perfectedu.co.kr/</link>
   <description>초·중·고 학교별 내신·과외 전략 글과 동네별 방문 과외 선생님 추천을 매일 올립니다.</description>
   <language>ko</language>
-  <lastBuildDate>Fri, 04 Sep 2026 10:00:00 +0900</lastBuildDate>
+  <lastBuildDate>Sat, 05 Sep 2026 10:00:00 +0900</lastBuildDate>
   <atom:link href="https://perfectedu.co.kr/rss.xml" rel="self" type="application/rss+xml" />
   <image><url>https://perfectedu.co.kr/apple-touch-icon.png</url><title>티칭코칭</title><link>https://perfectedu.co.kr/</link></image>
   <item>
-    <title>기흥구 동백고등학교 내신과외 — 시험 끝나고 뭘 해야 할지 모른다면</title>
-    <link>https://perfectedu.co.kr/yongin-giheung-donbaek-naesin.html</link>
-    <guid isPermaLink="true">https://perfectedu.co.kr/yongin-giheung-donbaek-naesin.html</guid>
-    <pubDate>Fri, 04 Sep 2026 10:00:00 +0900</pubDate>
+    <title>대구 동구 강동고등학교 수학과외 — 개념은 아는데 응용이 안 된다면</title>
+    <link>https://perfectedu.co.kr/daegu-donggu-gangdong-math.html</link>
+    <guid isPermaLink="true">https://perfectedu.co.kr/daegu-donggu-gangdong-math.html</guid>
+    <pubDate>Sat, 05 Sep 2026 10:00:00 +0900</pubDate>
     <category>블로그</category>
-    <description><![CDATA[경기 용인 기흥구 동백고등학교 내신과외. 시험이 끝나면 손을 놓는 고1을 위한 시험 후 3일 복기법, 2학기 중간고사 대비.]]></description>
-    <enclosure url="https://perfectedu.co.kr/images/blog-naesin-sunset.jpg" type="image/jpeg" length="0" />
+    <description><![CDATA[대구 동구 강동고등학교 수학과외. 예제는 푸는데 시험 문제만 낯선 고1을 위한 조건 읽기 훈련, 2학기 중간고사 대비.]]></description>
+    <enclosure url="https://perfectedu.co.kr/images/blog-math-worksheet.jpg" type="image/jpeg" length="0" />
+  </item>
+  <item>
+    <title>대구 북구 수학과외·영어과외 선생님 추천 — 경명여고·강북고·침산중 내신</title>
+    <link>https://perfectedu.co.kr/daegu-buk-teacher-pick.html</link>
+    <guid isPermaLink="true">https://perfectedu.co.kr/daegu-buk-teacher-pick.html</guid>
+    <pubDate>Sat, 05 Sep 2026 10:00:00 +0900</pubDate>
+    <category>선생님 추천</category>
+    <description><![CDATA[대구 북구 방문 과외 선생님 2명 추천. 수포자 전문 공학박사 출신 수학과외 선생님과 고교학점제 입시 로드맵까지 잡는 영어과외 선생님. 침산·복현·산격·구암 학교별 내신 대비.]]></description>
+    <enclosure url="https://perfectedu.co.kr/images/school-daegu-buk-gyeongmyeong.jpg" type="image/jpeg" length="0" />
+  </item>
+  <item>
+    <title>은평구 구산중학교 과학과외 — 암기는 했는데 응용에서 막힌다면</title>
+    <link>https://perfectedu.co.kr/seoul-eunpyeong-gusan-science.html</link>
+    <guid isPermaLink="true">https://perfectedu.co.kr/seoul-eunpyeong-gusan-science.html</guid>
+    <pubDate>Sat, 05 Sep 2026 10:00:00 +0900</pubDate>
+    <category>블로그</category>
+    <description><![CDATA[서울 은평구 구산중학교 과학과외. 용어는 외웠는데 상황이 바뀌면 못 푸는 중2를 위한 원리 연결 훈련, 2학기 중간고사 대비.]]></description>
+    <enclosure url="https://perfectedu.co.kr/images/blog-science-flask.jpg" type="image/jpeg" length="0" />
+  </item>
+  <item>
+    <title>전주 완산구 완산중학교 내신과외 — 벼락치기가 통하지 않는다면</title>
+    <link>https://perfectedu.co.kr/jeonju-wansan-wansan-naesin.html</link>
+    <guid isPermaLink="true">https://perfectedu.co.kr/jeonju-wansan-wansan-naesin.html</guid>
+    <pubDate>Sat, 05 Sep 2026 10:00:00 +0900</pubDate>
+    <category>블로그</category>
+    <description><![CDATA[전북 전주 완산구 완산중학교 내신과외. 시험 직전에만 몰아서 하는 중2를 위한 평소 30분 습관 만들기, 2학기 중간고사 대비.]]></description>
+    <enclosure url="https://perfectedu.co.kr/images/blog-naesin-plan2.jpg" type="image/jpeg" length="0" />
+  </item>
+  <item>
+    <title>화성 기산중학교 국어과외 — 문법만 나오면 다 틀린다면</title>
+    <link>https://perfectedu.co.kr/hwaseong-gisan-korean.html</link>
+    <guid isPermaLink="true">https://perfectedu.co.kr/hwaseong-gisan-korean.html</guid>
+    <pubDate>Sat, 05 Sep 2026 10:00:00 +0900</pubDate>
+    <category>블로그</category>
+    <description><![CDATA[경기 화성 기산중학교 국어과외. 독서·문학은 되는데 문법에서 점수가 새는 중3을 위한 품사·문장성분 훈련, 2학기 중간고사 대비.]]></description>
+    <enclosure url="https://perfectedu.co.kr/images/blog-korean-notepad.jpg" type="image/jpeg" length="0" />
+  </item>
+  <item>
+    <title>시흥 군서고등학교 영어과외 — 빈칸 문제만 나오면 막힌다면</title>
+    <link>https://perfectedu.co.kr/gyeonggi-siheung-gunseo-english.html</link>
+    <guid isPermaLink="true">https://perfectedu.co.kr/gyeonggi-siheung-gunseo-english.html</guid>
+    <pubDate>Sat, 05 Sep 2026 10:00:00 +0900</pubDate>
+    <category>블로그</category>
+    <description><![CDATA[경기 시흥 군서고등학교 영어과외. 해석은 되는데 빈칸 추론에서 무너지는 고2를 위한 논지 흐름 훈련, 2학기 중간고사 대비.]]></description>
+    <enclosure url="https://perfectedu.co.kr/images/blog-english-oldbooks.jpg" type="image/jpeg" length="0" />
   </item>
   <item>
     <title>성북구 수학과외·영어과외 선생님 추천 — 한성여고·경동고·삼선중 내신</title>
@@ -43,6 +88,15 @@
     <category>블로그</category>
     <description><![CDATA[인천 남동구 논곡중학교 과학과외. 객관식은 맞는데 서술형에서 못 쓰는 중3을 위한 답안 문장 훈련, 2학기 중간고사 대비.]]></description>
     <enclosure url="https://perfectedu.co.kr/images/blog-science-stack.jpg" type="image/jpeg" length="0" />
+  </item>
+  <item>
+    <title>기흥구 동백고등학교 내신과외 — 시험 끝나고 뭘 해야 할지 모른다면</title>
+    <link>https://perfectedu.co.kr/yongin-giheung-donbaek-naesin.html</link>
+    <guid isPermaLink="true">https://perfectedu.co.kr/yongin-giheung-donbaek-naesin.html</guid>
+    <pubDate>Fri, 04 Sep 2026 10:00:00 +0900</pubDate>
+    <category>블로그</category>
+    <description><![CDATA[경기 용인 기흥구 동백고등학교 내신과외. 시험이 끝나면 손을 놓는 고1을 위한 시험 후 3일 복기법, 2학기 중간고사 대비.]]></description>
+    <enclosure url="https://perfectedu.co.kr/images/blog-naesin-sunset.jpg" type="image/jpeg" length="0" />
   </item>
   <item>
     <title>광주 북구 각화중학교 국어과외 — 시가 나오면 포기한다면</title>
@@ -117,15 +171,6 @@
     <enclosure url="https://perfectedu.co.kr/images/blog-naesin-desk.jpg" type="image/jpeg" length="0" />
   </item>
   <item>
-    <title>울산 남구 대현중학교 과학과외 — 외웠는데 그래프만 나오면 틀린다면</title>
-    <link>https://perfectedu.co.kr/ulsan-nam-daehyeon-science.html</link>
-    <guid isPermaLink="true">https://perfectedu.co.kr/ulsan-nam-daehyeon-science.html</guid>
-    <pubDate>Wed, 02 Sep 2026 10:00:00 +0900</pubDate>
-    <category>블로그</category>
-    <description><![CDATA[울산 남구 대현중학교 과학과외. 용어는 외웠는데 그래프·표 해석에서 틀리는 중3을 위한 자료 읽기 훈련, 2학기 중간고사 대비.]]></description>
-    <enclosure url="https://perfectedu.co.kr/images/blog-science-beaker.jpg" type="image/jpeg" length="0" />
-  </item>
-  <item>
     <title>양천구 강신중학교 내신과외 — 중1 첫 지필고사 준비법</title>
     <link>https://perfectedu.co.kr/seoul-yangcheon-gangsin-naesin.html</link>
     <guid isPermaLink="true">https://perfectedu.co.kr/seoul-yangcheon-gangsin-naesin.html</guid>
@@ -160,6 +205,15 @@
     <category>블로그</category>
     <description><![CDATA[광주 광산구 월봉중학교 국어과외. 지문 속 한자어에 막혀 독해가 끊기는 중2를 위한 어휘 노트 훈련, 2학기 중간고사 대비.]]></description>
     <enclosure url="https://perfectedu.co.kr/images/blog-korean-bookshelf.jpg" type="image/jpeg" length="0" />
+  </item>
+  <item>
+    <title>울산 남구 대현중학교 과학과외 — 외웠는데 그래프만 나오면 틀린다면</title>
+    <link>https://perfectedu.co.kr/ulsan-nam-daehyeon-science.html</link>
+    <guid isPermaLink="true">https://perfectedu.co.kr/ulsan-nam-daehyeon-science.html</guid>
+    <pubDate>Wed, 02 Sep 2026 10:00:00 +0900</pubDate>
+    <category>블로그</category>
+    <description><![CDATA[울산 남구 대현중학교 과학과외. 용어는 외웠는데 그래프·표 해석에서 틀리는 중3을 위한 자료 읽기 훈련, 2학기 중간고사 대비.]]></description>
+    <enclosure url="https://perfectedu.co.kr/images/blog-science-beaker.jpg" type="image/jpeg" length="0" />
   </item>
   <item>
     <title>유성구 대전지족고등학교 수학과외 — 킬러 문제 전에 무너지는 이유</title>
@@ -198,15 +252,6 @@
     <enclosure url="https://perfectedu.co.kr/images/school-seoul-mapo-changcheon.jpg" type="image/jpeg" length="0" />
   </item>
   <item>
-    <title>수지 상현중학교 수학과외 — 이차함수 그래프가 안 그려진다면</title>
-    <link>https://perfectedu.co.kr/yongin-suji-sanghyeon-math.html</link>
-    <guid isPermaLink="true">https://perfectedu.co.kr/yongin-suji-sanghyeon-math.html</guid>
-    <pubDate>Sat, 29 Aug 2026 10:00:00 +0900</pubDate>
-    <category>블로그</category>
-    <description><![CDATA[경기 용인 수지구 상현중학교 수학과외. 식은 세우는데 그래프에서 막히는 중3을 위한 꼭짓점·축 잡는 훈련, 2학기 중간고사 대비.]]></description>
-    <enclosure url="https://perfectedu.co.kr/images/blog-math-notebook.jpg" type="image/jpeg" length="0" />
-  </item>
-  <item>
     <title>광교 광교호수중학교 과학과외 — 실험 문제만 나오면 막힌다면</title>
     <link>https://perfectedu.co.kr/suwon-gwanggyo-hosu-science.html</link>
     <guid isPermaLink="true">https://perfectedu.co.kr/suwon-gwanggyo-hosu-science.html</guid>
@@ -232,6 +277,15 @@
     <category>블로그</category>
     <description><![CDATA[인천 연수구 박문여자고등학교 국어과외. 내용은 아는데 서술형에서 감점되는 고2를 위한 답안 작성 훈련, 2학기 중간고사 대비.]]></description>
     <enclosure url="https://perfectedu.co.kr/images/blog-korean-handwriting.jpg" type="image/jpeg" length="0" />
+  </item>
+  <item>
+    <title>수지 상현중학교 수학과외 — 이차함수 그래프가 안 그려진다면</title>
+    <link>https://perfectedu.co.kr/yongin-suji-sanghyeon-math.html</link>
+    <guid isPermaLink="true">https://perfectedu.co.kr/yongin-suji-sanghyeon-math.html</guid>
+    <pubDate>Sat, 29 Aug 2026 10:00:00 +0900</pubDate>
+    <category>블로그</category>
+    <description><![CDATA[경기 용인 수지구 상현중학교 수학과외. 식은 세우는데 그래프에서 막히는 중3을 위한 꼭짓점·축 잡는 훈련, 2학기 중간고사 대비.]]></description>
+    <enclosure url="https://perfectedu.co.kr/images/blog-math-notebook.jpg" type="image/jpeg" length="0" />
   </item>
   <item>
     <title>수성구 능인중학교 내신과외 — 시험 4주 전 계획 세우는 법</title>
@@ -270,15 +324,6 @@
     <enclosure url="https://perfectedu.co.kr/images/blog-science-physics2.jpg" type="image/jpeg" length="0" />
   </item>
   <item>
-    <title>청라중학교 국어과외 — 매체·화법 단원을 놓치고 있다면</title>
-    <link>https://perfectedu.co.kr/incheon-seohae-cheongna-korean.html</link>
-    <guid isPermaLink="true">https://perfectedu.co.kr/incheon-seohae-cheongna-korean.html</guid>
-    <pubDate>Thu, 27 Aug 2026 10:00:00 +0900</pubDate>
-    <category>블로그</category>
-    <description><![CDATA[인천 서해구 청라중학교 국어과외. 쉬워 보여 그냥 넘기는 매체·화법을 개념어 중심으로 잡는 중3 전략, 2학기 중간고사 대비.]]></description>
-    <enclosure url="https://perfectedu.co.kr/images/blog-korean-speech.jpg" type="image/jpeg" length="0" />
-  </item>
-  <item>
     <title>늘푸른중학교 수학과외 — 도형만 나오면 백지가 된다면</title>
     <link>https://perfectedu.co.kr/seongnam-bundang-neulpureun-math.html</link>
     <guid isPermaLink="true">https://perfectedu.co.kr/seongnam-bundang-neulpureun-math.html</guid>
@@ -288,13 +333,13 @@
     <enclosure url="https://perfectedu.co.kr/images/blog-math-board2.jpg" type="image/jpeg" length="0" />
   </item>
   <item>
-    <title>개림중학교 국어과외 — 고전만 나오면 포기한다면</title>
-    <link>https://perfectedu.co.kr/busan-jin-gaerim-korean.html</link>
-    <guid isPermaLink="true">https://perfectedu.co.kr/busan-jin-gaerim-korean.html</guid>
-    <pubDate>Wed, 26 Aug 2026 10:00:00 +0900</pubDate>
+    <title>청라중학교 국어과외 — 매체·화법 단원을 놓치고 있다면</title>
+    <link>https://perfectedu.co.kr/incheon-seohae-cheongna-korean.html</link>
+    <guid isPermaLink="true">https://perfectedu.co.kr/incheon-seohae-cheongna-korean.html</guid>
+    <pubDate>Thu, 27 Aug 2026 10:00:00 +0900</pubDate>
     <category>블로그</category>
-    <description><![CDATA[부산 부산진구 개림중학교 2학기 중간고사 국어 1:1 대비. 옛말과 한자어에 막히는 중3을 위한 현대어 병행 읽기와 반복 어휘 정리.]]></description>
-    <enclosure url="https://perfectedu.co.kr/images/blog-korean-classic.jpg" type="image/jpeg" length="0" />
+    <description><![CDATA[인천 서해구 청라중학교 국어과외. 쉬워 보여 그냥 넘기는 매체·화법을 개념어 중심으로 잡는 중3 전략, 2학기 중간고사 대비.]]></description>
+    <enclosure url="https://perfectedu.co.kr/images/blog-korean-speech.jpg" type="image/jpeg" length="0" />
   </item>
   <item>
     <title>보성고등학교 영어과외 — 어법 문항만 틀린다면</title>
@@ -304,6 +349,15 @@
     <category>블로그</category>
     <description><![CDATA[서울 송파구 보성고등학교 2학기 중간고사 영어 1:1 대비. 감으로 풀던 어법을 수일치·시제·준동사 등 빈출 포인트로 정리하는 고1 전략.]]></description>
     <enclosure url="https://perfectedu.co.kr/images/pool-love-to-learn.jpg" type="image/jpeg" length="0" />
+  </item>
+  <item>
+    <title>개림중학교 국어과외 — 고전만 나오면 포기한다면</title>
+    <link>https://perfectedu.co.kr/busan-jin-gaerim-korean.html</link>
+    <guid isPermaLink="true">https://perfectedu.co.kr/busan-jin-gaerim-korean.html</guid>
+    <pubDate>Wed, 26 Aug 2026 10:00:00 +0900</pubDate>
+    <category>블로그</category>
+    <description><![CDATA[부산 부산진구 개림중학교 2학기 중간고사 국어 1:1 대비. 옛말과 한자어에 막히는 중3을 위한 현대어 병행 읽기와 반복 어휘 정리.]]></description>
+    <enclosure url="https://perfectedu.co.kr/images/blog-korean-classic.jpg" type="image/jpeg" length="0" />
   </item>
   <item>
     <title>운정중학교 수학과외 — 공부는 오래 하는데 점수가 그대로라면</title>
@@ -342,15 +396,6 @@
     <enclosure url="https://perfectedu.co.kr/images/pool-library-lights.jpg" type="image/jpeg" length="0" />
   </item>
   <item>
-    <title>비전중학교 수학과외 — 말로 된 문제만 나오면 막힌다면</title>
-    <link>https://perfectedu.co.kr/pyeongtaek-vision-math.html</link>
-    <guid isPermaLink="true">https://perfectedu.co.kr/pyeongtaek-vision-math.html</guid>
-    <pubDate>Tue, 25 Aug 2026 10:00:00 +0900</pubDate>
-    <category>블로그</category>
-    <description><![CDATA[경기 평택 비전중학교 2학기 중간고사 수학 1:1 대비. 계산은 되는데 문장제에서 막히는 중2를 위한 조건 분해와 식 세우기 훈련.]]></description>
-    <enclosure url="https://perfectedu.co.kr/images/blog-math-wordproblem.jpg" type="image/jpeg" length="0" />
-  </item>
-  <item>
     <title>대진고등학교 영어과외 — 독해는 되는데 듣기에서 놓친다면</title>
     <link>https://perfectedu.co.kr/seoul-nowon-daejin-english.html</link>
     <guid isPermaLink="true">https://perfectedu.co.kr/seoul-nowon-daejin-english.html</guid>
@@ -358,6 +403,15 @@
     <category>블로그</category>
     <description><![CDATA[서울 노원구 대진고등학교 2학기 중간고사 영어 1:1 대비. 눈으로는 아는데 귀로는 안 들리는 고1을 위한 받아쓰기와 연음 훈련.]]></description>
     <enclosure url="https://perfectedu.co.kr/images/blog-english-listening.jpg" type="image/jpeg" length="0" />
+  </item>
+  <item>
+    <title>비전중학교 수학과외 — 말로 된 문제만 나오면 막힌다면</title>
+    <link>https://perfectedu.co.kr/pyeongtaek-vision-math.html</link>
+    <guid isPermaLink="true">https://perfectedu.co.kr/pyeongtaek-vision-math.html</guid>
+    <pubDate>Tue, 25 Aug 2026 10:00:00 +0900</pubDate>
+    <category>블로그</category>
+    <description><![CDATA[경기 평택 비전중학교 2학기 중간고사 수학 1:1 대비. 계산은 되는데 문장제에서 막히는 중2를 위한 조건 분해와 식 세우기 훈련.]]></description>
+    <enclosure url="https://perfectedu.co.kr/images/blog-math-wordproblem.jpg" type="image/jpeg" length="0" />
   </item>
   <item>
     <title>학원에 과외까지 하는데 그대로라면, 인천논현중 시간 배분</title>
@@ -387,24 +441,6 @@
     <enclosure url="https://perfectedu.co.kr/og-image.png" type="image/jpeg" length="0" />
   </item>
   <item>
-    <title>화명중학교 국영수 과외, 중간고사 완벽 대비법</title>
-    <link>https://perfectedu.co.kr/busan-buk-hwamyeong.html</link>
-    <guid isPermaLink="true">https://perfectedu.co.kr/busan-buk-hwamyeong.html</guid>
-    <pubDate>Mon, 24 Aug 2026 10:00:00 +0900</pubDate>
-    <category>블로그</category>
-    <description><![CDATA[부산 북구 화명중학교 1:1 과외 준비법. 국어·영어·수학·사회·과학·코딩 전 과목 내신과 서술형·수행평가를 함께 잡는 2학기 중간고사 대비 전략.]]></description>
-    <enclosure url="https://perfectedu.co.kr/og-image.png" type="image/jpeg" length="0" />
-  </item>
-  <item>
-    <title>배방고등학교 영어과외 — 중학 땐 90점이었는데 무너졌다면</title>
-    <link>https://perfectedu.co.kr/asan-baebang-english.html</link>
-    <guid isPermaLink="true">https://perfectedu.co.kr/asan-baebang-english.html</guid>
-    <pubDate>Mon, 24 Aug 2026 10:00:00 +0900</pubDate>
-    <category>블로그</category>
-    <description><![CDATA[충남 아산 배방고등학교 2학기 중간고사 영어 1:1 대비. 중학과 고등의 격차에 부딪힌 고1을 위한 구문 분석과 외부 지문 대비 전략.]]></description>
-    <enclosure url="https://perfectedu.co.kr/images/blog-english-stack.jpg" type="image/jpeg" length="0" />
-  </item>
-  <item>
     <title>배곧중학교 내신 과외 — 중3 2학기를 놓치면</title>
     <link>https://perfectedu.co.kr/siheung-baegot-naesin.html</link>
     <guid isPermaLink="true">https://perfectedu.co.kr/siheung-baegot-naesin.html</guid>
@@ -412,15 +448,6 @@
     <category>블로그</category>
     <description><![CDATA[경기 시흥 배곧중학교 2학기 내신·고등 진학 준비 1:1 대비. 배정 후 긴장이 풀리는 시기를 고1 첫 시험 준비로 바꾸는 중3 전략.]]></description>
     <enclosure url="https://perfectedu.co.kr/images/pool-child-reading.jpg" type="image/jpeg" length="0" />
-  </item>
-  <item>
-    <title>다산중학교 수학과외 — 함수만 오면 무너진다면</title>
-    <link>https://perfectedu.co.kr/namyangju-dasan-math.html</link>
-    <guid isPermaLink="true">https://perfectedu.co.kr/namyangju-dasan-math.html</guid>
-    <pubDate>Mon, 24 Aug 2026 10:00:00 +0900</pubDate>
-    <category>블로그</category>
-    <description><![CDATA[경기 남양주 다산중학교 2학기 중간고사 수학 1:1 대비. 계산은 되는데 함수에서 막히는 중2를 위한 식·표·그래프 연결 훈련.]]></description>
-    <enclosure url="https://perfectedu.co.kr/images/blog-math-graph.jpg" type="image/jpeg" length="0" />
   </item>
   <item>
     <title>마곡중학교 영어과외 수학과외, 2학기 중간 전 과목 준비 전략</title>
@@ -432,6 +459,15 @@
     <enclosure url="https://perfectedu.co.kr/og-image.png" type="image/jpeg" length="0" />
   </item>
   <item>
+    <title>화명중학교 국영수 과외, 중간고사 완벽 대비법</title>
+    <link>https://perfectedu.co.kr/busan-buk-hwamyeong.html</link>
+    <guid isPermaLink="true">https://perfectedu.co.kr/busan-buk-hwamyeong.html</guid>
+    <pubDate>Mon, 24 Aug 2026 10:00:00 +0900</pubDate>
+    <category>블로그</category>
+    <description><![CDATA[부산 북구 화명중학교 1:1 과외 준비법. 국어·영어·수학·사회·과학·코딩 전 과목 내신과 서술형·수행평가를 함께 잡는 2학기 중간고사 대비 전략.]]></description>
+    <enclosure url="https://perfectedu.co.kr/og-image.png" type="image/jpeg" length="0" />
+  </item>
+  <item>
     <title>은평중학교 국어과외 — 읽어도 이해가 안 된다면</title>
     <link>https://perfectedu.co.kr/seoul-eunpyeong-jung-korean.html</link>
     <guid isPermaLink="true">https://perfectedu.co.kr/seoul-eunpyeong-jung-korean.html</guid>
@@ -439,6 +475,24 @@
     <category>블로그</category>
     <description><![CDATA[서울 은평구 은평중학교 2학기 중간고사 국어 1:1 대비. 지문이 안 읽히는 원인을 어휘에서 찾아 한자어와 문맥 추론으로 메우는 중3 전략.]]></description>
     <enclosure url="https://perfectedu.co.kr/images/blog-korean-vocab.jpg" type="image/jpeg" length="0" />
+  </item>
+  <item>
+    <title>배방고등학교 영어과외 — 중학 땐 90점이었는데 무너졌다면</title>
+    <link>https://perfectedu.co.kr/asan-baebang-english.html</link>
+    <guid isPermaLink="true">https://perfectedu.co.kr/asan-baebang-english.html</guid>
+    <pubDate>Mon, 24 Aug 2026 10:00:00 +0900</pubDate>
+    <category>블로그</category>
+    <description><![CDATA[충남 아산 배방고등학교 2학기 중간고사 영어 1:1 대비. 중학과 고등의 격차에 부딪힌 고1을 위한 구문 분석과 외부 지문 대비 전략.]]></description>
+    <enclosure url="https://perfectedu.co.kr/images/blog-english-stack.jpg" type="image/jpeg" length="0" />
+  </item>
+  <item>
+    <title>다산중학교 수학과외 — 함수만 오면 무너진다면</title>
+    <link>https://perfectedu.co.kr/namyangju-dasan-math.html</link>
+    <guid isPermaLink="true">https://perfectedu.co.kr/namyangju-dasan-math.html</guid>
+    <pubDate>Mon, 24 Aug 2026 10:00:00 +0900</pubDate>
+    <category>블로그</category>
+    <description><![CDATA[경기 남양주 다산중학교 2학기 중간고사 수학 1:1 대비. 계산은 되는데 함수에서 막히는 중2를 위한 식·표·그래프 연결 훈련.]]></description>
+    <enclosure url="https://perfectedu.co.kr/images/blog-math-graph.jpg" type="image/jpeg" length="0" />
   </item>
   <item>
     <title>검단중학교 과외 준비, 국영수사과 한 번에 잡기</title>
@@ -513,21 +567,30 @@
     <enclosure url="https://perfectedu.co.kr/images/blog-english-vocab.jpg" type="image/jpeg" length="0" />
   </item>
   <item>
-    <title>구성고등학교 국어과외 — 비문학에 시간을 다 쓴다면</title>
-    <link>https://perfectedu.co.kr/yongin-guseong-korean.html</link>
-    <guid isPermaLink="true">https://perfectedu.co.kr/yongin-guseong-korean.html</guid>
-    <pubDate>Fri, 21 Aug 2026 10:00:00 +0900</pubDate>
-    <category>블로그</category>
-    <description><![CDATA[경기 용인 구성고등학교 2학기 중간고사 국어 1:1 대비. 지문을 두세 번 읽어야 이해되는 고1을 위한 문단 요약과 구조 표시 훈련.]]></description>
-    <enclosure url="https://perfectedu.co.kr/images/blog-korean-struggle.jpg" type="image/jpeg" length="0" />
-  </item>
-  <item>
     <title>대연중학교 국영수 과외, 중간고사 완벽 대비법</title>
     <link>https://perfectedu.co.kr/busan-namgu-daeyeon.html</link>
     <guid isPermaLink="true">https://perfectedu.co.kr/busan-namgu-daeyeon.html</guid>
     <pubDate>Fri, 21 Aug 2026 10:00:00 +0900</pubDate>
     <category>블로그</category>
     <description><![CDATA[부산 남구 대연중학교 1:1 과외 준비법. 국어·영어·수학·사회·과학·코딩 전 과목 내신과 서술형·수행평가를 함께 잡는 2학기 중간고사 대비 전략.]]></description>
+    <enclosure url="https://perfectedu.co.kr/og-image.png" type="image/jpeg" length="0" />
+  </item>
+  <item>
+    <title>도곡중학교 수학과외 — 선행은 빠른데 점수가 그대로라면</title>
+    <link>https://perfectedu.co.kr/seoul-gangnam-dogok-math.html</link>
+    <guid isPermaLink="true">https://perfectedu.co.kr/seoul-gangnam-dogok-math.html</guid>
+    <pubDate>Fri, 21 Aug 2026 10:00:00 +0900</pubDate>
+    <category>블로그</category>
+    <description><![CDATA[서울 강남 도곡중학교 2학기 중간고사 수학 1:1 대비. 선행 진도는 앞섰는데 시험 점수가 안 오르는 중2를 위한 현행 완성과 백지 테스트 훈련.]]></description>
+    <enclosure url="https://perfectedu.co.kr/images/blog-math-blackboard.jpg" type="image/jpeg" length="0" />
+  </item>
+  <item>
+    <title>명일중학교 영어과외 수학과외, 2학기 중간 전 과목 준비 전략</title>
+    <link>https://perfectedu.co.kr/seoul-gangdong-myeongil.html</link>
+    <guid isPermaLink="true">https://perfectedu.co.kr/seoul-gangdong-myeongil.html</guid>
+    <pubDate>Fri, 21 Aug 2026 10:00:00 +0900</pubDate>
+    <category>블로그</category>
+    <description><![CDATA[서울 강동 명일중학교 1:1 과외 전략. 영어·수학을 중심으로 국어·사회·과학·코딩까지 전 과목 내신과 서술형·수행평가를 잡는 2학기 중간고사 대비법.]]></description>
     <enclosure url="https://perfectedu.co.kr/og-image.png" type="image/jpeg" length="0" />
   </item>
   <item>
@@ -549,24 +612,6 @@
     <enclosure url="https://perfectedu.co.kr/images/blog-naesin-classroom.jpg" type="image/jpeg" length="0" />
   </item>
   <item>
-    <title>명일중학교 영어과외 수학과외, 2학기 중간 전 과목 준비 전략</title>
-    <link>https://perfectedu.co.kr/seoul-gangdong-myeongil.html</link>
-    <guid isPermaLink="true">https://perfectedu.co.kr/seoul-gangdong-myeongil.html</guid>
-    <pubDate>Fri, 21 Aug 2026 10:00:00 +0900</pubDate>
-    <category>블로그</category>
-    <description><![CDATA[서울 강동 명일중학교 1:1 과외 전략. 영어·수학을 중심으로 국어·사회·과학·코딩까지 전 과목 내신과 서술형·수행평가를 잡는 2학기 중간고사 대비법.]]></description>
-    <enclosure url="https://perfectedu.co.kr/og-image.png" type="image/jpeg" length="0" />
-  </item>
-  <item>
-    <title>도곡중학교 수학과외 — 선행은 빠른데 점수가 그대로라면</title>
-    <link>https://perfectedu.co.kr/seoul-gangnam-dogok-math.html</link>
-    <guid isPermaLink="true">https://perfectedu.co.kr/seoul-gangnam-dogok-math.html</guid>
-    <pubDate>Fri, 21 Aug 2026 10:00:00 +0900</pubDate>
-    <category>블로그</category>
-    <description><![CDATA[서울 강남 도곡중학교 2학기 중간고사 수학 1:1 대비. 선행 진도는 앞섰는데 시험 점수가 안 오르는 중2를 위한 현행 완성과 백지 테스트 훈련.]]></description>
-    <enclosure url="https://perfectedu.co.kr/images/blog-math-blackboard.jpg" type="image/jpeg" length="0" />
-  </item>
-  <item>
     <title>송도중학교 과학과외 — 암기로 버티다 막혔다면</title>
     <link>https://perfectedu.co.kr/incheon-yeonsu-songdo-science.html</link>
     <guid isPermaLink="true">https://perfectedu.co.kr/incheon-yeonsu-songdo-science.html</guid>
@@ -583,6 +628,15 @@
     <category>블로그</category>
     <description><![CDATA[인천 연수 박문중학교 1:1 과외 준비 가이드. 국어·영어·수학·사회·과학·코딩 전 과목 내신과 서술형·수행평가를 한 번에 관리하는 2학기 중간고사 전략.]]></description>
     <enclosure url="https://perfectedu.co.kr/og-image.png" type="image/jpeg" length="0" />
+  </item>
+  <item>
+    <title>구성고등학교 국어과외 — 비문학에 시간을 다 쓴다면</title>
+    <link>https://perfectedu.co.kr/yongin-guseong-korean.html</link>
+    <guid isPermaLink="true">https://perfectedu.co.kr/yongin-guseong-korean.html</guid>
+    <pubDate>Fri, 21 Aug 2026 10:00:00 +0900</pubDate>
+    <category>블로그</category>
+    <description><![CDATA[경기 용인 구성고등학교 2학기 중간고사 국어 1:1 대비. 지문을 두세 번 읽어야 이해되는 고1을 위한 문단 요약과 구조 표시 훈련.]]></description>
+    <enclosure url="https://perfectedu.co.kr/images/blog-korean-struggle.jpg" type="image/jpeg" length="0" />
   </item>
   <item>
     <title>능인고등학교 영어과외 — 객관식은 맞는데 서술형에서 깎인다면</title>
@@ -612,24 +666,6 @@
     <enclosure url="https://perfectedu.co.kr/images/blog-english-passages.jpg" type="image/jpeg" length="0" />
   </item>
   <item>
-    <title>단구중학교 국어과외 — 문법만 나오면 틀린다면</title>
-    <link>https://perfectedu.co.kr/wonju-dangu-korean.html</link>
-    <guid isPermaLink="true">https://perfectedu.co.kr/wonju-dangu-korean.html</guid>
-    <pubDate>Thu, 20 Aug 2026 10:00:00 +0900</pubDate>
-    <category>블로그</category>
-    <description><![CDATA[강원 원주 단구중학교 2학기 중간고사 국어 1:1 대비. 음운 변동·품사·문장 성분을 규칙으로 정리해 문법 문항을 잡는 중3 대비 전략.]]></description>
-    <enclosure url="https://perfectedu.co.kr/images/blog-korean-grammar.jpg" type="image/jpeg" length="0" />
-  </item>
-  <item>
-    <title>문수고등학교 수학과외 — 시간이 모자라 다 못 푼다면</title>
-    <link>https://perfectedu.co.kr/ulsan-namgu-munsu-math.html</link>
-    <guid isPermaLink="true">https://perfectedu.co.kr/ulsan-namgu-munsu-math.html</guid>
-    <pubDate>Thu, 20 Aug 2026 10:00:00 +0900</pubDate>
-    <category>블로그</category>
-    <description><![CDATA[울산 남구 문수고등학교 2학기 중간고사 수학 1:1 대비. 아는 문제인데 시간이 모자라 놓치는 고1을 위한 문항 선별과 시간 배분 훈련.]]></description>
-    <enclosure url="https://perfectedu.co.kr/images/blog-math-equation.jpg" type="image/jpeg" length="0" />
-  </item>
-  <item>
     <title>성포고등학교 과학과외 — 단원이 따로 논다면</title>
     <link>https://perfectedu.co.kr/ansan-seongpo-science.html</link>
     <guid isPermaLink="true">https://perfectedu.co.kr/ansan-seongpo-science.html</guid>
@@ -646,6 +682,24 @@
     <category>블로그</category>
     <description><![CDATA[제주 서귀포 남주중학교 2학기 중간고사 내신 1:1 대비. 어느 과목에 시간을 얼마나 쓸지 정하는 중2 과목별 배분 전략과 주간 점검법.]]></description>
     <enclosure url="https://perfectedu.co.kr/images/blog-plan-sticky.jpg" type="image/jpeg" length="0" />
+  </item>
+  <item>
+    <title>단구중학교 국어과외 — 문법만 나오면 틀린다면</title>
+    <link>https://perfectedu.co.kr/wonju-dangu-korean.html</link>
+    <guid isPermaLink="true">https://perfectedu.co.kr/wonju-dangu-korean.html</guid>
+    <pubDate>Thu, 20 Aug 2026 10:00:00 +0900</pubDate>
+    <category>블로그</category>
+    <description><![CDATA[강원 원주 단구중학교 2학기 중간고사 국어 1:1 대비. 음운 변동·품사·문장 성분을 규칙으로 정리해 문법 문항을 잡는 중3 대비 전략.]]></description>
+    <enclosure url="https://perfectedu.co.kr/images/blog-korean-grammar.jpg" type="image/jpeg" length="0" />
+  </item>
+  <item>
+    <title>문수고등학교 수학과외 — 시간이 모자라 다 못 푼다면</title>
+    <link>https://perfectedu.co.kr/ulsan-namgu-munsu-math.html</link>
+    <guid isPermaLink="true">https://perfectedu.co.kr/ulsan-namgu-munsu-math.html</guid>
+    <pubDate>Thu, 20 Aug 2026 10:00:00 +0900</pubDate>
+    <category>블로그</category>
+    <description><![CDATA[울산 남구 문수고등학교 2학기 중간고사 수학 1:1 대비. 아는 문제인데 시간이 모자라 놓치는 고1을 위한 문항 선별과 시간 배분 훈련.]]></description>
+    <enclosure url="https://perfectedu.co.kr/images/blog-math-equation.jpg" type="image/jpeg" length="0" />
   </item>
   <item>
     <title>영유·사립초 학생 영어학원 레벨테스트(레테) 준비법 — 파닉스부터 문법·회화까지</title>
@@ -675,6 +729,15 @@
     <enclosure url="https://perfectedu.co.kr/images/blog-science-notes.jpg" type="image/jpeg" length="0" />
   </item>
   <item>
+    <title>방이중학교 영어과외 수학과외, 2학기 중간 전 과목 전략</title>
+    <link>https://perfectedu.co.kr/seoul-songpa-bangi.html</link>
+    <guid isPermaLink="true">https://perfectedu.co.kr/seoul-songpa-bangi.html</guid>
+    <pubDate>Wed, 19 Aug 2026 10:00:00 +0900</pubDate>
+    <category>블로그</category>
+    <description><![CDATA[서울 송파 방이중학교 1:1 과외 전략. 영어·수학을 중심으로 국어·사회·과학·코딩까지 전 과목 내신과 서술형·수행평가를 잡는 2학기 중간고사 대비법.]]></description>
+    <enclosure url="https://perfectedu.co.kr/og-image.png" type="image/jpeg" length="0" />
+  </item>
+  <item>
     <title>주례중학교 국영수 과외, 자녀 성적 올리는 준비법</title>
     <link>https://perfectedu.co.kr/busan-sasang-jurye.html</link>
     <guid isPermaLink="true">https://perfectedu.co.kr/busan-sasang-jurye.html</guid>
@@ -693,13 +756,13 @@
     <enclosure url="https://perfectedu.co.kr/og-image.png" type="image/jpeg" length="0" />
   </item>
   <item>
-    <title>방이중학교 영어과외 수학과외, 2학기 중간 전 과목 전략</title>
-    <link>https://perfectedu.co.kr/seoul-songpa-bangi.html</link>
-    <guid isPermaLink="true">https://perfectedu.co.kr/seoul-songpa-bangi.html</guid>
+    <title>수내중학교 수학과외 — 답은 맞는데 점수가 깎인다면</title>
+    <link>https://perfectedu.co.kr/seongnam-bundang-sunae-math.html</link>
+    <guid isPermaLink="true">https://perfectedu.co.kr/seongnam-bundang-sunae-math.html</guid>
     <pubDate>Wed, 19 Aug 2026 10:00:00 +0900</pubDate>
     <category>블로그</category>
-    <description><![CDATA[서울 송파 방이중학교 1:1 과외 전략. 영어·수학을 중심으로 국어·사회·과학·코딩까지 전 과목 내신과 서술형·수행평가를 잡는 2학기 중간고사 대비법.]]></description>
-    <enclosure url="https://perfectedu.co.kr/og-image.png" type="image/jpeg" length="0" />
+    <description><![CDATA[경기 성남 분당 수내중학교 2학기 중간고사 수학 1:1 대비. 답만 쓰고 과정에서 감점되는 학생을 위한 서술형 답안 작성법과 학교 기출 대비 전략.]]></description>
+    <enclosure url="https://perfectedu.co.kr/images/blog-math-writing.jpg" type="image/jpeg" length="0" />
   </item>
   <item>
     <title>가정중학교 과외 준비, 국영수사과 한 번에 잡기</title>
@@ -709,15 +772,6 @@
     <category>블로그</category>
     <description><![CDATA[인천 서구 가정중학교 1:1 과외 준비 가이드. 국어·영어·수학·사회·과학·코딩 전 과목 내신과 서술형·수행평가를 한 번에 관리하는 2학기 중간고사 전략.]]></description>
     <enclosure url="https://perfectedu.co.kr/og-image.png" type="image/jpeg" length="0" />
-  </item>
-  <item>
-    <title>수내중학교 수학과외 — 답은 맞는데 점수가 깎인다면</title>
-    <link>https://perfectedu.co.kr/seongnam-bundang-sunae-math.html</link>
-    <guid isPermaLink="true">https://perfectedu.co.kr/seongnam-bundang-sunae-math.html</guid>
-    <pubDate>Wed, 19 Aug 2026 10:00:00 +0900</pubDate>
-    <category>블로그</category>
-    <description><![CDATA[경기 성남 분당 수내중학교 2학기 중간고사 수학 1:1 대비. 답만 쓰고 과정에서 감점되는 학생을 위한 서술형 답안 작성법과 학교 기출 대비 전략.]]></description>
-    <enclosure url="https://perfectedu.co.kr/images/blog-math-writing.jpg" type="image/jpeg" length="0" />
   </item>
   <item>
     <title>고려중학교 국어과외 — 작품이 쌓일수록 헷갈린다면</title>
@@ -747,15 +801,6 @@
     <enclosure url="https://perfectedu.co.kr/images/blog-english-reading.jpg" type="image/jpeg" length="0" />
   </item>
   <item>
-    <title>개금중학교 국영수 과외, 2학기 중간 완벽 준비법</title>
-    <link>https://perfectedu.co.kr/busan-jin-gaegeum.html</link>
-    <guid isPermaLink="true">https://perfectedu.co.kr/busan-jin-gaegeum.html</guid>
-    <pubDate>Sat, 15 Aug 2026 10:00:00 +0900</pubDate>
-    <category>블로그</category>
-    <description><![CDATA[부산 부산진 개금중학교 1:1 과외 준비법. 국어·영어·수학·사회·과학·코딩까지 전 과목 내신과 서술형·수행평가를 함께 잡는 2학기 중간고사 대비 전략.]]></description>
-    <enclosure url="https://perfectedu.co.kr/og-image.png" type="image/jpeg" length="0" />
-  </item>
-  <item>
     <title>천천중학교 영어과외 수학과외, 중간고사 D-30 로드맵</title>
     <link>https://perfectedu.co.kr/suwon-jangan-cheoncheon.html</link>
     <guid isPermaLink="true">https://perfectedu.co.kr/suwon-jangan-cheoncheon.html</guid>
@@ -771,6 +816,15 @@
     <pubDate>Sat, 15 Aug 2026 10:00:00 +0900</pubDate>
     <category>블로그</category>
     <description><![CDATA[서울 양천 신월중학교 1:1 과외 준비 전략. 영어·수학은 물론 국어·사회·과학·코딩까지 전 과목 2학기 중간고사 내신과 서술형·수행평가를 잡는 방법을 정리했습니다.]]></description>
+    <enclosure url="https://perfectedu.co.kr/og-image.png" type="image/jpeg" length="0" />
+  </item>
+  <item>
+    <title>개금중학교 국영수 과외, 2학기 중간 완벽 준비법</title>
+    <link>https://perfectedu.co.kr/busan-jin-gaegeum.html</link>
+    <guid isPermaLink="true">https://perfectedu.co.kr/busan-jin-gaegeum.html</guid>
+    <pubDate>Sat, 15 Aug 2026 10:00:00 +0900</pubDate>
+    <category>블로그</category>
+    <description><![CDATA[부산 부산진 개금중학교 1:1 과외 준비법. 국어·영어·수학·사회·과학·코딩까지 전 과목 내신과 서술형·수행평가를 함께 잡는 2학기 중간고사 대비 전략.]]></description>
     <enclosure url="https://perfectedu.co.kr/og-image.png" type="image/jpeg" length="0" />
   </item>
   <item>
@@ -810,21 +864,21 @@
     <enclosure url="https://perfectedu.co.kr/og-image.png" type="image/jpeg" length="0" />
   </item>
   <item>
-    <title>청량중학교 과학과외 — 암기 과목이라 미뤘다면</title>
-    <link>https://perfectedu.co.kr/incheon-yeonsu-cheongnamg-science.html</link>
-    <guid isPermaLink="true">https://perfectedu.co.kr/incheon-yeonsu-cheongnamg-science.html</guid>
-    <pubDate>Fri, 14 Aug 2026 10:00:00 +0900</pubDate>
-    <category>블로그</category>
-    <description><![CDATA[인천 연수 청량중학교 2학기 중간고사 과학 1:1 대비. 암기 과목으로 미루다 시험 직전 무너지는 학생을 위한 단원 개념·원리 이해와 서술형 대비법.]]></description>
-    <enclosure url="https://perfectedu.co.kr/og-image.png" type="image/jpeg" length="0" />
-  </item>
-  <item>
     <title>신흥중학교 내신 과외 · 성남 1:1 내신 대비</title>
     <link>https://perfectedu.co.kr/seongnam-sujeong-sindaewon-naesin.html</link>
     <guid isPermaLink="true">https://perfectedu.co.kr/seongnam-sujeong-sindaewon-naesin.html</guid>
     <pubDate>Fri, 14 Aug 2026 10:00:00 +0900</pubDate>
     <category>블로그</category>
     <description><![CDATA[경기 성남 수정 신흥중학교 2학기 중간고사 1:1 대비. 무엇을 언제 해야 할지 막막한 학생을 위한 과목별 학습 로드맵과 주차별 계획, 실전 점검법을 안내합니다.]]></description>
+    <enclosure url="https://perfectedu.co.kr/og-image.png" type="image/jpeg" length="0" />
+  </item>
+  <item>
+    <title>청량중학교 과학과외 — 암기 과목이라 미뤘다면</title>
+    <link>https://perfectedu.co.kr/incheon-yeonsu-cheongnamg-science.html</link>
+    <guid isPermaLink="true">https://perfectedu.co.kr/incheon-yeonsu-cheongnamg-science.html</guid>
+    <pubDate>Fri, 14 Aug 2026 10:00:00 +0900</pubDate>
+    <category>블로그</category>
+    <description><![CDATA[인천 연수 청량중학교 2학기 중간고사 과학 1:1 대비. 암기 과목으로 미루다 시험 직전 무너지는 학생을 위한 단원 개념·원리 이해와 서술형 대비법.]]></description>
     <enclosure url="https://perfectedu.co.kr/og-image.png" type="image/jpeg" length="0" />
   </item>
   <item>
@@ -846,66 +900,12 @@
     <enclosure url="https://perfectedu.co.kr/og-image.png" type="image/jpeg" length="0" />
   </item>
   <item>
-    <title>명장중학교 영어과외 — 시험 시간이 부족하다면</title>
-    <link>https://perfectedu.co.kr/busan-dongnae-myeongjang-english.html</link>
-    <guid isPermaLink="true">https://perfectedu.co.kr/busan-dongnae-myeongjang-english.html</guid>
-    <pubDate>Thu, 13 Aug 2026 10:00:00 +0900</pubDate>
-    <category>블로그</category>
-    <description><![CDATA[부산 동래 명장중학교 2학기 중간고사 영어 1:1 대비. 시험 시간이 부족한 학생을 위한 지문 속독과 본문 분석, 어법·서술형 정리로 내신 영어를 잡는 법.]]></description>
-    <enclosure url="https://perfectedu.co.kr/og-image.png" type="image/jpeg" length="0" />
-  </item>
-  <item>
     <title>서일중학교 수학과외 · 서초 1:1 내신 대비</title>
     <link>https://perfectedu.co.kr/seoul-seocho-seorim-math.html</link>
     <guid isPermaLink="true">https://perfectedu.co.kr/seoul-seocho-seorim-math.html</guid>
     <pubDate>Thu, 13 Aug 2026 10:00:00 +0900</pubDate>
     <category>블로그</category>
     <description><![CDATA[서울 서초 서일중학교 2학기 중간고사 수학 1:1 대비. 개념은 알지만 문제에 적용을 못 하는 학생을 위한 유형별 적용 훈련과 학교 기출 대비법.]]></description>
-    <enclosure url="https://perfectedu.co.kr/og-image.png" type="image/jpeg" length="0" />
-  </item>
-  <item>
-    <title>구월중학교 과학과외 — 서술형이 두렵다면</title>
-    <link>https://perfectedu.co.kr/incheon-namdong-guwol-science.html</link>
-    <guid isPermaLink="true">https://perfectedu.co.kr/incheon-namdong-guwol-science.html</guid>
-    <pubDate>Thu, 13 Aug 2026 10:00:00 +0900</pubDate>
-    <category>블로그</category>
-    <description><![CDATA[인천 남동 구월중학교 2학기 중간고사 과학 1:1 대비. 배점 큰 서술형을 채점 기준에 맞춰 쓰는 훈련과 단원 개념·원리, 실험 해석까지 잡는 학습법.]]></description>
-    <enclosure url="https://perfectedu.co.kr/og-image.png" type="image/jpeg" length="0" />
-  </item>
-  <item>
-    <title>오마중학교 내신 과외 — 벼락치기 그만 | 일산</title>
-    <link>https://perfectedu.co.kr/goyang-ilsan-oma-naesin.html</link>
-    <guid isPermaLink="true">https://perfectedu.co.kr/goyang-ilsan-oma-naesin.html</guid>
-    <pubDate>Thu, 13 Aug 2026 10:00:00 +0900</pubDate>
-    <category>블로그</category>
-    <description><![CDATA[경기 고양 일산 오마중학교 2학기 중간고사 1:1 대비. 벼락치기 대신 4주에 걸쳐 국영수를 단계별로 준비하는 주차별 계획과 과목 배분 전략을 안내합니다.]]></description>
-    <enclosure url="https://perfectedu.co.kr/og-image.png" type="image/jpeg" length="0" />
-  </item>
-  <item>
-    <title>죽전중학교 영어과외 — 서술형이 당락을 가른다</title>
-    <link>https://perfectedu.co.kr/daegu-dalseo-jukjeon-english.html</link>
-    <guid isPermaLink="true">https://perfectedu.co.kr/daegu-dalseo-jukjeon-english.html</guid>
-    <pubDate>Wed, 12 Aug 2026 10:00:00 +0900</pubDate>
-    <category>블로그</category>
-    <description><![CDATA[대구 달서 죽전중학교 2학기 중간고사 영어 1:1 대비. 배점 큰 영작·조건 서술형을 집중 훈련하고 교과서 본문·어법을 정리해 내신 영어를 끌어올리는 방법.]]></description>
-    <enclosure url="https://perfectedu.co.kr/og-image.png" type="image/jpeg" length="0" />
-  </item>
-  <item>
-    <title>사하중학교 과학과외 — 그래프·표만 나오면 막힌다면</title>
-    <link>https://perfectedu.co.kr/busan-saha-dadae-science.html</link>
-    <guid isPermaLink="true">https://perfectedu.co.kr/busan-saha-dadae-science.html</guid>
-    <pubDate>Wed, 12 Aug 2026 10:00:00 +0900</pubDate>
-    <category>블로그</category>
-    <description><![CDATA[부산 사하중학교 2학기 중간고사 과학 1:1 대비. 그래프·표 자료해석을 집중 훈련하고 시험 범위 단원의 개념·원리, 서술형까지 잡는 학습법.]]></description>
-    <enclosure url="https://perfectedu.co.kr/og-image.png" type="image/jpeg" length="0" />
-  </item>
-  <item>
-    <title>상계중학교 수학과외 — 중간고사 수학</title>
-    <link>https://perfectedu.co.kr/seoul-nowon-sanggye-math.html</link>
-    <guid isPermaLink="true">https://perfectedu.co.kr/seoul-nowon-sanggye-math.html</guid>
-    <pubDate>Wed, 12 Aug 2026 10:00:00 +0900</pubDate>
-    <category>블로그</category>
-    <description><![CDATA[서울 노원 상계중학교 2학기 중간고사 수학 1:1 대비. 아는데 틀리는 계산·조건 실수를 잡고 시험 범위 기출 유형을 반복해 점수를 끌어올리는 방법.]]></description>
     <enclosure url="https://perfectedu.co.kr/og-image.png" type="image/jpeg" length="0" />
   </item>
 </channel>
