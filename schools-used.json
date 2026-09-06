@@ -234,6 +234,11 @@
     { "date": "2026-09-05", "school": "강동고등학교", "region": "대구 동구", "page": "daegu-donggu-gangdong-math.html" },
     { "date": "2026-09-05", "school": "기산중학교", "region": "경기 화성", "page": "hwaseong-gisan-korean.html" },
     { "date": "2026-09-05", "school": "구산중학교", "region": "서울 은평구", "page": "seoul-eunpyeong-gusan-science.html" },
-    { "date": "2026-09-05", "school": "완산중학교", "region": "전북 전주 완산구", "page": "jeonju-wansan-wansan-naesin.html" }
+    { "date": "2026-09-05", "school": "완산중학교", "region": "전북 전주 완산구", "page": "jeonju-wansan-wansan-naesin.html" },
+    { "date": "2026-09-06", "school": "마포고등학교", "region": "서울 마포", "page": "seoul-mapo-korean.html" },
+    { "date": "2026-09-06", "school": "부산장안고등학교", "region": "부산 기장", "page": "busan-jangan-math.html" },
+    { "date": "2026-09-06", "school": "경화여자고등학교", "region": "대구 동구", "page": "daegu-gyeonghwa-english.html" },
+    { "date": "2026-09-06", "school": "작전고등학교", "region": "인천 계양", "page": "incheon-jakjeon-math.html" },
+    { "date": "2026-09-06", "school": "천안월봉고등학교", "region": "충남 천안", "page": "cheonan-wolbong-korean.html" }
   ]
 }
