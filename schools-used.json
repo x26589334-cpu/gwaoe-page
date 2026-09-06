@@ -210,5 +210,11 @@
     { "date": "2026-08-29", "school": "박문여자고등학교", "region": "인천 연수구", "page": "incheon-yeonsu-bakmun-korean.html" },
     { "date": "2026-08-29", "school": "광교호수중학교", "region": "경기 수원 영통구", "page": "suwon-gwanggyo-hosu-science.html" },
     { "date": "2026-08-29", "school": "능인중학교", "region": "대구 수성구", "page": "daegu-suseong-neungin-naesin.html" }
+,
+    { "date": "2026-08-30", "school": "여의도중학교", "region": "서울 영등포 여의도", "page": "seoul-yeouido-junior-math.html" },
+    { "date": "2026-08-30", "school": "부산동성고등학교", "region": "부산", "page": "busan-dongseong-korean.html" },
+    { "date": "2026-08-30", "school": "대구청구고등학교", "region": "대구 수성", "page": "daegu-cheonggu-english.html" },
+    { "date": "2026-08-30", "school": "인천숭덕여자고등학교", "region": "인천", "page": "incheon-sungdeok-math.html" },
+    { "date": "2026-08-30", "school": "청주신흥고등학교", "region": "충북 청주", "page": "cheongju-shinheung-english.html" }
   ]
 }
