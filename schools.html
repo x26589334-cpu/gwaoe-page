@@ -73,7 +73,8 @@
     </div>
 
     <div class="sch-count" id="schCount"></div>
-    <div class="sch-grid" id="schGrid"></div>
+    <div id="schRelated" hidden></div>
+<div class="sch-grid" id="schGrid"></div>
 
   </div>
 </section>
@@ -464,6 +465,7 @@
 </div>
 
 <script src="schools-data.js"></script>
+<script src="search-kit.js"></script>
 <script>
 const SCHOOLS = window.SCHOOLS || [];
 const grid = document.getElementById('schGrid');
@@ -473,27 +475,40 @@ let curType = "전체";
 
 const typeName = t => t==="초"?"초등학교":t==="중"?"중학교":"고등학교";
 
+// ── 검색 문자열 캐시 + 연관 검색어 (search-kit.js) ──
+const hayOf = SearchKit.indexer(s => s.n + '|' + s.r, s => s.n + ' ' + s.r);
+const relEl = document.getElementById('schRelated');
+// 지역은 "서울특별시 강남구" 처럼 길어서 앞말(시도)과 뒷말(구/군)로 나눠 쓴다
+const REL_FIELDS = [
+  s => String(s.r || '').split(' ').slice(-1),
+  s => String(s.r || '').split(' ').slice(0, 1),
+  s => [typeName(s.t)]
+];
+function renderRelated(q, list){
+  if(!q){ SearchKit.chips(relEl, [], null); return; }
+  const found = list.length > 0;
+  const items = found
+    ? SearchKit.related(list, q, REL_FIELDS, { limit: 6 })
+    : SearchKit.suggest(SCHOOLS, hayOf, q, REL_FIELDS, { limit: 6 });
+  SearchKit.chips(relEl, items, function(term){
+    searchEl.value = term; searchEl.focus(); render();
+  }, found ? '연관 검색어' : '이렇게 찾아보세요');
+}
+
 function render(){
   const q = searchEl.value.trim().toLowerCase();
   if(!q){
     countEl.textContent = '';
     grid.innerHTML = '<div class="sch-empty">🔍 지역과 학교를 함께 입력해 보세요.<br>(예: 강남 휘문고 · 분당 서현중 · 수원 영통중)</div>';
+    renderRelated('', []);
     return;
   }
-  const tokens = q.split(/\s+/).filter(Boolean);
-  const qNo = q.replace(/\s+/g,'');          // 띄어쓰기 제거한 검색어
-  const list = SCHOOLS.filter(s=>{
-    const typeOk = curType==="전체" || s.t===curType;
-    const hay = (s.n + ' ' + s.r).toLowerCase();
-    const tokenOk = tokens.every(tok => hay.includes(tok));
-    // 띄어쓰기 없이 붙여 쳐도 매칭: 이름+지역 / 지역+이름 두 순서로 검사
-    const noSpaceOk = (s.n + s.r).toLowerCase().replace(/\s+/g,'').includes(qNo)
-                   || (s.r + s.n).toLowerCase().replace(/\s+/g,'').includes(qNo);
-    return typeOk && (tokenOk || noSpaceOk);
-  });
+  // 띄어쓰기 무시 매칭은 search-kit.js 가 처리
+  const list = SCHOOLS.filter(s => (curType==="전체" || s.t===curType) && SearchKit.match(hayOf(s), q));
   if(!list.length){
     countEl.textContent = '검색 결과 0개';
     grid.innerHTML = '<div class="sch-empty">검색 결과가 없어요. 다른 키워드로 찾거나 📞 010-6832-1994로 문의해 주세요. (전국 모든 학교 가능)</div>';
+    renderRelated(q, list);
     return;
   }
   const LIMIT = 300;
@@ -509,6 +524,7 @@ function render(){
       <span class="info"><span class="nm">${s.n}</span><span class="rg">${s.r} · ${tn}</span></span>
     </a>`;
   }).join('');
+  renderRelated(q, list);
 }
 
 document.getElementById('tabs').addEventListener('click', e=>{

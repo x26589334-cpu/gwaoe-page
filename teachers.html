@@ -110,6 +110,7 @@
     </div>
 
     <div class="tcount" id="tCount"></div>
+    <div id="tRelated" hidden></div>
     <div class="tgrid" id="tGrid"></div>
     <div class="pager" id="tPager"></div>
 
@@ -989,6 +990,7 @@
 </div>
 
 <script src="teachers-data.js"></script>
+<script src="search-kit.js"></script>
 <script src="teachers-search.js" defer></script>
 <script>
 (function(){
@@ -1008,14 +1010,32 @@
     else if(fSubj!=='전체' && t.s.split(',').indexOf(fSubj)<0) return false;
     if(fSido!=='전체' && t.sd.split(',').indexOf(fSido)<0) return false;
     if(fGender!=='전체' && t.g!==fGender) return false;
-    const q = searchEl.value.trim().toLowerCase();
-    if(q){
-      // 검색 대상: 이름·과목·수업형태·방문지역·학년 + (지연 로드된) 읍면동·수업 가능 학교·소개·경력 본문
-      const extra = (window.TSEARCH && window.TSEARCH[t.i]) ? window.TSEARCH[t.i] : '';
-      const hay = (t.n+' '+t.s+' '+t.c+' '+t.r+' '+t.gr+' '+extra).toLowerCase();
-      if(!q.split(/\s+/).filter(Boolean).every(tok=>hay.includes(tok))) return false;
-    }
+    // 검색어: 낱말이 전부 들어 있어야 하고, 띄어쓰기는 무시한다 (search-kit.js)
+    const q = searchEl.value.trim();
+    if(q && !SearchKit.match(hayOf(t), q)) return false;
     return true;
+  }
+
+  // 검색 대상 문자열 캐시 (읍면동·학교·소개는 teachers-search.js 로 늦게 도착 → 도착 후 clear)
+  const hayOf = SearchKit.indexer(t => t.i, t => {
+    const extra = (window.TSEARCH && window.TSEARCH[t.i]) ? window.TSEARCH[t.i] : '';
+    return t.n+' '+t.s+' '+t.c+' '+t.r+' '+t.gr+' '+extra;
+  });
+
+  // 검색 결과 아래 연관 검색어
+  const relEl = document.getElementById('tRelated');
+  const REL_FIELDS = ['s', 'sd', 'c',
+    t => String(t.r || '').split('|').map(x => x.trim().split(' ').slice(-2).join(' '))];
+  function renderRelated(list){
+    const q = searchEl.value.trim();
+    if(!q){ SearchKit.chips(relEl, [], null); return; }
+    const found = list.length > 0;
+    const items = found
+      ? SearchKit.related(list, q, REL_FIELDS, { limit: 6 })
+      : SearchKit.suggest(ALL, hayOf, q, REL_FIELDS, { limit: 6 });
+    SearchKit.chips(relEl, items, function(term){
+      searchEl.value = term; searchEl.focus(); doSearch();
+    }, found ? '연관 검색어' : '이렇게 찾아보세요');
   }
 
   function card(t,i){
@@ -1052,11 +1072,12 @@
     countEl.textContent = cur.length ? '선생님 '+cur.length+'명' : '';
     if(!cur.length){
       grid.innerHTML = '<div class="tempty">조건에 맞는 선생님이 없어요.<br>필터를 넓히거나 📞 010-6832-1994로 문의해 주세요.</div>';
-      pagerEl.innerHTML=''; return;
+      pagerEl.innerHTML=''; renderRelated(cur); return;
     }
     const start=(page-1)*PER;
     grid.innerHTML = cur.slice(start,start+PER).map((t,i)=>card(t,start+i)).join('');
     buildPager(cur.length);
+    renderRelated(cur);
   }
 
   function wire(id, setter){
@@ -1096,7 +1117,7 @@
   searchEl.addEventListener('keydown', e=>{ if(e.key==='Enter'){ e.preventDefault(); doSearch(); } });
   searchEl.addEventListener('input', ()=>render(true));
   // 검색 색인(teachers-search.js)이 늦게 도착하면, 검색어가 있을 때만 한 번 다시 그린다
-  window.__tRefresh = function(){ if(searchEl.value.trim()) render(true); };
+  window.__tRefresh = function(){ hayOf.clear(); if(searchEl.value.trim()) render(true); };
   render(true);
 })();
 </script>

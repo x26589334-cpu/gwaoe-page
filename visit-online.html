@@ -367,6 +367,7 @@
 </div>
 
 <script src="schools-data.js"></script>
+<script src="search-kit.js"></script>
 <script>
 /* 지역 데이터: 시도 -> { 구/군: [동...] }  (동이 비어 있으면 구 단위로 안내) */
 const REGIONS = {
@@ -555,21 +556,38 @@ Object.keys(REGIONS).forEach(sido=>{
 });
 const visitSearch=document.getElementById('visitSearch');
 const visitResults=document.getElementById('visitResults');
+
+// ── 띄어쓰기 무시 검색 + 연관 검색어 (search-kit.js) ──
+SearchKit.style();
+const vHay=SearchKit.indexer(e=>e.label, e=>e.label);
+const V_REL_FIELDS=['sido','gu','dong'];
+function relHtml(items, label){
+  if(!items.length) return '';
+  return '<div class="sk-rel" style="padding:10px 14px 12px;border-top:1px solid #f1f1f4">'
+    + '<span class="sk-rel-label">'+SearchKit.esc(label)+'</span>'
+    + items.map(it=>'<button type="button" class="sk-chip" data-term="'+SearchKit.esc(it.term)+'">'+SearchKit.esc(it.label)+'</button>').join('')
+    + '</div>';
+}
 function renderVisitResults(){
   const q=visitSearch.value.trim().toLowerCase();
   if(!q){ visitResults.style.display='none'; visitResults.innerHTML=''; return; }
-  const toks=q.split(/\s+/).filter(Boolean);
-  const list=VINDEX.filter(e=> toks.every(t=> e.label.toLowerCase().includes(t))).slice(0,30);
+  // 띄어쓰기 무시 매칭 (search-kit.js) — "수원영통" 처럼 붙여 쳐도 찾는다
+  const all=VINDEX.filter(e=> SearchKit.match(vHay(e), q));
+  const list=all.slice(0,30);
   if(!list.length){
-    visitResults.innerHTML='<div style="padding:12px 16px;color:var(--ink-soft)">검색 결과가 없어요. 위에서 지역을 직접 선택해 주세요.</div>';
+    visitResults.innerHTML='<div style="padding:12px 16px;color:var(--ink-soft)">검색 결과가 없어요. 위에서 지역을 직접 선택해 주세요.</div>'
+      + relHtml(SearchKit.suggest(VINDEX, vHay, q, V_REL_FIELDS, {limit:5}), '이렇게 찾아보세요');
     visitResults.style.display='block'; return;
   }
   visitResults._list=list;
-  visitResults.innerHTML=list.map((e,i)=>'<div class="vres" data-i="'+i+'" style="padding:11px 16px;cursor:pointer;border-top:1px solid #f1f1f4">📍 '+e.label+'</div>').join('');
+  visitResults.innerHTML=list.map((e,i)=>'<div class="vres" data-i="'+i+'" style="padding:11px 16px;cursor:pointer;border-top:1px solid #f1f1f4">📍 '+e.label+'</div>').join('')
+    + relHtml(SearchKit.related(all, q, V_REL_FIELDS, {limit:5}), '연관 검색어');
   visitResults.style.display='block';
 }
 visitSearch.addEventListener('input', renderVisitResults);
 visitResults.addEventListener('click', e=>{
+  const chip=e.target.closest('.sk-chip');
+  if(chip){ e.preventDefault(); visitSearch.value=chip.getAttribute('data-term'); visitSearch.focus(); renderVisitResults(); return; }
   const it=e.target.closest('.vres'); if(!it) return;
   const sel=visitResults._list[+it.dataset.i]; if(!sel) return;
   goTo(sel.sido, sel.gu, sel.dong);
