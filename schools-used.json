@@ -244,6 +244,11 @@
     { "date": "2026-09-07", "school": "라온고등학교", "region": "경기 평택", "page": "gyeonggi-pyeongtaek-raon-math.html" },
     { "date": "2026-09-07", "school": "교하중학교", "region": "경기 파주", "page": "gyeonggi-paju-gyoha-korean.html" },
     { "date": "2026-09-07", "school": "도고중학교", "region": "충남 아산", "page": "chungnam-asan-dogo-science.html" },
-    { "date": "2026-09-07", "school": "광산중학교", "region": "광주 광산구", "page": "gwangju-gwangsan-gwangsan-naesin.html" }
+    { "date": "2026-09-07", "school": "광산중학교", "region": "광주 광산구", "page": "gwangju-gwangsan-gwangsan-naesin.html" },
+    { "date": "2026-09-08", "school": "노원중학교", "region": "서울 노원구", "page": "seoul-nowon-nowonjung-math.html" },
+    { "date": "2026-09-08", "school": "대건고등학교", "region": "대구 달서구", "page": "daegu-dalseo-daegeon-english.html" },
+    { "date": "2026-09-08", "school": "광주동신고등학교", "region": "광주 북구", "page": "gwangju-buk-dongshin-korean.html" },
+    { "date": "2026-09-08", "school": "고양일고등학교", "region": "경기 고양 덕양구", "page": "goyang-deogyang-ilgo-science.html" },
+    { "date": "2026-09-08", "school": "간석여자중학교", "region": "인천 남동구", "page": "incheon-namdong-ganseok-naesin.html" }
   ]
 }
