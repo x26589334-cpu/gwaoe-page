@@ -254,6 +254,11 @@
     { "date": "2026-09-09", "school": "가운고등학교", "region": "경기 남양주", "page": "gyeonggi-namyangju-gaun-math.html" },
     { "date": "2026-09-09", "school": "가야고등학교", "region": "부산 부산진구", "page": "busan-jin-gaya-korean.html" },
     { "date": "2026-09-09", "school": "대덕중학교", "region": "대전 유성구", "page": "daejeon-yuseong-daedeokjung-science.html" },
-    { "date": "2026-09-09", "school": "관악중학교", "region": "서울 관악구", "page": "seoul-gwanak-gwanak-naesin.html" }
+    { "date": "2026-09-09", "school": "관악중학교", "region": "서울 관악구", "page": "seoul-gwanak-gwanak-naesin.html" },
+    { "date": "2026-09-10", "school": "남양고등학교", "region": "경기 화성", "page": "gyeonggi-hwaseong-namyang-english.html" },
+    { "date": "2026-09-10", "school": "군자디지털과학고등학교", "region": "경기 시흥", "page": "gyeonggi-siheung-gunja-math.html" },
+    { "date": "2026-09-10", "school": "강서중학교", "region": "강원 춘천", "page": "gangwon-chuncheon-gangseo-korean.html" },
+    { "date": "2026-09-10", "school": "대성고등학교", "region": "서울 은평구", "page": "seoul-eunpyeong-daesung-science.html" },
+    { "date": "2026-09-10", "school": "갈산중학교", "region": "인천 부평구", "page": "incheon-bupyeong-galsan-naesin.html" }
   ]
 }
