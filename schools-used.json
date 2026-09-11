@@ -259,6 +259,11 @@
     { "date": "2026-09-10", "school": "군자디지털과학고등학교", "region": "경기 시흥", "page": "gyeonggi-siheung-gunja-math.html" },
     { "date": "2026-09-10", "school": "강서중학교", "region": "강원 춘천", "page": "gangwon-chuncheon-gangseo-korean.html" },
     { "date": "2026-09-10", "school": "대성고등학교", "region": "서울 은평구", "page": "seoul-eunpyeong-daesung-science.html" },
-    { "date": "2026-09-10", "school": "갈산중학교", "region": "인천 부평구", "page": "incheon-bupyeong-galsan-naesin.html" }
+    { "date": "2026-09-10", "school": "갈산중학교", "region": "인천 부평구", "page": "incheon-bupyeong-galsan-naesin.html" },
+    { "date": "2026-09-11", "school": "황지고등학교", "region": "강원 태백", "page": "gangwon-taebaek-hwangji-math.html" },
+    { "date": "2026-09-11", "school": "남외중학교", "region": "울산 중구", "page": "ulsan-jung-namoe-english.html" },
+    { "date": "2026-09-11", "school": "남한고등학교", "region": "경기 하남", "page": "gyeonggi-hanam-namhan-korean.html" },
+    { "date": "2026-09-11", "school": "남성중학교", "region": "서울 동작구", "page": "seoul-dongjak-namsung-naesin.html" },
+    { "date": "2026-09-11", "school": "남일중학교", "region": "부산 동래구", "page": "busan-dongnae-namil-science.html" }
   ]
 }
