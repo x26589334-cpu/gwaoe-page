@@ -264,6 +264,11 @@
     { "date": "2026-09-11", "school": "남외중학교", "region": "울산 중구", "page": "ulsan-jung-namoe-english.html" },
     { "date": "2026-09-11", "school": "남한고등학교", "region": "경기 하남", "page": "gyeonggi-hanam-namhan-korean.html" },
     { "date": "2026-09-11", "school": "남성중학교", "region": "서울 동작구", "page": "seoul-dongjak-namsung-naesin.html" },
-    { "date": "2026-09-11", "school": "남일중학교", "region": "부산 동래구", "page": "busan-dongnae-namil-science.html" }
+    { "date": "2026-09-11", "school": "남일중학교", "region": "부산 동래구", "page": "busan-dongnae-namil-science.html" },
+    { "date": "2026-09-12", "school": "목포고등학교", "region": "전남 목포", "page": "jeonnam-mokpo-mokpo-korean.html" },
+    { "date": "2026-09-12", "school": "무학여자고등학교", "region": "서울 성동구", "page": "seoul-seongdong-muhak-english.html" },
+    { "date": "2026-09-12", "school": "김천중앙고등학교", "region": "경북 김천", "page": "gyeongbuk-gimcheon-jungang-science.html" },
+    { "date": "2026-09-12", "school": "공주북중학교", "region": "충남 공주", "page": "chungnam-gongju-buk-math.html" },
+    { "date": "2026-09-12", "school": "문성고등학교", "region": "광주 남구", "page": "gwangju-nam-munsung-social.html" }
   ]
 }
