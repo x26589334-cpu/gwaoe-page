@@ -269,6 +269,11 @@
     { "date": "2026-09-12", "school": "무학여자고등학교", "region": "서울 성동구", "page": "seoul-seongdong-muhak-english.html" },
     { "date": "2026-09-12", "school": "김천중앙고등학교", "region": "경북 김천", "page": "gyeongbuk-gimcheon-jungang-science.html" },
     { "date": "2026-09-12", "school": "공주북중학교", "region": "충남 공주", "page": "chungnam-gongju-buk-math.html" },
-    { "date": "2026-09-12", "school": "문성고등학교", "region": "광주 남구", "page": "gwangju-nam-munsung-social.html" }
+    { "date": "2026-09-12", "school": "문성고등학교", "region": "광주 남구", "page": "gwangju-nam-munsung-social.html" },
+    { "date": "2026-09-13", "school": "경혜여자중학교", "region": "대구 남구", "page": "daegu-nam-kyunghye-social.html" },
+    { "date": "2026-09-13", "school": "인천하늘중학교", "region": "인천 중구", "page": "incheon-jung-haneul-science.html" },
+    { "date": "2026-09-13", "school": "물금고등학교", "region": "경남 양산", "page": "gyeongnam-yangsan-mulgeum-english.html" },
+    { "date": "2026-09-13", "school": "칠금중학교", "region": "충북 충주", "page": "chungbuk-chungju-chilgeum-math.html" },
+    { "date": "2026-09-13", "school": "인동중학교", "region": "경북 구미", "page": "gyeongbuk-gumi-indong-korean.html" }
   ]
 }
