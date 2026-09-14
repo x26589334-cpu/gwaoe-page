@@ -274,6 +274,11 @@
     { "date": "2026-09-13", "school": "인천하늘중학교", "region": "인천 중구", "page": "incheon-jung-haneul-science.html" },
     { "date": "2026-09-13", "school": "물금고등학교", "region": "경남 양산", "page": "gyeongnam-yangsan-mulgeum-english.html" },
     { "date": "2026-09-13", "school": "칠금중학교", "region": "충북 충주", "page": "chungbuk-chungju-chilgeum-math.html" },
-    { "date": "2026-09-13", "school": "인동중학교", "region": "경북 구미", "page": "gyeongbuk-gumi-indong-korean.html" }
+    { "date": "2026-09-13", "school": "인동중학교", "region": "경북 구미", "page": "gyeongbuk-gumi-indong-korean.html" },
+    { "date": "2026-09-14", "school": "광안중학교", "region": "부산 수영구", "page": "busan-suyeong-gwangan-social.html" },
+    { "date": "2026-09-14", "school": "화봉고등학교", "region": "울산 북구", "page": "ulsan-buk-hwabong-science.html" },
+    { "date": "2026-09-14", "school": "상동고등학교", "region": "경기 부천 원미구", "page": "gyeonggi-bucheon-sangdong-korean.html" },
+    { "date": "2026-09-14", "school": "전주솔내고등학교", "region": "전북 전주 덕진구", "page": "jeonbuk-jeonju-sollae-english.html" },
+    { "date": "2026-09-14", "school": "퇴계중학교", "region": "강원 춘천", "page": "gangwon-chuncheon-toegye-math.html" }
   ]
 }
