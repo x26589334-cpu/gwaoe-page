@@ -279,6 +279,11 @@
     { "date": "2026-09-14", "school": "화봉고등학교", "region": "울산 북구", "page": "ulsan-buk-hwabong-science.html" },
     { "date": "2026-09-14", "school": "상동고등학교", "region": "경기 부천 원미구", "page": "gyeonggi-bucheon-sangdong-korean.html" },
     { "date": "2026-09-14", "school": "전주솔내고등학교", "region": "전북 전주 덕진구", "page": "jeonbuk-jeonju-sollae-english.html" },
-    { "date": "2026-09-14", "school": "퇴계중학교", "region": "강원 춘천", "page": "gangwon-chuncheon-toegye-math.html" }
+    { "date": "2026-09-14", "school": "퇴계중학교", "region": "강원 춘천", "page": "gangwon-chuncheon-toegye-math.html" },
+    { "date": "2026-09-15", "school": "등촌중학교", "region": "서울 강서구", "page": "seoul-gangseo-deungchon-science.html" },
+    { "date": "2026-09-15", "school": "대전동산중학교", "region": "대전 중구", "page": "daejeon-jung-dongsan-math.html" },
+    { "date": "2026-09-15", "school": "천안불당고등학교", "region": "충남 천안 서북구", "page": "chungnam-cheonan-buldang-english.html" },
+    { "date": "2026-09-15", "school": "창원명곡고등학교", "region": "경남 창원 의창구", "page": "gyeongnam-changwon-myeonggok-korean.html" },
+    { "date": "2026-09-15", "school": "풍암고등학교", "region": "광주 서구", "page": "gwangju-seo-pungam-social.html" }
   ]
 }
