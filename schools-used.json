@@ -289,6 +289,11 @@
     { "date": "2026-09-16", "school": "황금중학교", "region": "대구 수성구", "page": "daegu-suseong-hwanggeum-korean.html" },
     { "date": "2026-09-16", "school": "목포홍일고등학교", "region": "전남 목포", "page": "jeonnam-mokpo-hongil-english.html" },
     { "date": "2026-09-16", "school": "봉명중학교", "region": "충북 청주 흥덕구", "page": "chungbuk-cheongju-bongmyeong-science.html" },
-    { "date": "2026-09-16", "school": "상현고등학교", "region": "경기 용인 수지구", "page": "gyeonggi-yongin-sanghyeon-social.html" }
+    { "date": "2026-09-16", "school": "상현고등학교", "region": "경기 용인 수지구", "page": "gyeonggi-yongin-sanghyeon-social.html" },
+    { "date": "2026-09-17", "school": "숭곡중학교", "region": "서울 성북구", "page": "seoul-seongbuk-sunggok-social.html" },
+    { "date": "2026-09-17", "school": "금사중학교", "region": "부산 금정구", "page": "busan-geumjeong-geumsa-science.html" },
+    { "date": "2026-09-17", "school": "신정고등학교", "region": "울산 남구", "page": "ulsan-nam-sinjeong-korean.html" },
+    { "date": "2026-09-17", "school": "포항중앙고등학교", "region": "경북 포항 북구", "page": "gyeongbuk-pohang-jungang-english.html" },
+    { "date": "2026-09-17", "school": "전주서신중학교", "region": "전북 전주 완산구", "page": "jeonbuk-jeonju-seosin-math.html" }
   ]
 }
