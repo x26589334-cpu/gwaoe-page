@@ -294,6 +294,11 @@
     { "date": "2026-09-17", "school": "금사중학교", "region": "부산 금정구", "page": "busan-geumjeong-geumsa-science.html" },
     { "date": "2026-09-17", "school": "신정고등학교", "region": "울산 남구", "page": "ulsan-nam-sinjeong-korean.html" },
     { "date": "2026-09-17", "school": "포항중앙고등학교", "region": "경북 포항 북구", "page": "gyeongbuk-pohang-jungang-english.html" },
-    { "date": "2026-09-17", "school": "전주서신중학교", "region": "전북 전주 완산구", "page": "jeonbuk-jeonju-seosin-math.html" }
+    { "date": "2026-09-17", "school": "전주서신중학교", "region": "전북 전주 완산구", "page": "jeonbuk-jeonju-seosin-math.html" },
+    { "date": "2026-09-18", "school": "대전만년중학교", "region": "대전 서구", "page": "daejeon-seo-mannyeon-science.html" },
+    { "date": "2026-09-18", "school": "문흥중학교", "region": "광주 북구", "page": "gwangju-buk-munheung-math.html" },
+    { "date": "2026-09-18", "school": "인천아라고등학교", "region": "인천 검단구", "page": "incheon-geomdan-ara-english.html" },
+    { "date": "2026-09-18", "school": "양일고등학교", "region": "경기 양평", "page": "gyeonggi-yangpyeong-yangil-social.html" },
+    { "date": "2026-09-18", "school": "원봉중학교", "region": "충북 청주 상당구", "page": "chungbuk-cheongju-wonbong-korean.html" }
   ]
 }
