@@ -299,6 +299,11 @@
     { "date": "2026-09-18", "school": "문흥중학교", "region": "광주 북구", "page": "gwangju-buk-munheung-math.html" },
     { "date": "2026-09-18", "school": "인천아라고등학교", "region": "인천 검단구", "page": "incheon-geomdan-ara-english.html" },
     { "date": "2026-09-18", "school": "양일고등학교", "region": "경기 양평", "page": "gyeonggi-yangpyeong-yangil-social.html" },
-    { "date": "2026-09-18", "school": "원봉중학교", "region": "충북 청주 상당구", "page": "chungbuk-cheongju-wonbong-korean.html" }
+    { "date": "2026-09-18", "school": "원봉중학교", "region": "충북 청주 상당구", "page": "chungbuk-cheongju-wonbong-korean.html" },
+    { "date": "2026-09-19", "school": "목동중학교", "region": "서울 양천구", "page": "seoul-yangcheon-mokdong-korean.html" },
+    { "date": "2026-09-19", "school": "양운고등학교", "region": "부산 해운대구", "page": "busan-haeundae-yangun-social.html" },
+    { "date": "2026-09-19", "school": "상인고등학교", "region": "대구 달서구", "page": "daegu-dalseo-sangin-science.html" },
+    { "date": "2026-09-19", "school": "온양고등학교", "region": "충남 아산", "page": "chungnam-asan-onyang-english.html" },
+    { "date": "2026-09-19", "school": "장기중학교", "region": "경기 김포", "page": "gyeonggi-gimpo-janggi-math.html" }
   ]
 }
