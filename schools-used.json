@@ -304,6 +304,11 @@
     { "date": "2026-09-19", "school": "양운고등학교", "region": "부산 해운대구", "page": "busan-haeundae-yangun-social.html" },
     { "date": "2026-09-19", "school": "상인고등학교", "region": "대구 달서구", "page": "daegu-dalseo-sangin-science.html" },
     { "date": "2026-09-19", "school": "온양고등학교", "region": "충남 아산", "page": "chungnam-asan-onyang-english.html" },
-    { "date": "2026-09-19", "school": "장기중학교", "region": "경기 김포", "page": "gyeonggi-gimpo-janggi-math.html" }
+    { "date": "2026-09-19", "school": "장기중학교", "region": "경기 김포", "page": "gyeonggi-gimpo-janggi-math.html" },
+    { "date": "2026-09-20", "school": "당곡고등학교", "region": "서울 관악구", "page": "seoul-gwanak-danggok-social.html" },
+    { "date": "2026-09-20", "school": "양산고등학교", "region": "경남 양산", "page": "gyeongnam-yangsan-yangsan-english.html" },
+    { "date": "2026-09-20", "school": "경산고등학교", "region": "경북 경산", "page": "gyeongbuk-gyeongsan-gyeongsan-science.html" },
+    { "date": "2026-09-20", "school": "국원고등학교", "region": "충북 충주", "page": "chungbuk-chungju-gukwon-korean.html" },
+    { "date": "2026-09-20", "school": "대전전민고등학교", "region": "대전 유성구", "page": "daejeon-yuseong-jeonmin-math.html" }
   ]
 }
