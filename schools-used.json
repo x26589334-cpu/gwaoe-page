@@ -309,6 +309,11 @@
     { "date": "2026-09-20", "school": "양산고등학교", "region": "경남 양산", "page": "gyeongnam-yangsan-yangsan-english.html" },
     { "date": "2026-09-20", "school": "경산고등학교", "region": "경북 경산", "page": "gyeongbuk-gyeongsan-gyeongsan-science.html" },
     { "date": "2026-09-20", "school": "국원고등학교", "region": "충북 충주", "page": "chungbuk-chungju-gukwon-korean.html" },
-    { "date": "2026-09-20", "school": "대전전민고등학교", "region": "대전 유성구", "page": "daejeon-yuseong-jeonmin-math.html" }
+    { "date": "2026-09-20", "school": "대전전민고등학교", "region": "대전 유성구", "page": "daejeon-yuseong-jeonmin-math.html" },
+    {"date":"2026-09-21","school":"창동중학교","region":"서울 도봉구","page":"seoul-dobong-changdong-korean.html"},
+    {"date":"2026-09-21","school":"관양고등학교","region":"경기 안양 동안구","page":"gyeonggi-anyang-gwanyang-english.html"},
+    {"date":"2026-09-21","school":"산곡중학교","region":"인천 부평구","page":"incheon-bupyeong-sangok-math.html"},
+    {"date":"2026-09-21","school":"대광여자고등학교","region":"광주 남구","page":"gwangju-nam-daegwang-social.html"},
+    {"date":"2026-09-21","school":"동수영중학교","region":"부산 수영구","page":"busan-suyeong-dongsuyeong-science.html"}
   ]
 }
