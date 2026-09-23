@@ -317,6 +317,9 @@
     {"date":"2026-09-21","school":"동수영중학교","region":"부산 수영구","page":"busan-suyeong-dongsuyeong-science.html"},
     { "date": "2026-09-22", "school": "노형중학교", "region": "제주 제주시", "page": "jeju-nohyeong-math.html" },
     { "date": "2026-09-22", "school": "여천고등학교", "region": "전남 여수", "page": "jeonnam-yeosu-yeocheon-english.html" },
-    { "date": "2026-09-22", "school": "정선고등학교", "region": "강원 정선", "page": "gangwon-jeongseon-jeongseon-korean.html" }
+    { "date": "2026-09-22", "school": "정선고등학교", "region": "강원 정선", "page": "gangwon-jeongseon-jeongseon-korean.html" },
+    { "date": "2026-09-23", "school": "옥현중학교", "region": "울산 남구", "page": "ulsan-nam-okhyeon-english.html" },
+    { "date": "2026-09-23", "school": "전라고등학교", "region": "전북 전주 덕진구", "page": "jeonbuk-jeonju-deokjin-jeolla-math.html" },
+    { "date": "2026-09-23", "school": "태안고등학교", "region": "충남 태안", "page": "chungnam-taean-taean-social.html" }
   ]
 }
