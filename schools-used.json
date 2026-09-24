@@ -320,6 +320,9 @@
     { "date": "2026-09-22", "school": "정선고등학교", "region": "강원 정선", "page": "gangwon-jeongseon-jeongseon-korean.html" },
     { "date": "2026-09-23", "school": "옥현중학교", "region": "울산 남구", "page": "ulsan-nam-okhyeon-english.html" },
     { "date": "2026-09-23", "school": "전라고등학교", "region": "전북 전주 덕진구", "page": "jeonbuk-jeonju-deokjin-jeolla-math.html" },
-    { "date": "2026-09-23", "school": "태안고등학교", "region": "충남 태안", "page": "chungnam-taean-taean-social.html" }
+    { "date": "2026-09-23", "school": "태안고등학교", "region": "충남 태안", "page": "chungnam-taean-taean-social.html" },
+    { "date": "2026-09-24", "school": "영신고등학교", "region": "대구 동구", "page": "daegu-donggu-yeongshin-math.html" },
+    { "date": "2026-09-24", "school": "만월중학교", "region": "인천 남동구", "page": "incheon-namdong-manwol-korean.html" },
+    { "date": "2026-09-24", "school": "의성고등학교", "region": "경북 의성", "page": "gyeongbuk-uiseong-uiseong-english.html" }
   ]
 }
