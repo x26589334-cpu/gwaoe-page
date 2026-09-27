@@ -329,6 +329,9 @@
     { "date": "2026-09-25", "school": "북평고등학교", "region": "강원 동해", "page": "gangwon-donghae-bukpyeong-korean.html" },
     { "date": "2026-09-26", "school": "고잔고등학교", "region": "경기 안산 단원구", "page": "gyeonggi-ansan-gojan-social.html" },
     { "date": "2026-09-26", "school": "광주서석고등학교", "region": "광주 서구", "page": "gwangju-seo-seoseok-science.html" },
-    { "date": "2026-09-26", "school": "옥천고등학교", "region": "충북 옥천", "page": "chungbuk-okcheon-okcheon-english.html" }
+    { "date": "2026-09-26", "school": "옥천고등학교", "region": "충북 옥천", "page": "chungbuk-okcheon-okcheon-english.html" },
+    { "date": "2026-09-27", "school": "서대전고등학교", "region": "대전 서구", "page": "daejeon-seo-seodaejeon-math.html" },
+    { "date": "2026-09-27", "school": "목포여자고등학교", "region": "전남 목포", "page": "jeonnam-mokpo-mokpoyeoja-korean.html" },
+    { "date": "2026-09-27", "school": "남원고등학교", "region": "전북 남원", "page": "jeonbuk-namwon-namwon-social.html" }
   ]
 }
