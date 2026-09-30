@@ -341,6 +341,9 @@
     { "date": "2026-09-29", "school": "인천신현고등학교", "region": "인천 서해구", "page": "incheon-seohae-sinhyeon-english.html" },
     { "date": "2026-09-30", "school": "목운중학교", "region": "서울 양천구", "page": "seoul-yangcheon-mokun-math.html" },
     { "date": "2026-09-30", "school": "오천고등학교", "region": "경북 포항 남구", "page": "gyeongbuk-pohang-nam-ocheon-english.html" },
-    { "date": "2026-09-30", "school": "삼척고등학교", "region": "강원 삼척", "page": "gangwon-samcheok-samcheok-social.html" }
+    { "date": "2026-09-30", "school": "삼척고등학교", "region": "강원 삼척", "page": "gangwon-samcheok-samcheok-social.html" },
+    { "date": "2026-10-01", "school": "흥덕고등학교", "region": "경기 용인 기흥구", "page": "gyeonggi-yongin-giheung-heungdeok-science.html" },
+    { "date": "2026-10-01", "school": "창원봉림고등학교", "region": "경남 창원 의창구", "page": "gyeongnam-changwon-uichang-bongnim-korean.html" },
+    { "date": "2026-10-01", "school": "단양고등학교", "region": "충북 단양", "page": "chungbuk-danyang-danyang-english.html" }
   ]
 }
