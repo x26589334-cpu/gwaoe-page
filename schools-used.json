@@ -350,6 +350,9 @@
     { "date": "2026-10-02", "school": "강진고등학교", "region": "전남 강진", "page": "jeonnam-gangjin-gangjin-korean.html" },
     { "date": "2026-10-03", "school": "대전송촌고등학교", "region": "대전 대덕구", "page": "daejeon-daedeok-songchon-science.html" },
     { "date": "2026-10-03", "school": "덕천중학교", "region": "부산 북구", "page": "busan-buk-deokcheon-math.html" },
-    { "date": "2026-10-03", "school": "부여고등학교", "region": "충남 부여", "page": "chungnam-buyeo-buyeo-social.html" }
+    { "date": "2026-10-03", "school": "부여고등학교", "region": "충남 부여", "page": "chungnam-buyeo-buyeo-social.html" },
+    { "date": "2026-10-04", "school": "원묵고등학교", "region": "서울 중랑구", "page": "seoul-jungnang-wonmuk-english.html" },
+    { "date": "2026-10-04", "school": "관교중학교", "region": "인천 미추홀구", "page": "incheon-michuhol-gwangyo-math.html" },
+    { "date": "2026-10-04", "school": "영덕고등학교", "region": "경북 영덕", "page": "gyeongbuk-yeongdeok-yeongdeok-science.html" }
   ]
 }
