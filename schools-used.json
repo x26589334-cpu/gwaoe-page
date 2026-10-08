@@ -357,6 +357,9 @@
     { "date": "2026-10-07", "school": "영동중학교", "region": "충북 영동", "page": "chungbuk-yeongdong-yeongdong-social.html" },
     { "date": "2026-10-08", "school": "부산대신중학교", "region": "부산 서구", "page": "busan-seo-daesin-english.html" },
     { "date": "2026-10-08", "school": "대전태평중학교", "region": "대전 중구", "page": "daejeon-jung-taepyeong-math.html" },
-    { "date": "2026-10-08", "school": "장성고등학교", "region": "전남 장성", "page": "jeonnam-jangseong-jangseong-science.html" }
+    { "date": "2026-10-08", "school": "장성고등학교", "region": "전남 장성", "page": "jeonnam-jangseong-jangseong-science.html" },
+    { "date": "2026-10-09", "school": "고덕중학교", "region": "서울 강동구", "page": "seoul-gangdong-godeok-korean.html" },
+    { "date": "2026-10-09", "school": "청학중학교", "region": "인천 연수구", "page": "incheon-yeonsu-cheonghak-social.html" },
+    { "date": "2026-10-09", "school": "성주고등학교", "region": "경북 성주", "page": "gyeongbuk-seongju-seongju-math.html" }
   ]
 }
