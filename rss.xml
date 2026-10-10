@@ -5,17 +5,62 @@
   <link>https://perfectedu.co.kr/</link>
   <description>초·중·고 학교별 내신·과외 전략 글과 동네별 방문 과외 선생님 추천을 매일 올립니다.</description>
   <language>ko</language>
-  <lastBuildDate>Fri, 09 Oct 2026 10:00:00 +0900</lastBuildDate>
+  <lastBuildDate>Sat, 10 Oct 2026 10:00:00 +0900</lastBuildDate>
   <atom:link href="https://perfectedu.co.kr/rss.xml" rel="self" type="application/rss+xml" />
   <image><url>https://perfectedu.co.kr/apple-touch-icon.png</url><title>티칭코칭</title><link>https://perfectedu.co.kr/</link></image>
   <item>
-    <title>연수 청학중 사회과외 — 외운 건 많은데 자료 문제에서 막힌다면</title>
-    <link>https://perfectedu.co.kr/incheon-yeonsu-cheonghak-social.html</link>
-    <guid isPermaLink="true">https://perfectedu.co.kr/incheon-yeonsu-cheonghak-social.html</guid>
-    <pubDate>Fri, 09 Oct 2026 10:00:00 +0900</pubDate>
+    <title>의정부 호원중 수학과외 — 암산으로 넘어간 줄에서 틀린다면</title>
+    <link>https://perfectedu.co.kr/gyeonggi-uijeongbu-howon-math.html</link>
+    <guid isPermaLink="true">https://perfectedu.co.kr/gyeonggi-uijeongbu-howon-math.html</guid>
+    <pubDate>Sat, 10 Oct 2026 10:00:00 +0900</pubDate>
     <category>블로그</category>
-    <description><![CDATA[인천 연수구 청학중(청학중학교) 중2 사회과외. 용어는 다 외웠는데 그래프·지도·표가 나오면 손이 멈추는 학생을 위해, 자료를 읽는 순서를 정리했습니다. 연수구는 방문과 화상 모두 가능합니다.]]></description>
+    <description><![CDATA[경기 의정부 호원중(호원중학교) 중2 수학과외. 계산은 할 줄 아는데 시험만 보면 답이 틀리는 학생을 위해, 풀이를 한 줄에 한 번만 바꿔 쓰는 연습을 정리했습니다. 의정부는 방문과 화상 모두 가능합니다.]]></description>
     <enclosure url="https://perfectedu.co.kr/og-image-v2.jpg" type="image/jpeg" length="0" />
+  </item>
+  <item>
+    <title>평창 평창고 영어과외 — 단어는 외웠는데 문장이 안 읽힌다면</title>
+    <link>https://perfectedu.co.kr/gangwon-pyeongchang-pyeongchang-english.html</link>
+    <guid isPermaLink="true">https://perfectedu.co.kr/gangwon-pyeongchang-pyeongchang-english.html</guid>
+    <pubDate>Sat, 10 Oct 2026 10:00:00 +0900</pubDate>
+    <category>블로그</category>
+    <description><![CDATA[강원 평창 평창고(평창고등학교) 고2 영어과외. 단어는 다 아는데 문장만 길어지면 해석이 엉키는 학생을 위해, 동사부터 찾아 문장을 끊어 읽는 순서를 정리했습니다. 평창은 화상 수업으로 진행합니다.]]></description>
+    <enclosure url="https://perfectedu.co.kr/og-image-v2.jpg" type="image/jpeg" length="0" />
+  </item>
+  <item>
+    <title>경기대학교 2027 정시 반영비율로 본 과목별 공부 순서 — 탐구는 상위 1과목 15%</title>
+    <link>https://perfectedu.co.kr/univ-kyonggi-2027-jeongsi.html</link>
+    <guid isPermaLink="true">https://perfectedu.co.kr/univ-kyonggi-2027-jeongsi.html</guid>
+    <pubDate>Sat, 10 Oct 2026 10:00:00 +0900</pubDate>
+    <category>블로그</category>
+    <description><![CDATA[경기대학교 2027학년도 정시 수능 반영비율(A형 국어30·수학35·영어20·탐구15, B형 국어35·수학30·영어20·탐구15)과 탐구 상위 1과목 반영, 자유전공학부 유리한 유형 적용을 과목별 공부 순서로 풀었습니다.]]></description>
+    <enclosure url="https://perfectedu.co.kr/og-image-v2.jpg" type="image/jpeg" length="0" />
+  </item>
+  <item>
+    <title>한림대학교 2027 정시 반영비율로 본 과목별 공부 순서 — 잘하는 한 과목이 70%</title>
+    <link>https://perfectedu.co.kr/univ-hallym-2027-jeongsi.html</link>
+    <guid isPermaLink="true">https://perfectedu.co.kr/univ-hallym-2027-jeongsi.html</guid>
+    <pubDate>Sat, 10 Oct 2026 10:00:00 +0900</pubDate>
+    <category>블로그</category>
+    <description><![CDATA[한림대학교 2027학년도 정시 수능 반영 구조(국·영·수 중 최상위 1개 70% + 나머지 중 최상위 1개 30%, 간호학과 국·수 60%·영어 20%·탐구 20%, 의학과 수학 40%, 글로벌학부 영어 60%)를 과목별 공부 순서로 풀었습니다.]]></description>
+    <enclosure url="https://perfectedu.co.kr/images/univ-hallym-campus.jpg" type="image/jpeg" length="0" />
+  </item>
+  <item>
+    <title>울주 범서고 과학과외 — 개념은 아는데 그래프에서 막힌다면</title>
+    <link>https://perfectedu.co.kr/ulsan-ulju-beomseo-science.html</link>
+    <guid isPermaLink="true">https://perfectedu.co.kr/ulsan-ulju-beomseo-science.html</guid>
+    <pubDate>Sat, 10 Oct 2026 10:00:00 +0900</pubDate>
+    <category>블로그</category>
+    <description><![CDATA[울산 울주군 범서고(범서고등학교) 고1 과학과외. 개념은 설명할 수 있는데 그래프와 표가 나오면 손이 멈추는 학생을 위해, 축부터 읽고 기울기를 말로 바꾸는 순서를 정리했습니다. 울주군은 방문과 화상 모두 가능합니다.]]></description>
+    <enclosure url="https://perfectedu.co.kr/og-image-v2.jpg" type="image/jpeg" length="0" />
+  </item>
+  <item>
+    <title>충주 국어·수학 과외 선생님 추천 — 충주고·충주여고 내신</title>
+    <link>https://perfectedu.co.kr/chungbuk-chungju-teacher-pick.html</link>
+    <guid isPermaLink="true">https://perfectedu.co.kr/chungbuk-chungju-teacher-pick.html</guid>
+    <pubDate>Sat, 10 Oct 2026 10:00:00 +0900</pubDate>
+    <category>선생님 추천</category>
+    <description><![CDATA[충북 충주로 방문 가능한 선생님 두 분을 소개합니다. 초1~고3 국어(교현동·봉방동·성남동 중심), 초1~고3 수학(호암동·목행동·안림동 중심). 충주고·충주여고·국원고·칠금중 등 충주 지역 학교 내신을 1:1로 준비합니다.]]></description>
+    <enclosure url="https://perfectedu.co.kr/images/school-chungbuk-chungju.jpg" type="image/jpeg" length="0" />
   </item>
   <item>
     <title>성주 성주고 수학과외 — 틀린 문제를 또 틀리는 자리를 끊으려면</title>
@@ -24,24 +69,6 @@
     <pubDate>Fri, 09 Oct 2026 10:00:00 +0900</pubDate>
     <category>블로그</category>
     <description><![CDATA[경북 성주 성주고(성주고등학교) 고1·고2 수학과외. 오답노트는 쌓이는데 같은 문제를 또 틀리는 학생을 위해, 틀린 이유를 네 가지로 갈라 적는 방법을 정리했습니다. 성주는 화상 수업으로 진행합니다.]]></description>
-    <enclosure url="https://perfectedu.co.kr/og-image-v2.jpg" type="image/jpeg" length="0" />
-  </item>
-  <item>
-    <title>강남구 수학·영어 과외 선생님 추천 — 휘문고·대치중 내신</title>
-    <link>https://perfectedu.co.kr/seoul-gangnam-teacher-pick.html</link>
-    <guid isPermaLink="true">https://perfectedu.co.kr/seoul-gangnam-teacher-pick.html</guid>
-    <pubDate>Fri, 09 Oct 2026 10:00:00 +0900</pubDate>
-    <category>선생님 추천</category>
-    <description><![CDATA[서울 강남구로 방문 가능한 선생님 두 분을 소개합니다. 대치동 중심 수학(중1~고2), 강남구 전역 영어(초1~고3). 휘문고·중동고·경기고·대치중·도곡중 등 강남구 학교 내신을 1:1로 준비합니다.]]></description>
-    <enclosure url="https://perfectedu.co.kr/images/school-seoul-gangnam.jpg" type="image/jpeg" length="0" />
-  </item>
-  <item>
-    <title>강동 고덕중 국어과외 — 지문은 다 읽었는데 선지에서 흔들린다면</title>
-    <link>https://perfectedu.co.kr/seoul-gangdong-godeok-korean.html</link>
-    <guid isPermaLink="true">https://perfectedu.co.kr/seoul-gangdong-godeok-korean.html</guid>
-    <pubDate>Fri, 09 Oct 2026 10:00:00 +0900</pubDate>
-    <category>블로그</category>
-    <description><![CDATA[서울 강동구 고덕중(고덕중학교) 중3 국어과외. 지문은 다 읽었는데 선지 두 개를 놓고 매번 흔들리는 학생을 위해, 근거에 밑줄을 긋고 선지를 지워 나가는 순서를 정리했습니다. 강동구는 방문과 화상 모두 가능합니다.]]></description>
     <enclosure url="https://perfectedu.co.kr/og-image-v2.jpg" type="image/jpeg" length="0" />
   </item>
   <item>
@@ -63,21 +90,30 @@
     <enclosure url="https://perfectedu.co.kr/images/univ-jejunu-sara-campus.jpg" type="image/jpeg" length="0" />
   </item>
   <item>
-    <title>서구 부산대신중 영어과외 — 서술형 영작에서 한두 점씩 깎인다면</title>
-    <link>https://perfectedu.co.kr/busan-seo-daesin-english.html</link>
-    <guid isPermaLink="true">https://perfectedu.co.kr/busan-seo-daesin-english.html</guid>
-    <pubDate>Thu, 08 Oct 2026 10:00:00 +0900</pubDate>
+    <title>강남구 수학·영어 과외 선생님 추천 — 휘문고·대치중 내신</title>
+    <link>https://perfectedu.co.kr/seoul-gangnam-teacher-pick.html</link>
+    <guid isPermaLink="true">https://perfectedu.co.kr/seoul-gangnam-teacher-pick.html</guid>
+    <pubDate>Fri, 09 Oct 2026 10:00:00 +0900</pubDate>
+    <category>선생님 추천</category>
+    <description><![CDATA[서울 강남구로 방문 가능한 선생님 두 분을 소개합니다. 대치동 중심 수학(중1~고2), 강남구 전역 영어(초1~고3). 휘문고·중동고·경기고·대치중·도곡중 등 강남구 학교 내신을 1:1로 준비합니다.]]></description>
+    <enclosure url="https://perfectedu.co.kr/images/school-seoul-gangnam.jpg" type="image/jpeg" length="0" />
+  </item>
+  <item>
+    <title>강동 고덕중 국어과외 — 지문은 다 읽었는데 선지에서 흔들린다면</title>
+    <link>https://perfectedu.co.kr/seoul-gangdong-godeok-korean.html</link>
+    <guid isPermaLink="true">https://perfectedu.co.kr/seoul-gangdong-godeok-korean.html</guid>
+    <pubDate>Fri, 09 Oct 2026 10:00:00 +0900</pubDate>
     <category>블로그</category>
-    <description><![CDATA[부산 서구 부산대신중(부산대신중학교) 중2 영어과외. 단어도 알고 문법도 아는데 서술형 영작에서 매번 한두 점씩 깎이는 학생을 위해, 조건을 먼저 세어 보고 쓰는 방법을 정리했습니다. 서구는 방문과 화상 모두 가능합니다.]]></description>
+    <description><![CDATA[서울 강동구 고덕중(고덕중학교) 중3 국어과외. 지문은 다 읽었는데 선지 두 개를 놓고 매번 흔들리는 학생을 위해, 근거에 밑줄을 긋고 선지를 지워 나가는 순서를 정리했습니다. 강동구는 방문과 화상 모두 가능합니다.]]></description>
     <enclosure url="https://perfectedu.co.kr/og-image-v2.jpg" type="image/jpeg" length="0" />
   </item>
   <item>
-    <title>장성 장성고 과학과외 — 용어는 외웠는데 그래프가 나오면 막힌다면</title>
-    <link>https://perfectedu.co.kr/jeonnam-jangseong-jangseong-science.html</link>
-    <guid isPermaLink="true">https://perfectedu.co.kr/jeonnam-jangseong-jangseong-science.html</guid>
-    <pubDate>Thu, 08 Oct 2026 10:00:00 +0900</pubDate>
+    <title>연수 청학중 사회과외 — 외운 건 많은데 자료 문제에서 막힌다면</title>
+    <link>https://perfectedu.co.kr/incheon-yeonsu-cheonghak-social.html</link>
+    <guid isPermaLink="true">https://perfectedu.co.kr/incheon-yeonsu-cheonghak-social.html</guid>
+    <pubDate>Fri, 09 Oct 2026 10:00:00 +0900</pubDate>
     <category>블로그</category>
-    <description><![CDATA[전남 장성 장성고(장성고등학교) 고1 과학과외. 용어와 공식은 외웠는데 자료 해석 문항만 나오면 손이 멈추는 학생을 위해, 그래프와 표를 읽는 순서를 정리했습니다. 장성은 화상 수업으로 진행합니다.]]></description>
+    <description><![CDATA[인천 연수구 청학중(청학중학교) 중2 사회과외. 용어는 다 외웠는데 그래프·지도·표가 나오면 손이 멈추는 학생을 위해, 자료를 읽는 순서를 정리했습니다. 연수구는 방문과 화상 모두 가능합니다.]]></description>
     <enclosure url="https://perfectedu.co.kr/og-image-v2.jpg" type="image/jpeg" length="0" />
   </item>
   <item>
@@ -117,12 +153,21 @@
     <enclosure url="https://perfectedu.co.kr/og-image-v2.jpg" type="image/jpeg" length="0" />
   </item>
   <item>
-    <title>완산구 전주양지중 영어과외 — 단어는 아는데 문장이 안 읽힌다면</title>
-    <link>https://perfectedu.co.kr/jeonbuk-jeonju-wansan-yangji-english.html</link>
-    <guid isPermaLink="true">https://perfectedu.co.kr/jeonbuk-jeonju-wansan-yangji-english.html</guid>
-    <pubDate>Wed, 07 Oct 2026 10:00:00 +0900</pubDate>
+    <title>서구 부산대신중 영어과외 — 서술형 영작에서 한두 점씩 깎인다면</title>
+    <link>https://perfectedu.co.kr/busan-seo-daesin-english.html</link>
+    <guid isPermaLink="true">https://perfectedu.co.kr/busan-seo-daesin-english.html</guid>
+    <pubDate>Thu, 08 Oct 2026 10:00:00 +0900</pubDate>
     <category>블로그</category>
-    <description><![CDATA[전주 완산구 전주양지중(전주양지중학교) 중3 영어과외. 단어 시험은 잘 보는데 긴 문장에서 뜻이 뭉개지는 학생을 위해, 동사와 덩어리를 표시해 끊어 읽는 두 단계를 정리했습니다. 완산구는 방문과 화상 모두 가능합니다.]]></description>
+    <description><![CDATA[부산 서구 부산대신중(부산대신중학교) 중2 영어과외. 단어도 알고 문법도 아는데 서술형 영작에서 매번 한두 점씩 깎이는 학생을 위해, 조건을 먼저 세어 보고 쓰는 방법을 정리했습니다. 서구는 방문과 화상 모두 가능합니다.]]></description>
+    <enclosure url="https://perfectedu.co.kr/og-image-v2.jpg" type="image/jpeg" length="0" />
+  </item>
+  <item>
+    <title>장성 장성고 과학과외 — 용어는 외웠는데 그래프가 나오면 막힌다면</title>
+    <link>https://perfectedu.co.kr/jeonnam-jangseong-jangseong-science.html</link>
+    <guid isPermaLink="true">https://perfectedu.co.kr/jeonnam-jangseong-jangseong-science.html</guid>
+    <pubDate>Thu, 08 Oct 2026 10:00:00 +0900</pubDate>
+    <category>블로그</category>
+    <description><![CDATA[전남 장성 장성고(장성고등학교) 고1 과학과외. 용어와 공식은 외웠는데 자료 해석 문항만 나오면 손이 멈추는 학생을 위해, 그래프와 표를 읽는 순서를 정리했습니다. 장성은 화상 수업으로 진행합니다.]]></description>
     <enclosure url="https://perfectedu.co.kr/og-image-v2.jpg" type="image/jpeg" length="0" />
   </item>
   <item>
@@ -171,12 +216,12 @@
     <enclosure url="https://perfectedu.co.kr/og-image-v2.jpg" type="image/jpeg" length="0" />
   </item>
   <item>
-    <title>제주시 남녕고 수학과외 — 아는 문제인데 시간이 모자란다면</title>
-    <link>https://perfectedu.co.kr/jeju-jeju-namnyeong-math.html</link>
-    <guid isPermaLink="true">https://perfectedu.co.kr/jeju-jeju-namnyeong-math.html</guid>
-    <pubDate>Tue, 06 Oct 2026 10:00:00 +0900</pubDate>
+    <title>완산구 전주양지중 영어과외 — 단어는 아는데 문장이 안 읽힌다면</title>
+    <link>https://perfectedu.co.kr/jeonbuk-jeonju-wansan-yangji-english.html</link>
+    <guid isPermaLink="true">https://perfectedu.co.kr/jeonbuk-jeonju-wansan-yangji-english.html</guid>
+    <pubDate>Wed, 07 Oct 2026 10:00:00 +0900</pubDate>
     <category>블로그</category>
-    <description><![CDATA[제주 제주시 남녕고(남녕고등학교) 고1 수학과외. 집에서 풀면 맞는데 시험에서는 뒤를 못 푸는 학생을 위해, 시험 시간을 나누는 방법을 정리했습니다. 제주는 화상 수업으로 진행합니다.]]></description>
+    <description><![CDATA[전주 완산구 전주양지중(전주양지중학교) 중3 영어과외. 단어 시험은 잘 보는데 긴 문장에서 뜻이 뭉개지는 학생을 위해, 동사와 덩어리를 표시해 끊어 읽는 두 단계를 정리했습니다. 완산구는 방문과 화상 모두 가능합니다.]]></description>
     <enclosure url="https://perfectedu.co.kr/og-image-v2.jpg" type="image/jpeg" length="0" />
   </item>
   <item>
@@ -198,15 +243,6 @@
     <enclosure url="https://perfectedu.co.kr/images/school-gyeonggi-goyang-ilsandong.jpg" type="image/jpeg" length="0" />
   </item>
   <item>
-    <title>전북대학교 2027 수능최저로 본 과목별 공부 순서 — 수시 3,507명·지역인재 948명</title>
-    <link>https://perfectedu.co.kr/univ-jbnu-2027-choejeo.html</link>
-    <guid isPermaLink="true">https://perfectedu.co.kr/univ-jbnu-2027-choejeo.html</guid>
-    <pubDate>Tue, 06 Oct 2026 10:00:00 +0900</pubDate>
-    <category>블로그</category>
-    <description><![CDATA[전북대학교 2027학년도는 수시로 3,507명을 뽑고 학생부교과는 교과 100%입니다. 학생부종합 큰사람전형은 일부 계열을 빼면 수능최저를 적용하지 않습니다. 그래서 10월에 어느 과목부터 손을 댈지 정리했습니다.]]></description>
-    <enclosure url="https://perfectedu.co.kr/images/univ-jbnu-campus.jpg" type="image/jpeg" length="0" />
-  </item>
-  <item>
     <title>인천대학교 2027 수능최저 2개 등급 합 7로 본 과목별 공부 순서 — 교과성적우수자 456명</title>
     <link>https://perfectedu.co.kr/univ-inu-2027-choejeo.html</link>
     <guid isPermaLink="true">https://perfectedu.co.kr/univ-inu-2027-choejeo.html</guid>
@@ -214,6 +250,15 @@
     <category>블로그</category>
     <description><![CDATA[인천대학교 2027학년도 교과성적우수자 전형은 수능 응시 과목 요건이 완화됐습니다. 2개 영역 등급 합 7 기준에서 어느 두 과목을 세울지, 최저가 없는 전형과 어떻게 갈라 쓸지 정리했습니다.]]></description>
     <enclosure url="https://perfectedu.co.kr/images/univ-inu-jemulpo.jpg" type="image/jpeg" length="0" />
+  </item>
+  <item>
+    <title>전북대학교 2027 수능최저로 본 과목별 공부 순서 — 수시 3,507명·지역인재 948명</title>
+    <link>https://perfectedu.co.kr/univ-jbnu-2027-choejeo.html</link>
+    <guid isPermaLink="true">https://perfectedu.co.kr/univ-jbnu-2027-choejeo.html</guid>
+    <pubDate>Tue, 06 Oct 2026 10:00:00 +0900</pubDate>
+    <category>블로그</category>
+    <description><![CDATA[전북대학교 2027학년도는 수시로 3,507명을 뽑고 학생부교과는 교과 100%입니다. 학생부종합 큰사람전형은 일부 계열을 빼면 수능최저를 적용하지 않습니다. 그래서 10월에 어느 과목부터 손을 댈지 정리했습니다.]]></description>
+    <enclosure url="https://perfectedu.co.kr/images/univ-jbnu-campus.jpg" type="image/jpeg" length="0" />
   </item>
   <item>
     <title>수성구 범물중 과학과외 — 외웠는데 그림과 표에서 막힌다면</title>
@@ -225,6 +270,15 @@
     <enclosure url="https://perfectedu.co.kr/og-image-v2.jpg" type="image/jpeg" length="0" />
   </item>
   <item>
+    <title>제주시 남녕고 수학과외 — 아는 문제인데 시간이 모자란다면</title>
+    <link>https://perfectedu.co.kr/jeju-jeju-namnyeong-math.html</link>
+    <guid isPermaLink="true">https://perfectedu.co.kr/jeju-jeju-namnyeong-math.html</guid>
+    <pubDate>Tue, 06 Oct 2026 10:00:00 +0900</pubDate>
+    <category>블로그</category>
+    <description><![CDATA[제주 제주시 남녕고(남녕고등학교) 고1 수학과외. 집에서 풀면 맞는데 시험에서는 뒤를 못 푸는 학생을 위해, 시험 시간을 나누는 방법을 정리했습니다. 제주는 화상 수업으로 진행합니다.]]></description>
+    <enclosure url="https://perfectedu.co.kr/og-image-v2.jpg" type="image/jpeg" length="0" />
+  </item>
+  <item>
     <title>김포 운양중 수학과외 — 문제는 읽었는데 식이 안 세워진다면</title>
     <link>https://perfectedu.co.kr/gyeonggi-gimpo-unyang-math.html</link>
     <guid isPermaLink="true">https://perfectedu.co.kr/gyeonggi-gimpo-unyang-math.html</guid>
@@ -232,15 +286,6 @@
     <category>블로그</category>
     <description><![CDATA[경기 김포 운양중(운양중학교) 중2 수학과외. 계산은 하는데 문장제에서 식을 못 세우는 학생을 위해, 문장을 식으로 옮기는 순서를 네 칸으로 나눠 정리했습니다. 김포는 방문과 화상 모두 가능합니다.]]></description>
     <enclosure url="https://perfectedu.co.kr/og-image-v2.jpg" type="image/jpeg" length="0" />
-  </item>
-  <item>
-    <title>관악구 국어·수학 과외 선생님 추천 — 봉천중·당곡고 내신</title>
-    <link>https://perfectedu.co.kr/seoul-gwanak-teacher-pick.html</link>
-    <guid isPermaLink="true">https://perfectedu.co.kr/seoul-gwanak-teacher-pick.html</guid>
-    <pubDate>Mon, 05 Oct 2026 10:00:00 +0900</pubDate>
-    <category>선생님 추천</category>
-    <description><![CDATA[서울 관악구로 방문하는 과외 선생님 두 분을 소개합니다. 봉천동 중심 방문, 중1부터 고3까지 보는 국어·사회와 수학, 관악구 학교별 내신 대비까지 정리했습니다.]]></description>
-    <enclosure url="https://perfectedu.co.kr/images/school-seoul-gwanak-samseong.jpg" type="image/jpeg" length="0" />
   </item>
   <item>
     <title>영월 영월고 국어과외 — 필기는 다 있는데 처음 보는 작품에서 막힌다면</title>
@@ -270,6 +315,15 @@
     <enclosure url="https://perfectedu.co.kr/images/univ-chungbuk-campus.jpg" type="image/jpeg" length="0" />
   </item>
   <item>
+    <title>관악구 국어·수학 과외 선생님 추천 — 봉천중·당곡고 내신</title>
+    <link>https://perfectedu.co.kr/seoul-gwanak-teacher-pick.html</link>
+    <guid isPermaLink="true">https://perfectedu.co.kr/seoul-gwanak-teacher-pick.html</guid>
+    <pubDate>Mon, 05 Oct 2026 10:00:00 +0900</pubDate>
+    <category>선생님 추천</category>
+    <description><![CDATA[서울 관악구로 방문하는 과외 선생님 두 분을 소개합니다. 봉천동 중심 방문, 중1부터 고3까지 보는 국어·사회와 수학, 관악구 학교별 내신 대비까지 정리했습니다.]]></description>
+    <enclosure url="https://perfectedu.co.kr/images/school-seoul-gwanak-samseong.jpg" type="image/jpeg" length="0" />
+  </item>
+  <item>
     <title>울산 동구 남목중 영어과외 — 본문은 외웠는데 변형 문제에서 틀린다면</title>
     <link>https://perfectedu.co.kr/ulsan-dong-nammok-english.html</link>
     <guid isPermaLink="true">https://perfectedu.co.kr/ulsan-dong-nammok-english.html</guid>
@@ -279,39 +333,12 @@
     <enclosure url="https://perfectedu.co.kr/og-image-v2.jpg" type="image/jpeg" length="0" />
   </item>
   <item>
-    <title>해운대구 수학·영어 과외 선생님 추천 — 해운대중학교·센텀중학교 내신</title>
-    <link>https://perfectedu.co.kr/busan-haeundae-teacher-pick.html</link>
-    <guid isPermaLink="true">https://perfectedu.co.kr/busan-haeundae-teacher-pick.html</guid>
-    <pubDate>Sun, 04 Oct 2026 10:00:00 +0900</pubDate>
-    <category>선생님 추천</category>
-    <description><![CDATA[부산 해운대구로 방문하는 과외 선생님 두 분을 소개합니다. 우동·중동·재송동 방문, 유아·초등부터 중3까지 보는 국어·수학과 영어·국어, 해운대구 학교별 내신 대비까지 정리했습니다.]]></description>
-    <enclosure url="https://perfectedu.co.kr/images/school-busan-haeundae-district.jpg" type="image/jpeg" length="0" />
-  </item>
-  <item>
-    <title>미추홀 관교중학교 수학과외 — 오답노트를 썼는데 또 틀린다면</title>
-    <link>https://perfectedu.co.kr/incheon-michuhol-gwangyo-math.html</link>
-    <guid isPermaLink="true">https://perfectedu.co.kr/incheon-michuhol-gwangyo-math.html</guid>
-    <pubDate>Sun, 04 Oct 2026 10:00:00 +0900</pubDate>
-    <category>블로그</category>
-    <description><![CDATA[인천 미추홀구 관교중학교 중2 수학과외. 오답노트를 꾸준히 썼는데 같은 문제를 또 틀리는 학생을 위해, 틀린 이유를 네 가지로 갈라 적는 방법을 정리했습니다. 미추홀구는 방문·화상 수업이 가능합니다.]]></description>
-    <enclosure url="https://perfectedu.co.kr/og-image-v2.jpg" type="image/jpeg" length="0" />
-  </item>
-  <item>
     <title>영덕 영덕고등학교 과학과외 — 실험 문제에서 손이 멈춘다면</title>
     <link>https://perfectedu.co.kr/gyeongbuk-yeongdeok-yeongdeok-science.html</link>
     <guid isPermaLink="true">https://perfectedu.co.kr/gyeongbuk-yeongdeok-yeongdeok-science.html</guid>
     <pubDate>Sun, 04 Oct 2026 10:00:00 +0900</pubDate>
     <category>블로그</category>
     <description><![CDATA[경북 영덕 영덕고등학교 고1 과학과외. 개념은 외웠는데 실험 문항에서 손이 멈추는 학생을 위해, 실험 지문을 읽는 네 단계 순서를 정리했습니다. 영덕은 화상 수업으로 진행합니다.]]></description>
-    <enclosure url="https://perfectedu.co.kr/og-image-v2.jpg" type="image/jpeg" length="0" />
-  </item>
-  <item>
-    <title>중랑 원묵고등학교 영어과외 — 단어는 아는데 선택지에서 갈린다면</title>
-    <link>https://perfectedu.co.kr/seoul-jungnang-wonmuk-english.html</link>
-    <guid isPermaLink="true">https://perfectedu.co.kr/seoul-jungnang-wonmuk-english.html</guid>
-    <pubDate>Sun, 04 Oct 2026 10:00:00 +0900</pubDate>
-    <category>블로그</category>
-    <description><![CDATA[서울 중랑구 원묵고등학교 고1 영어과외. 단어는 아는데 답이 두 개로 좁혀진 뒤 갈리는 학생을 위해, 선택지를 지우는 근거를 지문에서 찾는 순서를 정리했습니다. 중랑구는 방문 선생님 5명이 있습니다.]]></description>
     <enclosure url="https://perfectedu.co.kr/og-image-v2.jpg" type="image/jpeg" length="0" />
   </item>
   <item>
@@ -333,12 +360,30 @@
     <enclosure url="https://perfectedu.co.kr/images/univ-gachon-campus.jpg" type="image/jpeg" length="0" />
   </item>
   <item>
-    <title>북구 덕천중학교 수학과외 — 계산은 맞는데 식을 못 세운다면</title>
-    <link>https://perfectedu.co.kr/busan-buk-deokcheon-math.html</link>
-    <guid isPermaLink="true">https://perfectedu.co.kr/busan-buk-deokcheon-math.html</guid>
-    <pubDate>Sat, 03 Oct 2026 10:00:00 +0900</pubDate>
+    <title>중랑 원묵고등학교 영어과외 — 단어는 아는데 선택지에서 갈린다면</title>
+    <link>https://perfectedu.co.kr/seoul-jungnang-wonmuk-english.html</link>
+    <guid isPermaLink="true">https://perfectedu.co.kr/seoul-jungnang-wonmuk-english.html</guid>
+    <pubDate>Sun, 04 Oct 2026 10:00:00 +0900</pubDate>
     <category>블로그</category>
-    <description><![CDATA[부산 북구 덕천중학교 중3 수학과외. 계산은 정확한데 문장제에서 식이 안 나오는 학생을 위해, 문장을 식으로 옮기는 세 칸 연습을 정리했습니다. 북구는 화상 수업으로 진행합니다.]]></description>
+    <description><![CDATA[서울 중랑구 원묵고등학교 고1 영어과외. 단어는 아는데 답이 두 개로 좁혀진 뒤 갈리는 학생을 위해, 선택지를 지우는 근거를 지문에서 찾는 순서를 정리했습니다. 중랑구는 방문 선생님 5명이 있습니다.]]></description>
+    <enclosure url="https://perfectedu.co.kr/og-image-v2.jpg" type="image/jpeg" length="0" />
+  </item>
+  <item>
+    <title>해운대구 수학·영어 과외 선생님 추천 — 해운대중학교·센텀중학교 내신</title>
+    <link>https://perfectedu.co.kr/busan-haeundae-teacher-pick.html</link>
+    <guid isPermaLink="true">https://perfectedu.co.kr/busan-haeundae-teacher-pick.html</guid>
+    <pubDate>Sun, 04 Oct 2026 10:00:00 +0900</pubDate>
+    <category>선생님 추천</category>
+    <description><![CDATA[부산 해운대구로 방문하는 과외 선생님 두 분을 소개합니다. 우동·중동·재송동 방문, 유아·초등부터 중3까지 보는 국어·수학과 영어·국어, 해운대구 학교별 내신 대비까지 정리했습니다.]]></description>
+    <enclosure url="https://perfectedu.co.kr/images/school-busan-haeundae-district.jpg" type="image/jpeg" length="0" />
+  </item>
+  <item>
+    <title>미추홀 관교중학교 수학과외 — 오답노트를 썼는데 또 틀린다면</title>
+    <link>https://perfectedu.co.kr/incheon-michuhol-gwangyo-math.html</link>
+    <guid isPermaLink="true">https://perfectedu.co.kr/incheon-michuhol-gwangyo-math.html</guid>
+    <pubDate>Sun, 04 Oct 2026 10:00:00 +0900</pubDate>
+    <category>블로그</category>
+    <description><![CDATA[인천 미추홀구 관교중학교 중2 수학과외. 오답노트를 꾸준히 썼는데 같은 문제를 또 틀리는 학생을 위해, 틀린 이유를 네 가지로 갈라 적는 방법을 정리했습니다. 미추홀구는 방문·화상 수업이 가능합니다.]]></description>
     <enclosure url="https://perfectedu.co.kr/og-image-v2.jpg" type="image/jpeg" length="0" />
   </item>
   <item>
@@ -387,21 +432,12 @@
     <enclosure url="https://perfectedu.co.kr/og-image-v2.jpg" type="image/jpeg" length="0" />
   </item>
   <item>
-    <title>강진 강진고등학교 국어과외 — 문학에서 시간이 모자란다면</title>
-    <link>https://perfectedu.co.kr/jeonnam-gangjin-gangjin-korean.html</link>
-    <guid isPermaLink="true">https://perfectedu.co.kr/jeonnam-gangjin-gangjin-korean.html</guid>
-    <pubDate>Fri, 02 Oct 2026 10:00:00 +0900</pubDate>
+    <title>북구 덕천중학교 수학과외 — 계산은 맞는데 식을 못 세운다면</title>
+    <link>https://perfectedu.co.kr/busan-buk-deokcheon-math.html</link>
+    <guid isPermaLink="true">https://perfectedu.co.kr/busan-buk-deokcheon-math.html</guid>
+    <pubDate>Sat, 03 Oct 2026 10:00:00 +0900</pubDate>
     <category>블로그</category>
-    <description><![CDATA[전남 강진 강진고등학교 고1 국어과외. 문학 지문에서 시간이 모자라는 학생을 위해, 읽기 전에 물음부터 읽는 순서를 정리했습니다. 강진은 화상 1:1 수업으로 진행합니다.]]></description>
-    <enclosure url="https://perfectedu.co.kr/og-image-v2.jpg" type="image/jpeg" length="0" />
-  </item>
-  <item>
-    <title>군산 군산제일중학교 영어과외 — 서술형에서 늘 한두 점씩 깎인다면</title>
-    <link>https://perfectedu.co.kr/jeonbuk-gunsan-jeil-english.html</link>
-    <guid isPermaLink="true">https://perfectedu.co.kr/jeonbuk-gunsan-jeil-english.html</guid>
-    <pubDate>Fri, 02 Oct 2026 10:00:00 +0900</pubDate>
-    <category>블로그</category>
-    <description><![CDATA[전북 군산 군산제일중학교 중3 영어과외. 객관식은 맞는데 서술형에서 점수가 새는 학생을 위해, 쓰기 전에 문장 틀을 정해 두는 순서를 정리했습니다. 방문·화상 1:1 수업으로 진행합니다.]]></description>
+    <description><![CDATA[부산 북구 덕천중학교 중3 수학과외. 계산은 정확한데 문장제에서 식이 안 나오는 학생을 위해, 문장을 식으로 옮기는 세 칸 연습을 정리했습니다. 북구는 화상 수업으로 진행합니다.]]></description>
     <enclosure url="https://perfectedu.co.kr/og-image-v2.jpg" type="image/jpeg" length="0" />
   </item>
   <item>
@@ -441,12 +477,21 @@
     <enclosure url="https://perfectedu.co.kr/images/school-daegu-seo-bisan.jpg" type="image/jpeg" length="0" />
   </item>
   <item>
-    <title>의창구 창원봉림고등학교 국어과외 — 지문은 이해했는데 선지에서 갈린다면</title>
-    <link>https://perfectedu.co.kr/gyeongnam-changwon-uichang-bongnim-korean.html</link>
-    <guid isPermaLink="true">https://perfectedu.co.kr/gyeongnam-changwon-uichang-bongnim-korean.html</guid>
-    <pubDate>Thu, 01 Oct 2026 10:00:00 +0900</pubDate>
+    <title>강진 강진고등학교 국어과외 — 문학에서 시간이 모자란다면</title>
+    <link>https://perfectedu.co.kr/jeonnam-gangjin-gangjin-korean.html</link>
+    <guid isPermaLink="true">https://perfectedu.co.kr/jeonnam-gangjin-gangjin-korean.html</guid>
+    <pubDate>Fri, 02 Oct 2026 10:00:00 +0900</pubDate>
     <category>블로그</category>
-    <description><![CDATA[경남 창원 의창구 창원봉림고등학교 고1 국어과외. 지문은 이해했는데 선지 두 개에서 갈리는 학생을 위해, 근거 문장에 번호를 붙여 고르는 순서를 정리했습니다. 방문·화상 1:1 수업으로 진행합니다.]]></description>
+    <description><![CDATA[전남 강진 강진고등학교 고1 국어과외. 문학 지문에서 시간이 모자라는 학생을 위해, 읽기 전에 물음부터 읽는 순서를 정리했습니다. 강진은 화상 1:1 수업으로 진행합니다.]]></description>
+    <enclosure url="https://perfectedu.co.kr/og-image-v2.jpg" type="image/jpeg" length="0" />
+  </item>
+  <item>
+    <title>군산 군산제일중학교 영어과외 — 서술형에서 늘 한두 점씩 깎인다면</title>
+    <link>https://perfectedu.co.kr/jeonbuk-gunsan-jeil-english.html</link>
+    <guid isPermaLink="true">https://perfectedu.co.kr/jeonbuk-gunsan-jeil-english.html</guid>
+    <pubDate>Fri, 02 Oct 2026 10:00:00 +0900</pubDate>
+    <category>블로그</category>
+    <description><![CDATA[전북 군산 군산제일중학교 중3 영어과외. 객관식은 맞는데 서술형에서 점수가 새는 학생을 위해, 쓰기 전에 문장 틀을 정해 두는 순서를 정리했습니다. 방문·화상 1:1 수업으로 진행합니다.]]></description>
     <enclosure url="https://perfectedu.co.kr/og-image-v2.jpg" type="image/jpeg" length="0" />
   </item>
   <item>
@@ -456,6 +501,15 @@
     <pubDate>Thu, 01 Oct 2026 10:00:00 +0900</pubDate>
     <category>블로그</category>
     <description><![CDATA[경기 용인 기흥구 흥덕고등학교 고1 과학과외. 개념은 외웠는데 그래프·실험 문제에서 막히는 학생을 위해, 축부터 읽고 조건을 한 줄로 적는 순서를 정리했습니다. 방문·화상 1:1 수업으로 진행합니다.]]></description>
+    <enclosure url="https://perfectedu.co.kr/og-image-v2.jpg" type="image/jpeg" length="0" />
+  </item>
+  <item>
+    <title>의창구 창원봉림고등학교 국어과외 — 지문은 이해했는데 선지에서 갈린다면</title>
+    <link>https://perfectedu.co.kr/gyeongnam-changwon-uichang-bongnim-korean.html</link>
+    <guid isPermaLink="true">https://perfectedu.co.kr/gyeongnam-changwon-uichang-bongnim-korean.html</guid>
+    <pubDate>Thu, 01 Oct 2026 10:00:00 +0900</pubDate>
+    <category>블로그</category>
+    <description><![CDATA[경남 창원 의창구 창원봉림고등학교 고1 국어과외. 지문은 이해했는데 선지 두 개에서 갈리는 학생을 위해, 근거 문장에 번호를 붙여 고르는 순서를 정리했습니다. 방문·화상 1:1 수업으로 진행합니다.]]></description>
     <enclosure url="https://perfectedu.co.kr/og-image-v2.jpg" type="image/jpeg" length="0" />
   </item>
   <item>
@@ -495,13 +549,13 @@
     <enclosure url="https://perfectedu.co.kr/og-image-v2.jpg" type="image/jpeg" length="0" />
   </item>
   <item>
-    <title>남동구 수학·사회 과외 선생님 추천 — 구월여자중학교·인천남동고등학교 내신</title>
-    <link>https://perfectedu.co.kr/incheon-namdong-teacher-pick.html</link>
-    <guid isPermaLink="true">https://perfectedu.co.kr/incheon-namdong-teacher-pick.html</guid>
+    <title>포항 남구 오천고등학교 영어과외 — 단어는 다 아는데 긴 문장에서 놓친다면</title>
+    <link>https://perfectedu.co.kr/gyeongbuk-pohang-nam-ocheon-english.html</link>
+    <guid isPermaLink="true">https://perfectedu.co.kr/gyeongbuk-pohang-nam-ocheon-english.html</guid>
     <pubDate>Wed, 30 Sep 2026 10:00:00 +0900</pubDate>
-    <category>선생님 추천</category>
-    <description><![CDATA[인천 남동구로 직접 찾아가는 과외 선생님 두 분을 소개합니다. 구월여자중학교·인천남동고등학교·인천만수고등학교 등 남동구 학교 내신을 수학과 사회로 나눠 준비합니다.]]></description>
-    <enclosure url="https://perfectedu.co.kr/images/school-incheon-namdong-guwol.jpg" type="image/jpeg" length="0" />
+    <category>블로그</category>
+    <description><![CDATA[경북 포항 남구 오천고등학교 고1 영어과외. 단어는 아는데 문장이 길어지면 뜻이 흩어지는 학생을 위해, 주어와 동사를 먼저 찾아 끊어 읽는 순서를 정리했습니다. 방문·화상 1:1 수업.]]></description>
+    <enclosure url="https://perfectedu.co.kr/og-image-v2.jpg" type="image/jpeg" length="0" />
   </item>
   <item>
     <title>양천구 목운중학교 수학과외 — 답은 맞는데 서술형에서 깎인다면</title>
@@ -510,15 +564,6 @@
     <pubDate>Wed, 30 Sep 2026 10:00:00 +0900</pubDate>
     <category>블로그</category>
     <description><![CDATA[서울 양천구 목운중학교 중2 수학과외. 답은 맞았는데 서술형에서 점수가 깎이는 학생을 위해, 풀이 과정을 채점자가 읽을 수 있게 적는 순서를 정리했습니다. 방문·화상 1:1 수업.]]></description>
-    <enclosure url="https://perfectedu.co.kr/og-image-v2.jpg" type="image/jpeg" length="0" />
-  </item>
-  <item>
-    <title>포항 남구 오천고등학교 영어과외 — 단어는 다 아는데 긴 문장에서 놓친다면</title>
-    <link>https://perfectedu.co.kr/gyeongbuk-pohang-nam-ocheon-english.html</link>
-    <guid isPermaLink="true">https://perfectedu.co.kr/gyeongbuk-pohang-nam-ocheon-english.html</guid>
-    <pubDate>Wed, 30 Sep 2026 10:00:00 +0900</pubDate>
-    <category>블로그</category>
-    <description><![CDATA[경북 포항 남구 오천고등학교 고1 영어과외. 단어는 아는데 문장이 길어지면 뜻이 흩어지는 학생을 위해, 주어와 동사를 먼저 찾아 끊어 읽는 순서를 정리했습니다. 방문·화상 1:1 수업.]]></description>
     <enclosure url="https://perfectedu.co.kr/og-image-v2.jpg" type="image/jpeg" length="0" />
   </item>
   <item>
@@ -531,15 +576,6 @@
     <enclosure url="https://perfectedu.co.kr/og-image-v2.jpg" type="image/jpeg" length="0" />
   </item>
   <item>
-    <title>인하대학교 2027 수능최저로 본 과목별 공부 순서 — 인문 2개 합 6, 자연 2개 합 5</title>
-    <link>https://perfectedu.co.kr/univ-inha-2027-choejeo.html</link>
-    <guid isPermaLink="true">https://perfectedu.co.kr/univ-inha-2027-choejeo.html</guid>
-    <pubDate>Wed, 30 Sep 2026 10:00:00 +0900</pubDate>
-    <category>블로그</category>
-    <description><![CDATA[인하대학교 2027학년도 수능최저학력기준을 과목 공부 순서로 풀었습니다. 학생부교과 인문계열 2개 합 6, 자연계열 2개 합 5, 의예과 3개 합 4입니다. 네 과목을 고르게 올리는 대신 두 과목을 고르는 방법.]]></description>
-    <enclosure url="https://perfectedu.co.kr/images/univ-inha-jeongseok-library.jpg" type="image/jpeg" length="0" />
-  </item>
-  <item>
     <title>한국외국어대학교 2027 정시 반영비율로 본 과목별 공부 순서 — 어문 영어 20%, 자연 탐구 30%</title>
     <link>https://perfectedu.co.kr/univ-hufs-2027-jeongsi.html</link>
     <guid isPermaLink="true">https://perfectedu.co.kr/univ-hufs-2027-jeongsi.html</guid>
@@ -549,22 +585,22 @@
     <enclosure url="https://perfectedu.co.kr/images/univ-hufs-library.jpg" type="image/jpeg" length="0" />
   </item>
   <item>
-    <title>서귀포 서귀포중학교 과학과외 — 외운 건 많은데 그림 문제에서 막힌다면</title>
-    <link>https://perfectedu.co.kr/jeju-seogwipo-seogwipo-science.html</link>
-    <guid isPermaLink="true">https://perfectedu.co.kr/jeju-seogwipo-seogwipo-science.html</guid>
-    <pubDate>Tue, 29 Sep 2026 10:00:00 +0900</pubDate>
+    <title>인하대학교 2027 수능최저로 본 과목별 공부 순서 — 인문 2개 합 6, 자연 2개 합 5</title>
+    <link>https://perfectedu.co.kr/univ-inha-2027-choejeo.html</link>
+    <guid isPermaLink="true">https://perfectedu.co.kr/univ-inha-2027-choejeo.html</guid>
+    <pubDate>Wed, 30 Sep 2026 10:00:00 +0900</pubDate>
     <category>블로그</category>
-    <description><![CDATA[제주 서귀포 서귀포중학교 중2 과학과외. 용어는 외웠는데 그래프·그림 문제에서 막히는 학생을 위해, 그림을 말로 바꿔 읽는 연습을 정리했습니다. 화상 1:1 수업.]]></description>
-    <enclosure url="https://perfectedu.co.kr/og-image-v2.jpg" type="image/jpeg" length="0" />
+    <description><![CDATA[인하대학교 2027학년도 수능최저학력기준을 과목 공부 순서로 풀었습니다. 학생부교과 인문계열 2개 합 6, 자연계열 2개 합 5, 의예과 3개 합 4입니다. 네 과목을 고르게 올리는 대신 두 과목을 고르는 방법.]]></description>
+    <enclosure url="https://perfectedu.co.kr/images/univ-inha-jeongseok-library.jpg" type="image/jpeg" length="0" />
   </item>
   <item>
-    <title>인천 서해구 인천신현고등학교 영어과외 — 어법 문제만 유독 틀린다면</title>
-    <link>https://perfectedu.co.kr/incheon-seohae-sinhyeon-english.html</link>
-    <guid isPermaLink="true">https://perfectedu.co.kr/incheon-seohae-sinhyeon-english.html</guid>
-    <pubDate>Tue, 29 Sep 2026 10:00:00 +0900</pubDate>
-    <category>블로그</category>
-    <description><![CDATA[인천 서해구 인천신현고등학교 고2 영어과외. 해석은 되는데 어법 문제만 틀리는 학생을 위해, 밑줄 앞뒤에서 무엇을 봐야 하는지 순서로 정리했습니다. 방문·화상 1:1 수업.]]></description>
-    <enclosure url="https://perfectedu.co.kr/og-image-v2.jpg" type="image/jpeg" length="0" />
+    <title>남동구 수학·사회 과외 선생님 추천 — 구월여자중학교·인천남동고등학교 내신</title>
+    <link>https://perfectedu.co.kr/incheon-namdong-teacher-pick.html</link>
+    <guid isPermaLink="true">https://perfectedu.co.kr/incheon-namdong-teacher-pick.html</guid>
+    <pubDate>Wed, 30 Sep 2026 10:00:00 +0900</pubDate>
+    <category>선생님 추천</category>
+    <description><![CDATA[인천 남동구로 직접 찾아가는 과외 선생님 두 분을 소개합니다. 구월여자중학교·인천남동고등학교·인천만수고등학교 등 남동구 학교 내신을 수학과 사회로 나눠 준비합니다.]]></description>
+    <enclosure url="https://perfectedu.co.kr/images/school-incheon-namdong-guwol.jpg" type="image/jpeg" length="0" />
   </item>
   <item>
     <title>서초구 국어·영어 과외 선생님 추천 — 세화고등학교·반포고등학교 내신</title>
@@ -603,12 +639,21 @@
     <enclosure url="https://perfectedu.co.kr/og-image-v2.jpg" type="image/jpeg" length="0" />
   </item>
   <item>
-    <title>부산 남구 용호중학교 영어과외 — 단어는 외웠는데 문장에서 멈춘다면</title>
-    <link>https://perfectedu.co.kr/busan-namgu-yongho-english.html</link>
-    <guid isPermaLink="true">https://perfectedu.co.kr/busan-namgu-yongho-english.html</guid>
-    <pubDate>Mon, 28 Sep 2026 10:00:00 +0900</pubDate>
+    <title>서귀포 서귀포중학교 과학과외 — 외운 건 많은데 그림 문제에서 막힌다면</title>
+    <link>https://perfectedu.co.kr/jeju-seogwipo-seogwipo-science.html</link>
+    <guid isPermaLink="true">https://perfectedu.co.kr/jeju-seogwipo-seogwipo-science.html</guid>
+    <pubDate>Tue, 29 Sep 2026 10:00:00 +0900</pubDate>
     <category>블로그</category>
-    <description><![CDATA[부산 남구 용호중학교 중2 영어과외. 단어는 외웠는데 문장이 통째로 안 읽히는 학생을 위해, 문장을 덩어리로 끊어 읽는 방법을 정리했습니다. 방문·화상 1:1 수업.]]></description>
+    <description><![CDATA[제주 서귀포 서귀포중학교 중2 과학과외. 용어는 외웠는데 그래프·그림 문제에서 막히는 학생을 위해, 그림을 말로 바꿔 읽는 연습을 정리했습니다. 화상 1:1 수업.]]></description>
+    <enclosure url="https://perfectedu.co.kr/og-image-v2.jpg" type="image/jpeg" length="0" />
+  </item>
+  <item>
+    <title>인천 서해구 인천신현고등학교 영어과외 — 어법 문제만 유독 틀린다면</title>
+    <link>https://perfectedu.co.kr/incheon-seohae-sinhyeon-english.html</link>
+    <guid isPermaLink="true">https://perfectedu.co.kr/incheon-seohae-sinhyeon-english.html</guid>
+    <pubDate>Tue, 29 Sep 2026 10:00:00 +0900</pubDate>
+    <category>블로그</category>
+    <description><![CDATA[인천 서해구 인천신현고등학교 고2 영어과외. 해석은 되는데 어법 문제만 틀리는 학생을 위해, 밑줄 앞뒤에서 무엇을 봐야 하는지 순서로 정리했습니다. 방문·화상 1:1 수업.]]></description>
     <enclosure url="https://perfectedu.co.kr/og-image-v2.jpg" type="image/jpeg" length="0" />
   </item>
   <item>
@@ -657,21 +702,12 @@
     <enclosure url="https://perfectedu.co.kr/og-image-v2.jpg" type="image/jpeg" length="0" />
   </item>
   <item>
-    <title>목포 목포여자고등학교 국어과외 — 선택지 두 개가 똑같이 맞는 말 같다면</title>
-    <link>https://perfectedu.co.kr/jeonnam-mokpo-mokpoyeoja-korean.html</link>
-    <guid isPermaLink="true">https://perfectedu.co.kr/jeonnam-mokpo-mokpoyeoja-korean.html</guid>
-    <pubDate>Sun, 27 Sep 2026 10:00:00 +0900</pubDate>
+    <title>부산 남구 용호중학교 영어과외 — 단어는 외웠는데 문장에서 멈춘다면</title>
+    <link>https://perfectedu.co.kr/busan-namgu-yongho-english.html</link>
+    <guid isPermaLink="true">https://perfectedu.co.kr/busan-namgu-yongho-english.html</guid>
+    <pubDate>Mon, 28 Sep 2026 10:00:00 +0900</pubDate>
     <category>블로그</category>
-    <description><![CDATA[전남 목포 목포여자고등학교 고1 국어과외. 마지막 두 선택지가 똑같이 맞는 말로 보일 때, 지문에서 근거를 찾아 하나를 지우는 방법을 정리했습니다. 화상 1:1 수업.]]></description>
-    <enclosure url="https://perfectedu.co.kr/og-image-v2.jpg" type="image/jpeg" length="0" />
-  </item>
-  <item>
-    <title>남원 남원고등학교 사회과외 — 비슷한 개념 두 개가 늘 뒤바뀐다면</title>
-    <link>https://perfectedu.co.kr/jeonbuk-namwon-namwon-social.html</link>
-    <guid isPermaLink="true">https://perfectedu.co.kr/jeonbuk-namwon-namwon-social.html</guid>
-    <pubDate>Sun, 27 Sep 2026 10:00:00 +0900</pubDate>
-    <category>블로그</category>
-    <description><![CDATA[전북 남원 남원고등학교 고1 사회과외. 이름이 비슷한 개념 두 개를 계속 바꿔 쓰는 학생을 위해, 차이가 나는 자리 하나를 잡아 구분하는 방법을 정리했습니다. 화상 1:1 수업.]]></description>
+    <description><![CDATA[부산 남구 용호중학교 중2 영어과외. 단어는 외웠는데 문장이 통째로 안 읽히는 학생을 위해, 문장을 덩어리로 끊어 읽는 방법을 정리했습니다. 방문·화상 1:1 수업.]]></description>
     <enclosure url="https://perfectedu.co.kr/og-image-v2.jpg" type="image/jpeg" length="0" />
   </item>
   <item>
@@ -708,6 +744,24 @@
     <pubDate>Sun, 27 Sep 2026 10:00:00 +0900</pubDate>
     <category>블로그</category>
     <description><![CDATA[대전 서구 서대전고등학교 고2 수학과외. 어려운 한 문제에 붙잡혀 뒤쪽 문항을 손도 못 대는 학생을 위해, 시험지에서 순서를 정하는 방법을 정리했습니다. 방문·화상 1:1 수업.]]></description>
+    <enclosure url="https://perfectedu.co.kr/og-image-v2.jpg" type="image/jpeg" length="0" />
+  </item>
+  <item>
+    <title>목포 목포여자고등학교 국어과외 — 선택지 두 개가 똑같이 맞는 말 같다면</title>
+    <link>https://perfectedu.co.kr/jeonnam-mokpo-mokpoyeoja-korean.html</link>
+    <guid isPermaLink="true">https://perfectedu.co.kr/jeonnam-mokpo-mokpoyeoja-korean.html</guid>
+    <pubDate>Sun, 27 Sep 2026 10:00:00 +0900</pubDate>
+    <category>블로그</category>
+    <description><![CDATA[전남 목포 목포여자고등학교 고1 국어과외. 마지막 두 선택지가 똑같이 맞는 말로 보일 때, 지문에서 근거를 찾아 하나를 지우는 방법을 정리했습니다. 화상 1:1 수업.]]></description>
+    <enclosure url="https://perfectedu.co.kr/og-image-v2.jpg" type="image/jpeg" length="0" />
+  </item>
+  <item>
+    <title>남원 남원고등학교 사회과외 — 비슷한 개념 두 개가 늘 뒤바뀐다면</title>
+    <link>https://perfectedu.co.kr/jeonbuk-namwon-namwon-social.html</link>
+    <guid isPermaLink="true">https://perfectedu.co.kr/jeonbuk-namwon-namwon-social.html</guid>
+    <pubDate>Sun, 27 Sep 2026 10:00:00 +0900</pubDate>
+    <category>블로그</category>
+    <description><![CDATA[전북 남원 남원고등학교 고1 사회과외. 이름이 비슷한 개념 두 개를 계속 바꿔 쓰는 학생을 위해, 차이가 나는 자리 하나를 잡아 구분하는 방법을 정리했습니다. 화상 1:1 수업.]]></description>
     <enclosure url="https://perfectedu.co.kr/og-image-v2.jpg" type="image/jpeg" length="0" />
   </item>
   <item>
@@ -765,15 +819,6 @@
     <enclosure url="https://perfectedu.co.kr/og-image-v2.jpg" type="image/jpeg" length="0" />
   </item>
   <item>
-    <title>서원구 수학과외·국어과외 선생님 추천 — 산남고등학교·산남중학교 내신</title>
-    <link>https://perfectedu.co.kr/chungbuk-cheongju-seowon-teacher-pick.html</link>
-    <guid isPermaLink="true">https://perfectedu.co.kr/chungbuk-cheongju-seowon-teacher-pick.html</guid>
-    <pubDate>Fri, 25 Sep 2026 10:00:00 +0900</pubDate>
-    <category>선생님 추천</category>
-    <description><![CDATA[충북 청주 서원구로 직접 찾아가는 과외 선생님 두 분을 소개합니다. 산남고등학교·충북고등학교·산남중학교 등 서원구 학교 내신을 수학과 국어로 나눠 준비합니다.]]></description>
-    <enclosure url="https://perfectedu.co.kr/images/school-chungbuk-cheongju-seowon.jpg" type="image/jpeg" length="0" />
-  </item>
-  <item>
     <title>거제 거제고등학교 수학과외 — 문제집은 다 풀었는데 시험지는 처음 보는 것 같다면</title>
     <link>https://perfectedu.co.kr/gyeongnam-geoje-geoje-math.html</link>
     <guid isPermaLink="true">https://perfectedu.co.kr/gyeongnam-geoje-geoje-math.html</guid>
@@ -783,12 +828,12 @@
     <enclosure url="https://perfectedu.co.kr/og-image-v2.jpg" type="image/jpeg" length="0" />
   </item>
   <item>
-    <title>광진 광장중학교 영어과외 — 본문은 외웠는데 변형 문제에서 틀린다면</title>
-    <link>https://perfectedu.co.kr/seoul-gwangjin-gwangjang-english.html</link>
-    <guid isPermaLink="true">https://perfectedu.co.kr/seoul-gwangjin-gwangjang-english.html</guid>
+    <title>동해 북평고등학교 국어과외 — 지문에 밑줄만 잔뜩 긋고 있다면</title>
+    <link>https://perfectedu.co.kr/gangwon-donghae-bukpyeong-korean.html</link>
+    <guid isPermaLink="true">https://perfectedu.co.kr/gangwon-donghae-bukpyeong-korean.html</guid>
     <pubDate>Fri, 25 Sep 2026 10:00:00 +0900</pubDate>
     <category>블로그</category>
-    <description><![CDATA[서울 광진구 광장중학교 중등 영어과외. 교과서 본문을 통째로 외웠는데 시험지의 변형 문제에서 틀리는 학생을 위해, 문장을 구조로 바꿔 두는 방법을 정리했습니다. 방문·화상 1:1.]]></description>
+    <description><![CDATA[강원 동해 북평고등학교 고등 국어과외. 지문에 밑줄은 많은데 문제를 풀 때 쓸 게 없는 학생을 위해, 표시를 줄이고 구조를 남기는 방법을 정리했습니다. 화상 1:1 수업.]]></description>
     <enclosure url="https://perfectedu.co.kr/og-image-v2.jpg" type="image/jpeg" length="0" />
   </item>
   <item>
@@ -810,22 +855,22 @@
     <enclosure url="https://perfectedu.co.kr/images/univ-pusan-campus-plaza.jpg" type="image/jpeg" length="0" />
   </item>
   <item>
-    <title>동해 북평고등학교 국어과외 — 지문에 밑줄만 잔뜩 긋고 있다면</title>
-    <link>https://perfectedu.co.kr/gangwon-donghae-bukpyeong-korean.html</link>
-    <guid isPermaLink="true">https://perfectedu.co.kr/gangwon-donghae-bukpyeong-korean.html</guid>
+    <title>광진 광장중학교 영어과외 — 본문은 외웠는데 변형 문제에서 틀린다면</title>
+    <link>https://perfectedu.co.kr/seoul-gwangjin-gwangjang-english.html</link>
+    <guid isPermaLink="true">https://perfectedu.co.kr/seoul-gwangjin-gwangjang-english.html</guid>
     <pubDate>Fri, 25 Sep 2026 10:00:00 +0900</pubDate>
     <category>블로그</category>
-    <description><![CDATA[강원 동해 북평고등학교 고등 국어과외. 지문에 밑줄은 많은데 문제를 풀 때 쓸 게 없는 학생을 위해, 표시를 줄이고 구조를 남기는 방법을 정리했습니다. 화상 1:1 수업.]]></description>
+    <description><![CDATA[서울 광진구 광장중학교 중등 영어과외. 교과서 본문을 통째로 외웠는데 시험지의 변형 문제에서 틀리는 학생을 위해, 문장을 구조로 바꿔 두는 방법을 정리했습니다. 방문·화상 1:1.]]></description>
     <enclosure url="https://perfectedu.co.kr/og-image-v2.jpg" type="image/jpeg" length="0" />
   </item>
   <item>
-    <title>인천 남동구 만월중학교 국어과외 — 다 읽었는데 무슨 얘기였는지 말을 못 한다면</title>
-    <link>https://perfectedu.co.kr/incheon-namdong-manwol-korean.html</link>
-    <guid isPermaLink="true">https://perfectedu.co.kr/incheon-namdong-manwol-korean.html</guid>
-    <pubDate>Thu, 24 Sep 2026 10:00:00 +0900</pubDate>
-    <category>블로그</category>
-    <description><![CDATA[인천 남동구 만월중학교 중등 국어과외. 글을 끝까지 읽어도 요약이 안 되는 학생을 위해, 문단마다 한 문장으로 줄이는 연습 순서를 정리했습니다. 방문·화상 1:1.]]></description>
-    <enclosure url="https://perfectedu.co.kr/og-image-v2.jpg" type="image/jpeg" length="0" />
+    <title>서원구 수학과외·국어과외 선생님 추천 — 산남고등학교·산남중학교 내신</title>
+    <link>https://perfectedu.co.kr/chungbuk-cheongju-seowon-teacher-pick.html</link>
+    <guid isPermaLink="true">https://perfectedu.co.kr/chungbuk-cheongju-seowon-teacher-pick.html</guid>
+    <pubDate>Fri, 25 Sep 2026 10:00:00 +0900</pubDate>
+    <category>선생님 추천</category>
+    <description><![CDATA[충북 청주 서원구로 직접 찾아가는 과외 선생님 두 분을 소개합니다. 산남고등학교·충북고등학교·산남중학교 등 서원구 학교 내신을 수학과 국어로 나눠 준비합니다.]]></description>
+    <enclosure url="https://perfectedu.co.kr/images/school-chungbuk-cheongju-seowon.jpg" type="image/jpeg" length="0" />
   </item>
   <item>
     <title>영통구 수학과외·영어과외 선생님 추천 — 태장고등학교·영덕중학교 내신</title>
@@ -862,51 +907,6 @@
     <category>블로그</category>
     <description><![CDATA[한양대학교 2027학년도 정시 반영비율(자연 국25·수40·영10·탐25 / 인문 국35·수30·영10·탐25 / 상경 국35·수35·영10·탐20)과 학생부종합평가 10%를 과목별 공부 순서로 풀었습니다.]]></description>
     <enclosure url="https://perfectedu.co.kr/images/univ-hanyang-hit.jpg" type="image/jpeg" length="0" />
-  </item>
-  <item>
-    <title>대구 동구 영신고등학교 수학과외 — 답은 맞는데 풀이 과정에서 점수가 깎인다면</title>
-    <link>https://perfectedu.co.kr/daegu-donggu-yeongshin-math.html</link>
-    <guid isPermaLink="true">https://perfectedu.co.kr/daegu-donggu-yeongshin-math.html</guid>
-    <pubDate>Thu, 24 Sep 2026 10:00:00 +0900</pubDate>
-    <category>블로그</category>
-    <description><![CDATA[대구 동구 영신고등학교 고등 수학과외. 답은 맞았는데 서술형 풀이에서 점수가 깎이는 학생을 위해, 풀이를 문장으로 남기는 순서를 정리했습니다. 방문·화상 1:1.]]></description>
-    <enclosure url="https://perfectedu.co.kr/og-image-v2.jpg" type="image/jpeg" length="0" />
-  </item>
-  <item>
-    <title>전주 덕진구 전라고등학교 수학과외 — 오답 노트를 써도 같은 문제를 또 틀린다면</title>
-    <link>https://perfectedu.co.kr/jeonbuk-jeonju-deokjin-jeolla-math.html</link>
-    <guid isPermaLink="true">https://perfectedu.co.kr/jeonbuk-jeonju-deokjin-jeolla-math.html</guid>
-    <pubDate>Wed, 23 Sep 2026 10:00:00 +0900</pubDate>
-    <category>블로그</category>
-    <description><![CDATA[전북 전주 덕진구 전라고등학교 고등 수학과외. 오답 노트가 풀이 베끼기로 끝나는 학생을 위해, 틀린 이유를 한 줄로 남기고 다시 푸는 날짜까지 정해 두는 방법을 정리했습니다.]]></description>
-    <enclosure url="https://perfectedu.co.kr/og-image-v2.jpg" type="image/jpeg" length="0" />
-  </item>
-  <item>
-    <title>고려대학교 2027 정시 반영비율로 본 과목별 공부 순서 — 자연계 수학 240점, 영어는 등급당 3점</title>
-    <link>https://perfectedu.co.kr/univ-korea-2027-jeongsi.html</link>
-    <guid isPermaLink="true">https://perfectedu.co.kr/univ-korea-2027-jeongsi.html</guid>
-    <pubDate>Wed, 23 Sep 2026 10:00:00 +0900</pubDate>
-    <category>블로그</category>
-    <description><![CDATA[고려대학교 2027학년도 정시 수능 반영점수(자연 국어200·수학240·탐구200, 인문 국어200·수학200·탐구160)와 영어 등급당 3점 감점을 과목별 공부 순서로 풀었습니다. 과학탐구 3% 가산점까지.]]></description>
-    <enclosure url="https://perfectedu.co.kr/images/univ-korea-international-building.jpg" type="image/jpeg" length="0" />
-  </item>
-  <item>
-    <title>중앙대학교 2027 정시 반영비율로 본 과목별 공부 순서 — 수능 90%에 출결 10%, 탐구 35%</title>
-    <link>https://perfectedu.co.kr/univ-chungang-2027-jeongsi.html</link>
-    <guid isPermaLink="true">https://perfectedu.co.kr/univ-chungang-2027-jeongsi.html</guid>
-    <pubDate>Wed, 23 Sep 2026 10:00:00 +0900</pubDate>
-    <category>블로그</category>
-    <description><![CDATA[중앙대학교 2027학년도 정시는 수능 90% + 학생부 출결 10%. 계열·모집단위별 반영비율(국어30·수학40·탐구30 / 국어35·수학30·탐구35 / 자연 국어30·수학35·탐구35)과 탐구 5% 가산점을 과목별 공부 순서로 풀었습니다.]]></description>
-    <enclosure url="https://perfectedu.co.kr/images/univ-cau-100th-hall.jpg" type="image/jpeg" length="0" />
-  </item>
-  <item>
-    <title>울산 남구 옥현중학교 영어과외 — 단어 시험은 100점인데 서술형에서 막힌다면</title>
-    <link>https://perfectedu.co.kr/ulsan-nam-okhyeon-english.html</link>
-    <guid isPermaLink="true">https://perfectedu.co.kr/ulsan-nam-okhyeon-english.html</guid>
-    <pubDate>Wed, 23 Sep 2026 10:00:00 +0900</pubDate>
-    <category>블로그</category>
-    <description><![CDATA[울산 남구 옥현중학교 중등 영어과외. 단어는 다 외웠는데 서술형·수행평가에서 문장이 안 나오는 학생을 위해, 배운 문장을 그대로 꺼내 쓰는 연습 순서를 정리했습니다.]]></description>
-    <enclosure url="https://perfectedu.co.kr/og-image-v2.jpg" type="image/jpeg" length="0" />
   </item>
 </channel>
 </rss>

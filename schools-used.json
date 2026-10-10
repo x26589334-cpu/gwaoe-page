@@ -360,6 +360,9 @@
     { "date": "2026-10-08", "school": "장성고등학교", "region": "전남 장성", "page": "jeonnam-jangseong-jangseong-science.html" },
     { "date": "2026-10-09", "school": "고덕중학교", "region": "서울 강동구", "page": "seoul-gangdong-godeok-korean.html" },
     { "date": "2026-10-09", "school": "청학중학교", "region": "인천 연수구", "page": "incheon-yeonsu-cheonghak-social.html" },
-    { "date": "2026-10-09", "school": "성주고등학교", "region": "경북 성주", "page": "gyeongbuk-seongju-seongju-math.html" }
+    { "date": "2026-10-09", "school": "성주고등학교", "region": "경북 성주", "page": "gyeongbuk-seongju-seongju-math.html" },
+    { "date": "2026-10-10", "school": "호원중학교", "region": "경기 의정부", "page": "gyeonggi-uijeongbu-howon-math.html" },
+    { "date": "2026-10-10", "school": "범서고등학교", "region": "울산 울주군", "page": "ulsan-ulju-beomseo-science.html" },
+    { "date": "2026-10-10", "school": "평창고등학교", "region": "강원 평창", "page": "gangwon-pyeongchang-pyeongchang-english.html" }
   ]
 }
